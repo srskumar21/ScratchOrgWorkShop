@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Phone__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specify default phone number when Location Type is specified as &quot;Phone&quot; and no other value for phone is provided.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Specify default phone number when Location Type is specified as &quot;Phone&quot; and no other value for phone is provided.</inlineHelpText>
+    <label>Phone</label>
+    <required>false</required>
+    <type>Phone</type>
+</CustomField>

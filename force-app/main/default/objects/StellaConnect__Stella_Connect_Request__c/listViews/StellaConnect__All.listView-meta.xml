@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StellaConnect__All</fullName>
+    <columns>NAME</columns>
+    <columns>StellaConnect__Send_Date__c</columns>
+    <columns>StellaConnect__Customer_Name__c</columns>
+    <columns>StellaConnect__Customer_Email__c</columns>
+    <columns>StellaConnect__Channel__c</columns>
+    <columns>StellaConnect__Originating_Record_Id__c</columns>
+    <columns>StellaConnect__Request_Successful__c</columns>
+    <columns>StellaConnect__Error_Message__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

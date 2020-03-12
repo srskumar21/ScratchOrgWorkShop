@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Boomi_Support_Case</fullName>
+    <active>true</active>
+    <businessProcess>Covetrus Support</businessProcess>
+    <label>Boomi Support Case</label>
+    <picklistValues>
+        <picklist>Case_Reason__c</picklist>
+        <values>
+            <fullName>3rd Party License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appointment Book</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Background Tasks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boarding Scheduler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bundles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Care Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clipboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covetrus Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cubex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Access Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Wizards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Database</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Device Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTPOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Ledger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Calendar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homepage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Labs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Labs Idexx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Labs REMs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiosk or Mobile Phone Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laptop Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modeus %28Vet S8%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Options and Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Page Styles and Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance Pack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PetSure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PetYeti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PimsPix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quotations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reminders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reports_Rx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RestAPI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rx License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RxWorks Integration External Labs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Enquiries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server Backups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Session Reset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smartflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sparkline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Task Panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party Hardware Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tyro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VHM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPM Modules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPMMobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Version Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet S8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VetBooker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetstoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision Base Program Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision Base Program Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision Base Program Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision Integration External Labs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision Integration Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision Modules Appointment Book</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visit Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eCommerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRecall</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Sub_Reason__c</picklist>
+        <values>
+            <fullName>%2Enet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANDROID Syncing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANDROID Troubleshooting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abaxis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adhocs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animal Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autobanking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automation Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank Reconciliation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Batch %26 Expiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cenvet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Groups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Transactions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Database%2FSQL Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End of Month%2FEnd of Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Images</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDEXX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IOS Syncing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IOS Troubleshooting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoices %26 Statements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Downloader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Results</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Label Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loyalty Scheme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lyppards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail Merge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Messaging and Scheduling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Column</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Tab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provet Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RVM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reminders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SVS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Analysis Groups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Discounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Formulations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Ordering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>StockTake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Templates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tyro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPM Docs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPM Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPMAccess</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPMAnalytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPMDashboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPMNotify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPMRoster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellness Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workstation Setup</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Issue_Related_To__c</picklist>
+        <values>
+            <fullName>AVIMark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ImproMed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eVet Practice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Boomi</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_method_of_contact__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Area__c</picklist>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RxWorks Base Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RxWorks Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RxWorks Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RxWorks Modules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RxWorks Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisionVPM Base Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisionVPM Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisionVPM Integrations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisionVPM Modules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisionVPM Upgrades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VivaVPM Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workflow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>RxWorks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisionVPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VivaVPM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mis ship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Availability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Picture %2F Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short ship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trans %26 Logistics</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Severity__c</picklist>
+        <values>
+            <fullName>1 - Catastrophic Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Major Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Minor Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - General%2FTraining</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stella_Region__c</picklist>
+        <values>
+            <fullName>GSS APAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSS EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSS US</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Warehouse__c</picklist>
+        <values>
+            <fullName>002 - Queensland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>003 - North Queensland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>004 - NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>008 - Victoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>009 - SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>010 - WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>011 - NZ - Auckland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>012 - NZ - Palmerston North</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>013 - Christchurch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>019 - Provet Tasmania</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

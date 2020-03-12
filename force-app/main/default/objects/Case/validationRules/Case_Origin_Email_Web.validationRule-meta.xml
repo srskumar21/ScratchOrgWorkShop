@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Origin_Email_Web</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISNEW(),
+OR(
+ISPICKVAL(Origin,&quot;Email&quot;),
+ISPICKVAL(Origin, &quot;Web&quot;)  
+),
+ISBLANK(SuppliedEmail)  
+)</errorConditionFormula>
+    <errorMessage>If you choose a Case Origin of &quot;Web&quot; or &quot;Email&quot;, you must enter a Web Email Address</errorMessage>
+</ValidationRule>

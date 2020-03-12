@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Availability_Type__c</fullName>
+    <defaultValue>&quot;Open&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Specifies the type of availability.  Rolling Window requires a Rolling Window Expiration Date be specified.  Date Range requires a Start and End Date be specified.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Specifies the type of availability.  Rolling Window requires a Rolling Window Expiration Date be specified.  Date Range requires a Start and End Date be specified.</inlineHelpText>
+    <label>Availability Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>true</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Rolling Window</fullName>
+                <default>false</default>
+                <label>Rolling Window</label>
+            </value>
+            <value>
+                <fullName>Data Range</fullName>
+                <default>false</default>
+                <label>Data Range</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

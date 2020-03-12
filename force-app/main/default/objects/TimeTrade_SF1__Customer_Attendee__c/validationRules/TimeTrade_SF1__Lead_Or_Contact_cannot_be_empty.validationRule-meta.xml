@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Lead_Or_Contact_cannot_be_empty</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( RecordType.DeveloperName =&#39;Contact_Related&#39;,  IF( TimeTrade_SF1__Contact__c =null, True, False) , IF( RecordType.DeveloperName =&#39;Lead_Related&#39;,IF( TimeTrade_SF1__Lead__c =null, True, False),False))</errorConditionFormula>
+    <errorMessage>Please select a Lead/Contact  in the Customer Attendee</errorMessage>
+</ValidationRule>

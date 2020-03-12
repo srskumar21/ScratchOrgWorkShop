@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Approval</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  
+$Profile.Name  =  &quot;GSS Sales - NA&quot; ,  
+Max_Discount__c  &gt; 0.05 ,  
+NOT(  ISPICKVAL(  Status , &quot;Draft&quot;) ) , 
+NOT(  ISPICKVAL(  Status , &quot;Needs Review&quot;) ) , 
+NOT(  ISPICKVAL(  Status , &quot;Rejected&quot;) ) ,
+NOT(  ISPICKVAL(  Status , &quot;In Review&quot;) ) )</errorConditionFormula>
+    <errorMessage>If there is a Quote Line Item on this Quote with a Discount over 5%, you must click the “Submit for Approval” button</errorMessage>
+</ValidationRule>

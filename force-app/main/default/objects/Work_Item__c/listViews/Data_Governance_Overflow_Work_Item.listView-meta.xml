@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Governance_Overflow_Work_Item</fullName>
+    <columns>NAME</columns>
+    <filterScope>Queue</filterScope>
+    <label>Data Governance Overflow</label>
+    <queue>Data_Governance_Overflow</queue>
+    <sharedTo>
+        <group>Covetrus_Data_Analyst</group>
+    </sharedTo>
+</ListView>

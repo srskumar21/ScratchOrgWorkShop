@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason__c</fullName>
+    <description>Case Reason field used only for GSS ANZ</description>
+    <externalId>false</externalId>
+    <label>Case Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Area__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd Party License</fullName>
+                <default>false</default>
+                <label>3rd Party License</label>
+            </value>
+            <value>
+                <fullName>Accounts</fullName>
+                <default>false</default>
+                <label>Accounts</label>
+            </value>
+            <value>
+                <fullName>AMM</fullName>
+                <default>false</default>
+                <label>AMM</label>
+            </value>
+            <value>
+                <fullName>Animals</fullName>
+                <default>false</default>
+                <label>Animals</label>
+            </value>
+            <value>
+                <fullName>Appointment Book</fullName>
+                <default>false</default>
+                <label>Appointment Book</label>
+            </value>
+            <value>
+                <fullName>Audit</fullName>
+                <default>false</default>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>Background Tasks</fullName>
+                <default>false</default>
+                <label>Background Tasks</label>
+            </value>
+            <value>
+                <fullName>Backups</fullName>
+                <default>false</default>
+                <label>Backups</label>
+            </value>
+            <value>
+                <fullName>Boarding</fullName>
+                <default>false</default>
+                <label>Boarding</label>
+            </value>
+            <value>
+                <fullName>Boarding Scheduler</fullName>
+                <default>false</default>
+                <label>Boarding Scheduler</label>
+            </value>
+            <value>
+                <fullName>Bundles</fullName>
+                <default>false</default>
+                <label>Bundles</label>
+            </value>
+            <value>
+                <fullName>Care Plans</fullName>
+                <default>false</default>
+                <label>Care Plans</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Client Screen</fullName>
+                <default>false</default>
+                <label>Client Screen</label>
+            </value>
+            <value>
+                <fullName>Clipboards</fullName>
+                <default>false</default>
+                <label>Clipboards</label>
+            </value>
+            <value>
+                <fullName>Communications</fullName>
+                <default>false</default>
+                <label>Communications</label>
+            </value>
+            <value>
+                <fullName>Connectivity</fullName>
+                <default>false</default>
+                <label>Connectivity</label>
+            </value>
+            <value>
+                <fullName>Covetrus Hardware</fullName>
+                <default>false</default>
+                <label>Covetrus Hardware</label>
+            </value>
+            <value>
+                <fullName>Cubex</fullName>
+                <default>false</default>
+                <label>Cubex</label>
+            </value>
+            <value>
+                <fullName>Data Access Module</fullName>
+                <default>false</default>
+                <label>Data Access Module</label>
+            </value>
+            <value>
+                <fullName>Database</fullName>
+                <default>false</default>
+                <label>Database</label>
+            </value>
+            <value>
+                <fullName>Data Transfer</fullName>
+                <default>false</default>
+                <label>Data Transfer</label>
+            </value>
+            <value>
+                <fullName>Data Wizards</fullName>
+                <default>false</default>
+                <label>Data Wizards</label>
+            </value>
+            <value>
+                <fullName>Device Issue</fullName>
+                <default>false</default>
+                <label>Device Issue</label>
+            </value>
+            <value>
+                <fullName>Diary</fullName>
+                <default>false</default>
+                <label>Diary</label>
+            </value>
+            <value>
+                <fullName>Document Integration</fullName>
+                <default>false</default>
+                <label>Document Integration</label>
+            </value>
+            <value>
+                <fullName>Documents</fullName>
+                <default>false</default>
+                <label>Documents</label>
+            </value>
+            <value>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+                <label>eCommerce</label>
+            </value>
+            <value>
+                <fullName>EFTPOS</fullName>
+                <default>false</default>
+                <label>EFTPOS</label>
+            </value>
+            <value>
+                <fullName>Emails</fullName>
+                <default>false</default>
+                <label>Emails</label>
+            </value>
+            <value>
+                <fullName>Error Message</fullName>
+                <default>false</default>
+                <label>Error Message</label>
+            </value>
+            <value>
+                <fullName>Fees</fullName>
+                <default>false</default>
+                <label>Fees</label>
+            </value>
+            <value>
+                <fullName>Financials</fullName>
+                <default>false</default>
+                <label>Financials</label>
+            </value>
+            <value>
+                <fullName>General Ledger</fullName>
+                <default>false</default>
+                <label>General Ledger</label>
+            </value>
+            <value>
+                <fullName>Google Calendar</fullName>
+                <default>false</default>
+                <label>Google Calendar</label>
+            </value>
+            <value>
+                <fullName>Health Care Manager</fullName>
+                <default>false</default>
+                <label>Health Care Manager</label>
+            </value>
+            <value>
+                <fullName>Homepage</fullName>
+                <default>false</default>
+                <label>Homepage</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Internal Labs</fullName>
+                <default>false</default>
+                <label>Internal Labs</label>
+            </value>
+            <value>
+                <fullName>Internal Labs Idexx</fullName>
+                <default>false</default>
+                <label>Internal Labs Idexx</label>
+            </value>
+            <value>
+                <fullName>Internal Labs REMs</fullName>
+                <default>false</default>
+                <label>Internal Labs REMs</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Invoicing</fullName>
+                <default>false</default>
+                <label>Invoicing</label>
+            </value>
+            <value>
+                <fullName>iRecall</fullName>
+                <default>false</default>
+                <label>iRecall</label>
+            </value>
+            <value>
+                <fullName>Kiosk or Mobile Phone Use</fullName>
+                <default>false</default>
+                <label>Kiosk or Mobile Phone Use</label>
+            </value>
+            <value>
+                <fullName>Lab Manager</fullName>
+                <default>false</default>
+                <label>Lab Manager</label>
+            </value>
+            <value>
+                <fullName>Laptop Transfer</fullName>
+                <default>false</default>
+                <label>Laptop Transfer</label>
+            </value>
+            <value>
+                <fullName>Low Space</fullName>
+                <default>false</default>
+                <label>Low Space</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Modeus (Vet S8)</fullName>
+                <default>false</default>
+                <label>Modeus (Vet S8)</label>
+            </value>
+            <value>
+                <fullName>Networking</fullName>
+                <default>false</default>
+                <label>Networking</label>
+            </value>
+            <value>
+                <fullName>Options and Setup</fullName>
+                <default>false</default>
+                <label>Options and Setup</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Devices</fullName>
+                <default>false</default>
+                <label>Other Devices</label>
+            </value>
+            <value>
+                <fullName>Page Styles and Printing</fullName>
+                <default>false</default>
+                <label>Page Styles and Printing</label>
+            </value>
+            <value>
+                <fullName>Patient</fullName>
+                <default>false</default>
+                <label>Patient</label>
+            </value>
+            <value>
+                <fullName>Patient Screen</fullName>
+                <default>false</default>
+                <label>Patient Screen</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Performance Pack</fullName>
+                <default>false</default>
+                <label>Performance Pack</label>
+            </value>
+            <value>
+                <fullName>PetSure</fullName>
+                <default>false</default>
+                <label>PetSure</label>
+            </value>
+            <value>
+                <fullName>PetYeti</fullName>
+                <default>false</default>
+                <label>PetYeti</label>
+            </value>
+            <value>
+                <fullName>PimsPix</fullName>
+                <default>false</default>
+                <label>PimsPix</label>
+            </value>
+            <value>
+                <fullName>Printers</fullName>
+                <default>false</default>
+                <label>Printers</label>
+            </value>
+            <value>
+                <fullName>Printing</fullName>
+                <default>false</default>
+                <label>Printing</label>
+            </value>
+            <value>
+                <fullName>Procedures</fullName>
+                <default>false</default>
+                <label>Procedures</label>
+            </value>
+            <value>
+                <fullName>Quotations</fullName>
+                <default>false</default>
+                <label>Quotations</label>
+            </value>
+            <value>
+                <fullName>Rapport</fullName>
+                <default>false</default>
+                <label>Rapport</label>
+            </value>
+            <value>
+                <fullName>Reminders</fullName>
+                <default>false</default>
+                <label>Reminders</label>
+            </value>
+            <value>
+                <fullName>Replication</fullName>
+                <default>false</default>
+                <label>Replication</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>Reports_Rx</fullName>
+                <default>false</default>
+                <label>Reports - Rx</label>
+            </value>
+            <value>
+                <fullName>RestAPI</fullName>
+                <default>false</default>
+                <label>RestAPI</label>
+            </value>
+            <value>
+                <fullName>Rx License</fullName>
+                <default>false</default>
+                <label>Rx License</label>
+            </value>
+            <value>
+                <fullName>RxWorks Integration External Labs</fullName>
+                <default>false</default>
+                <label>RxWorks Integration External Labs</label>
+            </value>
+            <value>
+                <fullName>Sales Enquiries</fullName>
+                <default>false</default>
+                <label>Sales Enquiries</label>
+            </value>
+            <value>
+                <fullName>Server Backups</fullName>
+                <default>false</default>
+                <label>Server Backups</label>
+            </value>
+            <value>
+                <fullName>Session Reset</fullName>
+                <default>false</default>
+                <label>Session Reset</label>
+            </value>
+            <value>
+                <fullName>Smartflow</fullName>
+                <default>false</default>
+                <label>Smartflow</label>
+            </value>
+            <value>
+                <fullName>Sparkline</fullName>
+                <default>false</default>
+                <label>Sparkline</label>
+            </value>
+            <value>
+                <fullName>SQL</fullName>
+                <default>false</default>
+                <label>SQL</label>
+            </value>
+            <value>
+                <fullName>Standard Practice</fullName>
+                <default>false</default>
+                <label>Standard Practice</label>
+            </value>
+            <value>
+                <fullName>Stock</fullName>
+                <default>false</default>
+                <label>Stock</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Task Panel</fullName>
+                <default>false</default>
+                <label>Task Panel</label>
+            </value>
+            <value>
+                <fullName>Terminals</fullName>
+                <default>false</default>
+                <label>Terminals</label>
+            </value>
+            <value>
+                <fullName>Third Party Hardware Issue</fullName>
+                <default>false</default>
+                <label>Third Party Hardware Issue</label>
+            </value>
+            <value>
+                <fullName>Tyro</fullName>
+                <default>false</default>
+                <label>Tyro</label>
+            </value>
+            <value>
+                <fullName>Unknown Error</fullName>
+                <default>false</default>
+                <label>Unknown Error</label>
+            </value>
+            <value>
+                <fullName>Upgrade Request</fullName>
+                <default>false</default>
+                <label>Upgrade Request</label>
+            </value>
+            <value>
+                <fullName>Version Upgrade</fullName>
+                <default>false</default>
+                <label>Version Upgrade</label>
+            </value>
+            <value>
+                <fullName>VetBooker</fullName>
+                <default>false</default>
+                <label>VetBooker</label>
+            </value>
+            <value>
+                <fullName>Vet S8</fullName>
+                <default>false</default>
+                <label>Vet S8</label>
+            </value>
+            <value>
+                <fullName>Vetstoria</fullName>
+                <default>false</default>
+                <label>Vetstoria</label>
+            </value>
+            <value>
+                <fullName>VHM</fullName>
+                <default>false</default>
+                <label>VHM</label>
+            </value>
+            <value>
+                <fullName>Vision Base Program Client</fullName>
+                <default>false</default>
+                <label>Vision Base Program Client</label>
+            </value>
+            <value>
+                <fullName>Vision Base Program Reports</fullName>
+                <default>false</default>
+                <label>Vision Base Program Reports</label>
+            </value>
+            <value>
+                <fullName>Vision Base Program Supplier</fullName>
+                <default>false</default>
+                <label>Vision Base Program Supplier</label>
+            </value>
+            <value>
+                <fullName>Vision Integration External Labs</fullName>
+                <default>false</default>
+                <label>Vision Integration External Labs</label>
+            </value>
+            <value>
+                <fullName>Vision Integration Supplier</fullName>
+                <default>false</default>
+                <label>Vision Integration Supplier</label>
+            </value>
+            <value>
+                <fullName>Vision Modules Appointment Book</fullName>
+                <default>false</default>
+                <label>Vision Modules Appointment Book</label>
+            </value>
+            <value>
+                <fullName>Visit Screen</fullName>
+                <default>false</default>
+                <label>Visit Screen</label>
+            </value>
+            <value>
+                <fullName>VPMMobile</fullName>
+                <default>false</default>
+                <label>VPMMobile</label>
+            </value>
+            <value>
+                <fullName>VPM Modules</fullName>
+                <default>false</default>
+                <label>VPM Modules</label>
+            </value>
+            <value>
+                <fullName>Warranties</fullName>
+                <default>false</default>
+                <label>Warranties</label>
+            </value>
+            <value>
+                <fullName>Workflow</fullName>
+                <default>false</default>
+                <label>Workflow</label>
+            </value>
+            <value>
+                <fullName>Log In</fullName>
+                <default>false</default>
+                <label>Log In</label>
+            </value>
+            <value>
+                <fullName>Server Environment</fullName>
+                <default>false</default>
+                <label>Server Environment</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Upgrades</controllingFieldValue>
+            <valueName>Version Upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Connectivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Database</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Printing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Appointment Book</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Invoicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Patient</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Reminders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VivaVPM Hardware</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Hardware</controllingFieldValue>
+            <valueName>Audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VivaVPM Hardware</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Hardware</controllingFieldValue>
+            <valueName>Sales Enquiries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cloud</controllingFieldValue>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cloud</controllingFieldValue>
+            <valueName>Log In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cloud</controllingFieldValue>
+            <valueName>Server Environment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>3rd Party License</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>Device Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>Error Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>Low Space</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>Rx License</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>Session Reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server Administration</controllingFieldValue>
+            <valueName>SQL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Background Tasks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Backups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Bundles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Care Plans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Client Screen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Clipboards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Data Wizards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Document Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Emails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Financials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Kiosk or Mobile Phone Use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Options and Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Page Styles and Printing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Patient Screen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Procedures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Reports_Rx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Task Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Unknown Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Base Program</controllingFieldValue>
+            <valueName>Visit Screen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>AMM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>Boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>Data Access Module</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>Health Care Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>Lab Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>Performance Pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Modules</controllingFieldValue>
+            <valueName>Replication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Upgrade</controllingFieldValue>
+            <valueName>Upgrade Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>Cubex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>Internal Labs Idexx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>Internal Labs REMs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>iRecall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>Modeus (Vet S8)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>PetSure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>PetYeti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>RxWorks Integration External Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Smartflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Sparkline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>Standard Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>Tyro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <valueName>VetBooker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Integration</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Vetstoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Hardware</controllingFieldValue>
+            <valueName>Networking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Hardware</controllingFieldValue>
+            <valueName>Other Devices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Hardware</controllingFieldValue>
+            <valueName>Printers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Hardware</controllingFieldValue>
+            <valueName>Quotations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Hardware</controllingFieldValue>
+            <valueName>Server Backups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Hardware</controllingFieldValue>
+            <valueName>Terminals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RxWorks Hardware</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Hardware</controllingFieldValue>
+            <valueName>Third Party Hardware Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Animals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Communications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>General Ledger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Vision Base Program Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Vision Base Program Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Vision Base Program Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Vision Integration External Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Base Program</controllingFieldValue>
+            <valueName>Workflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>Boarding Scheduler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>Data Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>Diary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>Homepage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>Laptop Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>Payroll</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>PimsPix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>RestAPI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>VHM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>Vision Modules Appointment Book</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>VPMMobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Modules</controllingFieldValue>
+            <valueName>VPM Modules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Hardware</controllingFieldValue>
+            <valueName>Covetrus Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Hardware</controllingFieldValue>
+            <valueName>Warranties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>EFTPOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Google Calendar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Internal Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Rapport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Vet S8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VisionVPM Integrations</controllingFieldValue>
+            <valueName>Vision Integration Supplier</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

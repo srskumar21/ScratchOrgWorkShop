@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>APAC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>APAC</label>
+        <sharedTo>
+            <roleAndSubordinates>APAC</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>APAC</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EMEA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EMEA</label>
+        <sharedTo>
+            <roleAndSubordinates>EMEA</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>EMEA</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NA_Leader</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NA Leader</label>
+        <sharedTo>
+            <roleAndSubordinates>NA_Leader</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>NA_Leader</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

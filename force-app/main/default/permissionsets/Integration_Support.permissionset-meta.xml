@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This permission set is created only to view Boomi Cases</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Integration Support</label>
+    <license>Salesforce</license>
+    <recordTypeVisibilities>
+        <recordType>Case.Boomi_Support_Case</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

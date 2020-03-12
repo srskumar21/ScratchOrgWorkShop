@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Suppress_External_Attendee_Title__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if you do not want titles displayed for external attendees on the Click-to-Schedule and Meeting Status pages.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you do not want titles displayed for external attendees on the Click-to-Schedule and Meeting Status pages.</inlineHelpText>
+    <label>Suppress External Attendee Title</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

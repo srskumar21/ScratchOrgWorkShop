@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Data Governance</name>
+    <queueMembers>
+        <users>
+            <user>allison.bray@covetrus.com</user>
+            <user>andrea.howard@covetrus.com.ucrm</user>
+            <user>maria.abbas@covetrus.com</user>
+            <user>tyler.cordell@covetrus.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Data_Governance</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Work_Item__c</sobjectType>
+    </queueSobject>
+</Queue>

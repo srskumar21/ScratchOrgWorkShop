@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>AUR_Change_Approved</fullName>
+        <description>AUR- Change Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Automated_Emails/AUR_Change_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>AUR_Return_to_submitter</fullName>
+        <description>AUR - Return to submitter</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Automated_Emails/AUR_Change_sent_to_Requester</template>
+    </alerts>
+    <alerts>
+        <fullName>Account_Update_sent_back_to_requester</fullName>
+        <description>Account Update sent back to requester</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Automated_Emails/AUR_Change_sent_to_Requester</template>
+    </alerts>
+    <alerts>
+        <fullName>Approval_of_Account_Change</fullName>
+        <description>Approval of Account Change</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Automated_Emails/AUR_Change_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Approval_of_Account_Update</fullName>
+        <description>Approval of Account Update</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Automated_Emails/AUR_Change_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Rejection_of_Account_update</fullName>
+        <description>Rejection of Account update</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Automated_Emails/AUR_Change_sent_to_Requester</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Decline_Status</fullName>
+        <field>Change_Status__c</field>
+        <literalValue>Sent_back_to_Requester</literalValue>
+        <name>Decline Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_Status</fullName>
+        <field>Change_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Approved Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Declined_Status</fullName>
+        <field>Change_Status__c</field>
+        <literalValue>Sent_back_to_Requester</literalValue>
+        <name>Update Declined Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status</fullName>
+        <field>Change_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_of_Accountupdate</fullName>
+        <field>Change_Status__c</field>
+        <literalValue>Under Review</literalValue>
+        <name>Update Status of Accountupdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

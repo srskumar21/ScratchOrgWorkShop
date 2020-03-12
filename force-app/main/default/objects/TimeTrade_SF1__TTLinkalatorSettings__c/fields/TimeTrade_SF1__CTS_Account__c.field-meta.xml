@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__CTS_Account__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the Salesforce ID of an Account that will own any Contact created by TimeTrade Scheduler.  Be sure to set this value when the External Attendee Create As is set to &quot;Contact&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Salesforce ID of an Account that will own any Contact created by TimeTrade Scheduler.  Be sure to set this value when the External Attendee Create As is set to &quot;Contact&quot;.</inlineHelpText>
+    <label>CTS Account</label>
+    <length>18</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

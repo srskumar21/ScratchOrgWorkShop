@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Zoom_Callback_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter https://sfdomain/apex/Timetrade_SF1__AuthenticateZoomCredentials where &quot;sfdomain&quot; is the domain of your Salesforce instance. See join.me instructions in the TimeTrade Scheduler Installation documentation for more information.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter https://sfdomain/apex/Timetrade_SF1__AuthenticateZoomCredentials where &quot;sfdomain&quot; is the domain of your Salesforce instance. See Zoom instructions in the TimeTrade Scheduler Installation documentation for more information.</inlineHelpText>
+    <label>Zoom Callback URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

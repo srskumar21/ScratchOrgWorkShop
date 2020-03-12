@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Enable_Recovery_Time_Visibility__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this option to display and allow editing of Recovery Time when creating invitations.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this option to display and allow editing of Recovery Time when creating invitations.</inlineHelpText>
+    <label>Enable Recovery Time Visibility</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

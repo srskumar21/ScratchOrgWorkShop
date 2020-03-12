@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <users>
+            <user>adam.pluger@covetrus.com</user>
+            <user>cathy.siebert@covetrus.com</user>
+            <user>dylan.zielinski@covetrus.com</user>
+            <user>elizabeth.angus@covetrus.com</user>
+            <user>ellen.chowning@covetrus.com</user>
+            <user>eric.quade@covetrus.com</user>
+            <user>heather.huse@covetrus.com</user>
+            <user>john.westphal@covetrus.com</user>
+            <user>leon.crowder@covetrus.com</user>
+            <user>linda.brown@covetrus.com</user>
+            <user>marie.praxedes@covetrus.com</user>
+            <user>marvin.borden@covetrus.com</user>
+            <user>richard.armes@covetrus.com</user>
+            <user>scott.wettstein@covetrus.com</user>
+            <user>tammy.giesick@covetrus.com</user>
+            <user>tory.mosloski@covetrus.com</user>
+            <user>trevor.riehl@covetrus.com</user>
+        </users>
+    </assignments>
+    <capacity>3</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>true</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>false</enableDisconnectSound>
+    <enableRequestSound>true</enableRequestSound>
+    <label>GSS ImproMed Chat</label>
+    <presenceStatusOnDecline>Busy</presenceStatusOnDecline>
+</PresenceUserConfig>

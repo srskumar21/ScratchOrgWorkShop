@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services</fullName>
+    <active>true</active>
+    <description>This asset category describes those services provided by or brokered by Covetrus. Practice consulting services, lab services, training, etc</description>
+    <label>Services</label>
+    <picklistValues>
+        <picklist>Asset_Class__c</picklist>
+        <values>
+            <fullName>3rd Party HW Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abaxis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cenvet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cenvet Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cubex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Database Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dragonfly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTPOS Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idexx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Reader %28IVLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lyppards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lyppards Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modeus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Recapture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Yeti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Yeti Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PetSure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provet Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provet Connect Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raport Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapport Messaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapport OLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SVS Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smartflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smartflow Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sparkline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tyro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tyro Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet S8 Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VetBooker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VetStoria Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetstoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRecall</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Asset_Type__c</picklist>
+        <values>
+            <fullName>AVImark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DVM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Vault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eversafe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ImproMed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Module - Additional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Module - Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Module - Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Academy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inactive_Reason__c</picklist>
+        <values>
+            <fullName>Changed Communication Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changed PIMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinic Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinic Merged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinic Sold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covetrus Reputation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Privacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dissatisfied - Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dissatisfied - Integration Partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dissatisfied - Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dissatisfied - Product Value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dissatisfied - Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doesn%27t Use %2F Need</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed Minimum Requirements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Product Transition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incompatible PIMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locally Sourced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Return %E2%80%93 Dissatisfied Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Return - Decided not to move forward</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Return - Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Return - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Return - Product not available to customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Return - Setup Challenges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Return - Was not interested in the product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Increase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temporary %2F One Time Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade Subscription</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Software_Status__c</picklist>
+        <values>
+            <fullName>Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disabled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enabled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Installed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipped</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

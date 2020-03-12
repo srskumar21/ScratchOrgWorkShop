@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisionVPM_Hardware_Implementation_Task_Template</fullName>
+    <filterScope>Queue</filterScope>
+    <label>VisionVPM Hardware</label>
+    <queue>VisionVPM_Hardware</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

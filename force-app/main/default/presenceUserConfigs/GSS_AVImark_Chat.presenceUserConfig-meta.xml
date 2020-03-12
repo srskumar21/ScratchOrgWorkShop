@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <users>
+            <user>alan.beattie@covetrus.com</user>
+            <user>brianna.michael@covetrus.com</user>
+            <user>courtney.shatley@covetrus.com</user>
+            <user>diane.atnip@covetrus.com</user>
+            <user>jamie.ocegueda@covetrus.com</user>
+            <user>jennifer.harrison@covetrus.com</user>
+            <user>joyce.sutton@covetrus.com</user>
+            <user>justin.bearden@covetrus.com</user>
+            <user>katie.rosson@covetrus.com</user>
+            <user>kayla.vines@covetrus.com</user>
+            <user>kenny.berkbuegler@covetrus.com</user>
+            <user>kyle.adams@covetrus.com</user>
+            <user>larae.earle@covetrus.com</user>
+            <user>leslie.marler@covetrus.com</user>
+            <user>lisa.litteken@covetrus.com</user>
+            <user>marsha.morris@covetrus.com</user>
+            <user>megan.mcclure@covetrus.com</user>
+            <user>morgan.delagarza@covetrus.com</user>
+            <user>nicole.cash@covetrus.com</user>
+            <user>nina.brawley@covetrus.com</user>
+            <user>robyn.sloan-dorris@covetrus.com</user>
+            <user>sandra.finch@covetrus.com</user>
+            <user>sarah.jenkins@covetrus.com</user>
+            <user>shannon.myers@covetrus.com</user>
+            <user>stephanie.doscher@covetrus.com</user>
+            <user>susan.bearden@covetrus.com</user>
+            <user>susan.townsend@covetrus.com</user>
+            <user>trent.robinson@covetrus.com</user>
+        </users>
+    </assignments>
+    <capacity>5</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>true</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>false</enableDisconnectSound>
+    <enableRequestSound>true</enableRequestSound>
+    <label>GSS AVImark Chat</label>
+    <presenceStatusOnDecline>Busy</presenceStatusOnDecline>
+</PresenceUserConfig>

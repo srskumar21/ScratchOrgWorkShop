@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Program_External_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>nter &quot;li&quot; all typical installations.  Specifies the day length for all availability types except Custom.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter &quot;li&quot; all typical installations.  Specifies the day length for all availability types except Custom.</inlineHelpText>
+    <label>Program ExternalID</label>
+    <length>64</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

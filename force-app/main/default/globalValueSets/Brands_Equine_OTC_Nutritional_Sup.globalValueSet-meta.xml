@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Assure</fullName>
+        <default>false</default>
+        <label>Assure</label>
+    </customValue>
+    <customValue>
+        <fullName>Elevate</fullName>
+        <default>false</default>
+        <label>Elevate</label>
+    </customValue>
+    <customValue>
+        <fullName>Fullbucket</fullName>
+        <default>false</default>
+        <label>Fullbucket</label>
+    </customValue>
+    <customValue>
+        <fullName>Neigh-Lox</fullName>
+        <default>false</default>
+        <label>Neigh-Lox</label>
+    </customValue>
+    <customValue>
+        <fullName>Succeed</fullName>
+        <default>false</default>
+        <label>Succeed</label>
+    </customValue>
+    <customValue>
+        <fullName>Zylkene</fullName>
+        <default>false</default>
+        <label>Zylkene</label>
+    </customValue>
+    <customValue>
+        <fullName>Perfect Prep</fullName>
+        <default>false</default>
+        <label>Perfect Prep</label>
+    </customValue>
+    <customValue>
+        <fullName>Probiotic Wise</fullName>
+        <default>false</default>
+        <label>Probiotic Wise</label>
+    </customValue>
+    <masterLabel>Brands- Equine Nutritional Supplements</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

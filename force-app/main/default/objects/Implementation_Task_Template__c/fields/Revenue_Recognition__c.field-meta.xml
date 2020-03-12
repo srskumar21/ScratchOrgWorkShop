@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Recognition__c</fullName>
+    <externalId>false</externalId>
+    <label>Revenue Recognition</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Software Go-Live Date</fullName>
+                <default>false</default>
+                <label>Software Go-Live Date</label>
+            </value>
+            <value>
+                <fullName>Add-On/Module Go-Live Date</fullName>
+                <default>false</default>
+                <label>Add-On/Module Go-Live Date</label>
+            </value>
+            <value>
+                <fullName>Hardware Shipped Date</fullName>
+                <default>false</default>
+                <label>Hardware Shipped Date</label>
+            </value>
+            <value>
+                <fullName>Training Execution Date</fullName>
+                <default>false</default>
+                <label>Training Execution Date</label>
+            </value>
+            <value>
+                <fullName>Data Conversion Complete Date</fullName>
+                <default>false</default>
+                <label>Data Conversion Complete Date</label>
+            </value>
+            <value>
+                <fullName>Consulting Event</fullName>
+                <default>false</default>
+                <label>Consulting Event</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

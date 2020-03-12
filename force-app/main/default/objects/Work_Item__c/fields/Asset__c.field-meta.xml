@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Relates a work item to a specific asset.  Filtered to just search the Assets of the related account.</description>
+    <externalId>false</externalId>
+    <label>Asset</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Asset.AccountId</field>
+            <operation>equals</operation>
+            <valueField>$Source.Account__c</valueField>
+        </filterItems>
+        <infoMessage>Filtered to just search the assets of the Account related to the Work Item.  Clear filter if there is no related account</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>Work Items</relationshipLabel>
+    <relationshipName>Work_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Hide_Notes_Section_on_CTS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if you do not want the Notes section to appear on the Click-to-Schedule page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you do not want the Notes section to appear on the Click-to-Schedule page.</inlineHelpText>
+    <label>Hide Notes Section on CTS</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

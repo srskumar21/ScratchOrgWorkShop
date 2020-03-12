@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Pooled_Availability_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Pooled Availability Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Random</fullName>
+                <default>true</default>
+                <label>Random</label>
+            </value>
+            <value>
+                <fullName>Round-Robin</fullName>
+                <default>false</default>
+                <label>Round-Robin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

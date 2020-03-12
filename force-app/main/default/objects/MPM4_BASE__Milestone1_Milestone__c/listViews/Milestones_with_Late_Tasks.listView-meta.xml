@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Milestones_with_Late_Tasks</fullName>
+    <columns>MPM4_BASE__Project__c</columns>
+    <columns>NAME</columns>
+    <columns>MPM4_BASE__Kickoff__c</columns>
+    <columns>MPM4_BASE__Deadline__c</columns>
+    <columns>MPM4_BASE__Total_Open_Tasks__c</columns>
+    <columns>MPM4_BASE__Total_Late_Tasks__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MPM4_BASE__Complete__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>MPM4_BASE__Total_Late_Tasks__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Milestones with Late Tasks</label>
+</ListView>

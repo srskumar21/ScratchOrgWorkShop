@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__AnonymousEnterpriseClient__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you do not want identifying information, including name, phone nNumber, and email, of clients booking meetings to be recorded on TimeTrade servers.  With this option, for GDPR compliance, you will not have to manually purge client info.</inlineHelpText>
+    <label>Anonymous Clients on TimeTrade Servers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

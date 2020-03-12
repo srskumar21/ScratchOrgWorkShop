@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>External_Ticket__c</columns>
+    <columns>Issue_Type__c</columns>
+    <columns>Defect_Type__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Issue_Description__c</columns>
+    <columns>Urgency__c</columns>
+    <columns>Business_Priority__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Issue_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Enhancement</value>
+    </filters>
+    <label>All</label>
+</ListView>

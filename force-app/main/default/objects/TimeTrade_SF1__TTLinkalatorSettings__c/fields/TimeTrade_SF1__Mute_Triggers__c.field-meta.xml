@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Mute_Triggers__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to disable trigger processing on TimeTrade objects.  For typical installations, this should be left unchecked.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to disable trigger processing on TimeTrade objects.  For typical installations, this should be left unchecked.</inlineHelpText>
+    <label>Mute Triggers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

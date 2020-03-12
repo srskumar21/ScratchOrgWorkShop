@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Hide_External_Attendee_Email_Addresses__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to suppress email addresses for all external meeting attendees on the Click-to-Schedule page, Meeting Status page, and all TimeTrade emails.  Leave unchecked if you wish external attendee email addresses to be displayed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to suppress email addresses for all external meeting attendees on the Click-to-Schedule page, Meeting Status page, and all TimeTrade emails.  Leave unchecked if you wish external attendee email addresses to be displayed.</inlineHelpText>
+    <label>Hide External Attendee Email Addresses</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

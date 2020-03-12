@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Location_Callin_HTML__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(TimeTrade_SF1__Web_Conference_Type__c) != &#39;&#39;,
+
+&#39;&lt;b&gt;Web Conference Details:&lt;/b&gt;&lt;br/&gt;&lt;p style=&quot;color:#666;font-size:16pt;&quot;&gt;&lt;a href=&quot;&#39; + TimeTrade_SF1__Web_Conference_Link__c + &#39;&quot;&gt;Join Web Conference Meeting&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;color:#666;font-size:10pt;&quot;&gt;Meeting Number: &#39; + TimeTrade_SF1__Web_Conference_Number__c + IF(ISBLANK(TimeTrade_SF1__Web_Conference_Password__c),&#39;&#39;,&#39;&lt;br /&gt;Meeting Password: &#39; + TimeTrade_SF1__Web_Conference_Password__c) + &#39;&lt;br /&gt;&lt;br /&gt;Join by Phone:&lt;br /&gt;&#39; +TimeTrade_SF1__Web_Conference_Call_Info__c +&#39;&lt;br /&gt;&#39; +IF(AND(TEXT(TimeTrade_SF1__Web_Conference_Type__c)=&#39;GoToMeeting&#39;,TimeTrade_SF1__Web_Conference_Call_Info__c!=&#39;VoIP&#39;),&#39;Additional numbers may be available upon entering the conference.&#39;,&#39;&lt;a href=&quot;&#39; + TimeTrade_SF1__Web_Conference_Call_in_URL__c + &#39;&quot;&gt;Additional Numbers&lt;/a&gt;&#39;) +&#39;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#39;
+, IF(ISBLANK(TimeTrade_SF1__Invitation__r.TimeTrade_SF1__Attendee_Instructions__c),
+
+&#39;&lt;b&gt;Location:&lt;/b&gt;&lt;br /&gt;&#39; + TimeTrade_SF1__Location__c
+,
+
+&#39;&lt;b&gt;Call-in Details:&lt;/b&gt;&lt;br /&gt;&#39; + TimeTrade_SF1__Location__c
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Location Callin HTML</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

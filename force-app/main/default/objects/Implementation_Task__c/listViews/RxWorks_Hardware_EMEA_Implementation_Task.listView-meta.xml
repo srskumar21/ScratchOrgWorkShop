@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RxWorks_Hardware_EMEA_Implementation_Task</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Implementation_Plan__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Not Started,In Progress,On Hold,Ready to Start,Not Required</value>
+    </filters>
+    <label>RxWorks Hardware EMEA</label>
+    <queue>RxWorks_Hardware_EMEA</queue>
+    <sharedTo>
+        <group>RxWorks_Hardware_EMEA</group>
+    </sharedTo>
+</ListView>

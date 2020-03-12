@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Sub_Source__c</fullName>
+    <description>CCRM-2292</description>
+    <externalId>false</externalId>
+    <label>Lead Sub-Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LeadSource</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>Paid</fullName>
+                <default>false</default>
+                <label>Paid</label>
+            </value>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+                <label>Outbound</label>
+            </value>
+            <value>
+                <fullName>Quarterly Call</fullName>
+                <default>false</default>
+                <label>Quarterly Call</label>
+            </value>
+            <value>
+                <fullName>Workshop</fullName>
+                <default>false</default>
+                <label>Workshop</label>
+            </value>
+            <value>
+                <fullName>Training Call</fullName>
+                <default>false</default>
+                <label>Training Call</label>
+            </value>
+            <value>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+                <label>Site Visit</label>
+            </value>
+            <value>
+                <fullName>CO APAC</fullName>
+                <default>false</default>
+                <label>CO APAC</label>
+            </value>
+            <value>
+                <fullName>CO UK</fullName>
+                <default>false</default>
+                <label>CO UK</label>
+            </value>
+            <value>
+                <fullName>CO NA</fullName>
+                <default>false</default>
+                <label>CO NA</label>
+            </value>
+            <value>
+                <fullName>CCG AU</fullName>
+                <default>false</default>
+                <label>CCG AU</label>
+            </value>
+            <value>
+                <fullName>VetQuip AU</fullName>
+                <default>false</default>
+                <label>VetQuip AU</label>
+            </value>
+            <value>
+                <fullName>VI AU</fullName>
+                <default>false</default>
+                <label>VI AU</label>
+            </value>
+            <value>
+                <fullName>GSS APAC</fullName>
+                <default>false</default>
+                <label>GSS APAC</label>
+            </value>
+            <value>
+                <fullName>GSS EMEA</fullName>
+                <default>false</default>
+                <label>GSS EMEA</label>
+            </value>
+            <value>
+                <fullName>GSS NA</fullName>
+                <default>false</default>
+                <label>GSS NA</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Internal Referral</fullName>
+                <default>false</default>
+                <label>Internal Referral</label>
+            </value>
+            <value>
+                <fullName>Field Rep Referral</fullName>
+                <default>false</default>
+                <label>Field Rep Referral</label>
+            </value>
+            <value>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+                <label>Cold Call</label>
+            </value>
+            <value>
+                <fullName>Key Account Manager</fullName>
+                <default>false</default>
+                <label>Key Account Manager</label>
+            </value>
+            <value>
+                <fullName>Corporate Account Manager</fullName>
+                <default>false</default>
+                <label>Corporate Account Manager</label>
+            </value>
+            <value>
+                <fullName>Practice Support (PST)</fullName>
+                <default>false</default>
+                <label>Practice Support (PST)</label>
+            </value>
+            <value>
+                <fullName>Pharmacy Transfer (PTP)</fullName>
+                <default>false</default>
+                <label>Pharmacy Transfer (PTP)</label>
+            </value>
+            <value>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+                <label>Tradeshow</label>
+            </value>
+            <value>
+                <fullName>Email Campaign</fullName>
+                <default>false</default>
+                <label>Email Campaign</label>
+            </value>
+            <value>
+                <fullName>Facebook Ad</fullName>
+                <default>false</default>
+                <label>Facebook Ad</label>
+            </value>
+            <value>
+                <fullName>Corporate Account</fullName>
+                <default>false</default>
+                <label>Corporate Account</label>
+            </value>
+            <value>
+                <fullName>Pet Owner</fullName>
+                <default>false</default>
+                <label>Pet Owner</label>
+            </value>
+            <value>
+                <fullName>Pharmacy Referral</fullName>
+                <default>false</default>
+                <label>Pharmacy Referral</label>
+            </value>
+            <value>
+                <fullName>Manufacturer Referral</fullName>
+                <default>false</default>
+                <label>Manufacturer Referral</label>
+            </value>
+            <value>
+                <fullName>VFC Partner Referral</fullName>
+                <default>false</default>
+                <label>VFC Partner Referral</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>CO APAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>CO UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>CO NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>CCG AU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>VetQuip AU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>VI AU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>GSS APAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>GSS EMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>GSS NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Direct Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Internal Referral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Tradeshow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Email Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Facebook Ad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Inbound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Outbound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Field Rep Referral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Cold Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Key Account Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Corporate Account Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementations</controllingFieldValue>
+            <valueName>Quarterly Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementations</controllingFieldValue>
+            <valueName>Workshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementations</controllingFieldValue>
+            <valueName>Training Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementations</controllingFieldValue>
+            <valueName>Site Visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Practice Support (PST)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Pharmacy Transfer (PTP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party</controllingFieldValue>
+            <valueName>Corporate Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party</controllingFieldValue>
+            <valueName>Pet Owner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party</controllingFieldValue>
+            <valueName>Pharmacy Referral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party</controllingFieldValue>
+            <valueName>Manufacturer Referral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party</controllingFieldValue>
+            <valueName>VFC Partner Referral</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

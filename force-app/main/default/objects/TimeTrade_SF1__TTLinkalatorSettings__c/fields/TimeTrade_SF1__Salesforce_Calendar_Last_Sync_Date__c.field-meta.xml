@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Salesforce_Calendar_Last_Sync_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Do not change this value.  When incremental batch syncing is enabled, this will control the job to sync recently-added Events.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do not change this value.  When incremental batch syncing is enabled, this will control the job to sync recently-added Events.</inlineHelpText>
+    <label>Salesforce Calendar Last Sync Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Advantage</fullName>
+        <default>false</default>
+        <label>Advantage</label>
+    </customValue>
+    <customValue>
+        <fullName>Advantage Multi</fullName>
+        <default>false</default>
+        <label>Advantage Multi</label>
+    </customValue>
+    <customValue>
+        <fullName>Bravecto</fullName>
+        <default>false</default>
+        <label>Bravecto</label>
+    </customValue>
+    <customValue>
+        <fullName>Comfortis</fullName>
+        <default>false</default>
+        <label>Comfortis</label>
+    </customValue>
+    <customValue>
+        <fullName>Credelio</fullName>
+        <default>false</default>
+        <label>Credelio</label>
+    </customValue>
+    <customValue>
+        <fullName>HeartGard</fullName>
+        <default>false</default>
+        <label>HeartGard</label>
+    </customValue>
+    <customValue>
+        <fullName>Interceptor</fullName>
+        <default>false</default>
+        <label>Interceptor</label>
+    </customValue>
+    <customValue>
+        <fullName>K9 Advantix</fullName>
+        <default>false</default>
+        <label>K9 Advantix</label>
+    </customValue>
+    <customValue>
+        <fullName>Nexgard</fullName>
+        <default>false</default>
+        <label>Nexgard</label>
+    </customValue>
+    <customValue>
+        <fullName>Revolution</fullName>
+        <default>false</default>
+        <label>Revolution</label>
+    </customValue>
+    <customValue>
+        <fullName>Sentinel</fullName>
+        <default>false</default>
+        <label>Sentinel</label>
+    </customValue>
+    <customValue>
+        <fullName>Trifexis</fullName>
+        <default>false</default>
+        <label>Trifexis</label>
+    </customValue>
+    <customValue>
+        <fullName>Tri-Heart</fullName>
+        <default>false</default>
+        <label>Tri-Heart</label>
+    </customValue>
+    <masterLabel>Brands- Companion H/F/T Prevention</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

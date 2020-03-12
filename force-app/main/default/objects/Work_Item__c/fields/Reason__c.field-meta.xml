@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <description>Displays the reason for the work item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Displays the reason for the work item.</inlineHelpText>
+    <label>Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Record</fullName>
+                <default>false</default>
+                <label>New Record</label>
+            </value>
+            <value>
+                <fullName>Record Update</fullName>
+                <default>false</default>
+                <label>Record Update</label>
+            </value>
+            <value>
+                <fullName>Record Delete</fullName>
+                <default>false</default>
+                <label>Record Delete</label>
+            </value>
+            <value>
+                <fullName>Key Mapping</fullName>
+                <default>false</default>
+                <label>Key Mapping</label>
+            </value>
+            <value>
+                <fullName>Ancillary Installation</fullName>
+                <default>false</default>
+                <label>Ancillary Installation</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Change of Ownership</fullName>
+                <default>false</default>
+                <label>Change of Ownership</label>
+            </value>
+            <value>
+                <fullName>Credit Request</fullName>
+                <default>false</default>
+                <label>Credit Request</label>
+            </value>
+            <value>
+                <fullName>On-Site Update</fullName>
+                <default>false</default>
+                <label>On-Site Update</label>
+            </value>
+            <value>
+                <fullName>Order Return</fullName>
+                <default>false</default>
+                <label>Order Return</label>
+            </value>
+            <value>
+                <fullName>Product Onboarding</fullName>
+                <default>false</default>
+                <label>Product Onboarding</label>
+            </value>
+            <value>
+                <fullName>Remote PIMS Update</fullName>
+                <default>false</default>
+                <label>Remote PIMS Update</label>
+            </value>
+            <value>
+                <fullName>Training Request</fullName>
+                <default>false</default>
+                <label>Training Request</label>
+            </value>
+            <value>
+                <fullName>Product Update</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product Update</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <controllingFieldValue>Ancillary Products</controllingFieldValue>
+            <controllingFieldValue>Training</controllingFieldValue>
+            <valueName>Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Product Onboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ancillary Products</controllingFieldValue>
+            <valueName>Ancillary Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ancillary Products</controllingFieldValue>
+            <valueName>Change of Ownership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ancillary Products</controllingFieldValue>
+            <controllingFieldValue>Training</controllingFieldValue>
+            <valueName>Credit Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ancillary Products</controllingFieldValue>
+            <valueName>Order Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ancillary Products</controllingFieldValue>
+            <valueName>Remote PIMS Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training</controllingFieldValue>
+            <valueName>On-Site Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training</controllingFieldValue>
+            <valueName>Training Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Governance</controllingFieldValue>
+            <valueName>New Record</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Governance</controllingFieldValue>
+            <valueName>Record Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Governance</controllingFieldValue>
+            <valueName>Record Delete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Governance</controllingFieldValue>
+            <valueName>Key Mapping</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

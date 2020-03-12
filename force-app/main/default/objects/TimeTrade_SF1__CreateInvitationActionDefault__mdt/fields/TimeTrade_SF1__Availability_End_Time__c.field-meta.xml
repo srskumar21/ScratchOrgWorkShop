@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Availability_End_Time__c</fullName>
+    <defaultValue>&quot;11:30 PM&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Use with the end date to calculate the Availability End Date/Time value. Must be a string like &quot;12:00 AM&quot;. Will be interpreted in timezone of user executing process.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Use with the end date to calculate the Availability End Date/Time value. Must be a string like &quot;11:59 PM&quot;. Will be interpreted in timezone of user executing process.</inlineHelpText>
+    <label>Availability End Time</label>
+    <length>12</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

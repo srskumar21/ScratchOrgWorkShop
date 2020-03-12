@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Over_ride_Assignment_on_Create__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used to exempt record from Process &quot;Work item on Create&quot;.  Can be leveraged both manually and via automation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this field if you wish to over-ride the assignment rules for this record</inlineHelpText>
+    <label>Over-ride Assignment on Create</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

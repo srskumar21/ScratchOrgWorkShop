@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>This field is used to track status of Work Item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used to track status of Work Item.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+                <label>Escalated</label>
+            </value>
+            <value>
+                <fullName>Closed - New Enterprise Account Created</fullName>
+                <default>false</default>
+                <label>Closed - New Enterprise Account Created</label>
+            </value>
+            <value>
+                <fullName>Closed - Linked to Enterprise Account</fullName>
+                <default>false</default>
+                <label>Closed - Linked to Enterprise Account</label>
+            </value>
+            <value>
+                <fullName>Closed - Enterprise Account Updated</fullName>
+                <default>false</default>
+                <label>Closed - Enterprise Account Updated</label>
+            </value>
+            <value>
+                <fullName>Closed - No Action</fullName>
+                <default>false</default>
+                <label>Closed - No Action</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>accessnow__All_Requests_in_Error</fullName>
+    <columns>NAME</columns>
+    <columns>accessnow__Reference_Number__c</columns>
+    <columns>accessnow__Reason_for_Escalation__c</columns>
+    <columns>accessnow__Last_Error__c</columns>
+    <columns>accessnow__Requested_Start_Time__c</columns>
+    <columns>accessnow__Requested_End_Time__c</columns>
+    <columns>accessnow__Duration_Hours__c</columns>
+    <columns>accessnow__Approved_On__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>accessnow__Last_Error__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>All Requests in Error</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Max_Availability_Result_Size__c</fullName>
+    <defaultValue>4500000</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enter &quot;4,500,000&quot; for all typical installations.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter &quot;4,500,000&quot; for all typical installations.</inlineHelpText>
+    <label>Max Availability Result Size</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

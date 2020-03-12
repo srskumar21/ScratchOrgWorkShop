@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Use_Organizer_as_From_in_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this option if you would like email for meetings to be sent from the Organizer instead of the current user.  The option only has an effect when the Organizer has their address defined and verified in Org-Wide Email Addresses.</inlineHelpText>
+    <label>Use Organizer as From in Email</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

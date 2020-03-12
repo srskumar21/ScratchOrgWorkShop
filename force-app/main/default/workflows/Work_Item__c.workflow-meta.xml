@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Work_Item_on_hold_too_long</fullName>
+        <description>Work Item on hold too long</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Automated_Emails/Work_Item_On_Hold_Alert</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Stamp_Closed_Date</fullName>
+        <description>records closed date on record</description>
+        <field>Closed_Date__c</field>
+        <formula>Today()</formula>
+        <name>Stamp Closed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Record Closed Date</fullName>
+        <actions>
+            <name>Stamp_Closed_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>records closed date for Work Items when status contains Closed</description>
+        <formula>CONTAINS(TEXT(Status__c), &quot;Closed&quot;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

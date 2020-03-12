@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_ERP_Product__c</fullName>
+    <description>CCRM-2106: this should be true if the Product does has an ERP Number associated to it</description>
+    <externalId>false</externalId>
+    <formula>NOT(ISBLANK( ERP_Product_Number__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is ERP Product</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

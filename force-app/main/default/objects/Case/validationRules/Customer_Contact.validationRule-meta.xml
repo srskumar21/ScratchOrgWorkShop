@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Contact</fullName>
+    <active>true</active>
+    <description>If a contact has not been linked to the case ensure the remaining contact details have been entered.</description>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,  
+LEFT(OwnerId, 3) = &quot;005&quot;,
+NOT(LEFT(PRIORVALUE(OwnerId), 3) = &#39;00G&#39;), 
+NOT($Permission.Case_Owner_Permission), 
+RecordType.Name &lt;&gt; &#39;Boomi Support Case&#39;, 
+ISBLANK(ContactId), 
+OR( 
+ISBLANK(Customer_Name__c), 
+ISBLANK(Customer_Email__c) 
+) 
+)</errorConditionFormula>
+    <errorMessage>Case needs either Contact Name or Customer Name and Customer Email.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Scheduling_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( TimeTrade_SF1__Question_Count__c &gt; 0  &amp;&amp;  TimeTrade_SF1__Route_Count__c &gt; 0,HYPERLINK($Setup.TimeTrade_SF1__TTLinkalatorSettings__c.TimeTrade_SF1__CTS_Site_URL__c + &#39;/&#39; + $Setup.TimeTrade_SF1__TTLinkalatorSettings__c.TimeTrade_SF1__Namespace_Prefix__c + &#39;RoutingQuestionnaire?id=&#39; +  TimeTrade_SF1__Scheduling_Link_Id__c , $Setup.TimeTrade_SF1__TTLinkalatorSettings__c.TimeTrade_SF1__CTS_Site_URL__c + &#39;/&#39; + $Setup.TimeTrade_SF1__TTLinkalatorSettings__c.TimeTrade_SF1__Namespace_Prefix__c + &#39;RoutingQuestionnaire?id=&#39; +  TimeTrade_SF1__Scheduling_Link_Id__c ),&#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is the link you may give to your clients so that they may fill in their answers and be routed to the best invitation.  No link is available until you define at least one question and one route.</inlineHelpText>
+    <label>Scheduling Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

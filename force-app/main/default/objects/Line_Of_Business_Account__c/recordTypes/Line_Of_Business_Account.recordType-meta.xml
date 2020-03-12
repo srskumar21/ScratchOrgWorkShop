@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_Of_Business_Account</fullName>
+    <active>true</active>
+    <label>Line Of Business Account</label>
+    <picklistValues>
+        <picklist>Account_Segment__c</picklist>
+        <values>
+            <fullName>Animal Institutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational Institutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging group%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent Vet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesale%2FRetail</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Specialty__c</picklist>
+        <values>
+            <fullName>Cardiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dentistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dermitology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency%2FCritical Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grooming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optimology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other ology%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spay%2FNeuter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellness</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Type__c</picklist>
+        <values>
+            <fullName>Agricultural Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boarding Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Breeder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buying Group %28GPO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equine Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exotics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farm%2FRanch Ship To</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grocery%2FRetail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humane Society%2FShelter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Animal Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed Practice 50%2F50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed Practice%2FPred Lg Animal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed Practice%2FPred Sml Animal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Institution %28very specific products%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Animal Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teaching Institution %28with vet hospital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesaler%2FDistributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoo Facility</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CO_Credit_Status__c</picklist>
+        <values>
+            <fullName>Awaiting Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash On Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stop Credit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GSS_Credit_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GSS_NA_Credit_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Credit Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GSS_Support_Type__c</picklist>
+        <values>
+            <fullName>Hardware Only %28Vision%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay per Incident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prepay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software %26 Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hardware_Type__c</picklist>
+        <values>
+            <fullName>3rd Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covetrus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PIMS__c</picklist>
+        <values>
+            <fullName>ACEsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVS %28Advanced%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alis-Vet %28Informatvet%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Altapoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amber %28Autovet%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animal Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avimark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BeeFree Cloud Base Veterinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better Choice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Britton Wise Computers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Infusions HVMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chameleon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clientrax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinic-Ware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Kennel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete Clinic Software %28CCS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compuvet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cornerstone %28IDEXX%2FPSI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DV MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DVM Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datavet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dataware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dogdoc %28Sinclair%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Friends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EdMac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eklin VIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elinc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equine Data Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foxvet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hippo Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home %2F Local System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDEXX Neo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ImproMed Advantage%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ImproMed Equine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ImproMed Management System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impromed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intravet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IntravetFox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IntravetSQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Computerized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nu-Soft Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onward Vet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organized Vet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paws Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peachtree Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QuickBooks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robovet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rovr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RxWorks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softvet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spec Vet Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>String Soft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunpoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Jockey Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timetracker only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultra-Vet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V%2ES%2EI%2E %28V%2EC%2EA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V%2FBOSS %28CRT Systems%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V-Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPM %28IDEXX%2FPSI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet Logic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet Pac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet Soft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet Star</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vet%27s Pet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VetBlue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VetInform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VetOfficeSuite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetech Advantage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetfm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetmaster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetspace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vetware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisionVPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visionarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visual Vet %28Softquest%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winvet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wolfware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WoofWare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eVetPractice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>easyVET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ezyVet Cloud</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating__c</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>APAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

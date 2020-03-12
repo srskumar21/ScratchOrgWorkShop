@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Ad_Hoc</fullName>
+    <columns>NAME</columns>
+    <columns>TimeTrade_SF1__Location_Information__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>TimeTrade_SF1__Invitation__c.TimeTrade_SF1__Ad_Hoc_Meeting_Invitation</value>
+    </filters>
+    <label>Ad-Hoc</label>
+</ListView>

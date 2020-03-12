@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Opportunity_when_stage_Closed</fullName>
+    <active>true</active>
+    <description>Locking the opportunity and related quote records when opportunity equals to closed won
+CCRM-3877.</description>
+    <errorConditionFormula>AND(
+    OR(
+	   ISPICKVAL(PRIORVALUE(StageName),&#39;Closed Won&#39;) ,
+       ISPICKVAL(PRIORVALUE(StageName),&#39;Closed Lost&#39;)
+	   ),
+    $Profile.Name &lt;&gt; &#39;System Administrator&#39; 
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to edit an opportunity when it is Closed.</errorMessage>
+</ValidationRule>

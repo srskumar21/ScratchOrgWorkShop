@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>accessnow__Copy_Approval_Flag</fullName>
+        <field>accessnow__Requires_Approval_Value__c</field>
+        <formula>accessnow__Requires_Approval__c</formula>
+        <name>Copy Approval Flag</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>accessnow__Require approval Flag</fullName>
+        <actions>
+            <name>accessnow__Copy_Approval_Flag</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>accessnow__ACNW_Request__c.accessnow__Status__c</field>
+            <operation>equals</operation>
+            <value>Draft,Pending Approval</value>
+        </criteriaItems>
+        <description>Require approval Flag</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Org_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the Organization Name value you have specified on Company Information page in Setup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Organization Name value you have specified on Company Information page in Setup.</inlineHelpText>
+    <label>Org Name</label>
+    <length>128</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

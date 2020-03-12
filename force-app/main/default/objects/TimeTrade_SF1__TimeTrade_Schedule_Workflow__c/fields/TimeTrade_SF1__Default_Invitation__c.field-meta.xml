@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Default_Invitation__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Default Invitation</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Only Public Invitations may be chosen for Default Invitation.</errorMessage>
+        <filterItems>
+            <field>TimeTrade_SF1__Invitation__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Public Meeting</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>TimeTrade_SF1__Invitation__c</referenceTo>
+    <relationshipLabel>TimeTrade Routing Questionnaires</relationshipLabel>
+    <relationshipName>TimeTrade_Routing_Questionnaires</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

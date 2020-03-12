@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GSS_NA_New_PIMS_Onboarding_Milestone1_Milestone</fullName>
+    <filterScope>Queue</filterScope>
+    <label>GSS NA - Training</label>
+    <queue>GSS_NA_Training</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

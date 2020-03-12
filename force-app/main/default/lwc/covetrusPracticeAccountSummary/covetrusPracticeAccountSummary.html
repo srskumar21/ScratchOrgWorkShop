@@ -1,0 +1,101 @@
+<template>
+    <div class="c-container">
+        <lightning-layout>
+            <lightning-layout-item padding="around-small">
+                <div class="header-column">
+                    <p class="field-title" title="Status">Status</p>
+                    <p>{accountSummary.status}</p>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <div class="header-column">
+                    <p class="field-title" title="Start Date">Start Date</p>
+                    <p>{accountSummary.startDate}</p>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <div class="header-column">
+                    <p class="field-title" title="First Order Date">First Order Date</p>
+                    <p>{accountSummary.firstOrderDate}</p>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <div class="header-column">
+                    <p class="field-title" title="Next Bill Date">Next Bill Date</p>
+                    <p>{accountSummary.nextBillDate}</p>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <div class="header-column">
+                    <p class="field-title" title="Inactivity Date">Inactivity Date</p>
+                    <p>{accountSummary.inactivityDate}</p>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                    <h3 class="slds-card__header-title">
+                        <span>Revenue</span>
+                    </h3>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body">
+            <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title=""></div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Name">Annual</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="MTD">MTD</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Rolling 6 Months">Rolling 6 Months</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Rolling 6 Months">YTD</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={revenueData} for:item="revenueItem">
+                    <tr class="slds-hint-parent" key={id}>
+                    <th scope="row">
+                        <div class="slds-truncate" title={revenueItem.type}>
+                            {revenueItem.type}
+                        </div>
+                    </th>
+                    <td role="gridcell">
+                        <div class="slds-truncate" title={revenueItem.annual}>
+                            <lightning-formatted-number value={revenueItem.annual} format-style="currency" currency-code="USD"></lightning-formatted-number>
+                        </div>
+                    </td>
+                    <td role="gridcell">
+                        <div class="slds-truncate" title={revenueItem.mtd}>
+                            <lightning-formatted-number value={revenueItem.mtd} format-style="currency" currency-code="USD"></lightning-formatted-number>
+                        </div>
+                    </td>
+                    <td role="gridcell">
+                        <div class="slds-truncate" title={revenueItem.rolling}>
+                            <lightning-formatted-number value={revenueItem.rolling} format-style="currency" currency-code="USD"></lightning-formatted-number>
+                        </div>
+                    </td>
+                    <td role="gridcell">
+                        <div class="slds-truncate" title={revenueItem.ytd}>
+                            <lightning-formatted-number value={revenueItem.ytd} format-style="currency" currency-code="USD"></lightning-formatted-number>
+                        </div>
+                    </td>
+                    </tr>
+                </template>
+            </tbody>
+            </table>
+        </div>
+    </article>
+</template>

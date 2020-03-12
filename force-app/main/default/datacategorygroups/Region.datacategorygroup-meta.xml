@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>New Zealand</label>
+                <name>New_Zealand</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Australia</label>
+                <name>Australia</name>
+            </dataCategory>
+            <label>APAC</label>
+            <name>APAC</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>UK</label>
+                <name>UK</name>
+            </dataCategory>
+            <label>EMEA</label>
+            <name>EMEA</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>United States</label>
+                <name>United_States</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Canada</label>
+                <name>Canada</name>
+            </dataCategory>
+            <label>NA</label>
+            <name>NA</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Region</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

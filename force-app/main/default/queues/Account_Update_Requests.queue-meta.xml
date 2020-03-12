@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Account Update Requests</name>
+    <queueMembers>
+        <users>
+            <user>cj.wilckens@covetrus.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Account_Update_Request__c</sobjectType>
+    </queueSobject>
+</Queue>

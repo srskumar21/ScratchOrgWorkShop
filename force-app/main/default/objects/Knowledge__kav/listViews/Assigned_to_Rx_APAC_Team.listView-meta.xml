@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_to_Rx_APAC_Team</fullName>
+    <columns>ARTICLE_NUMBER</columns>
+    <columns>TITLE</columns>
+    <columns>VALIDATION_STATUS_ENUM</columns>
+    <columns>PUBLISH_STATUS</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>LAST_PUBLISHED_DATE</columns>
+    <columns>ASSIGNEDTO_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ASSIGNEDTO_USER</field>
+        <operation>equals</operation>
+        <value>,Slade Overend,Aaron Aitchison,Barbara Mackenzie,Dean Askew,Ashley Jones</value>
+    </filters>
+    <filters>
+        <field>PUBLISH_STATUS</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Assigned to Rx APAC Team</label>
+</ListView>

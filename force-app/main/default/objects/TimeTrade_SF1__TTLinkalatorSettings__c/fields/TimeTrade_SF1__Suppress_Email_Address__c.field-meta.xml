@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Suppress_Email_Address__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to suppress email addresses for internal attendees on the Click-to-Schedule page and all TimeTrade email.  Leave unchecked if you wish email addresses to be displayed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to suppress email addresses for internal attendees on the Click-to-Schedule page and all TimeTrade email.  Leave unchecked if you wish email addresses to be displayed.</inlineHelpText>
+    <label>Hide Internal Attendee Email Addresses</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

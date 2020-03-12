@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Enable_Web_Conferencing_Integration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to enable Web Conference as an available location type on Create Invitation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to enable Web Conference as an available location type on Create Invitation.</inlineHelpText>
+    <label>Enable Web Conferencing Integration</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

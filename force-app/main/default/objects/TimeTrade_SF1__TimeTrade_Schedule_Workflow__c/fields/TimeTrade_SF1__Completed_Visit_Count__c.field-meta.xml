@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Completed_Visit_Count__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of times the questionnaire has been visited and the user completed entry and pressed the Next button.</inlineHelpText>
+    <label>Completed Visit Count</label>
+    <summaryForeignKey>TimeTrade_SF1__TimeTrade_Workflow_Evaluation__c.TimeTrade_SF1__Schedule_Workflow__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Schedule_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>$Setup.TimeTrade_SF1__TTLinkalatorSettings__c.TimeTrade_SF1__CTS_Site_URL__c + &#39;?Id=&#39; + BLANKVALUE(  TimeTrade_SF1__Invitation__r.TimeTrade_SF1__Invitation_Id_MAC__c  , TimeTrade_SF1__Invitation__c)+ &#39;&amp;MeetingID=&#39; +    Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Schedule URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

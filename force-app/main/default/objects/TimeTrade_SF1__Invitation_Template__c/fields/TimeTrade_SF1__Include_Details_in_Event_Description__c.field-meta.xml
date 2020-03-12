@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Include_Details_in_Event_Description__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Added for SF-1696</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to include all meeting details in the Description field on the Event created when an appointment is booked.</inlineHelpText>
+    <label>Include Details in Event Description</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

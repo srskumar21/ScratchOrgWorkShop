@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sub_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Case Sub-Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Case_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animal Records</fullName>
+                <default>false</default>
+                <label>Animal Records</label>
+            </value>
+            <value>
+                <fullName>Clinical Records</fullName>
+                <default>false</default>
+                <label>Clinical Records</label>
+            </value>
+            <value>
+                <fullName>Wellness Plans</fullName>
+                <default>false</default>
+                <label>Wellness Plans</label>
+            </value>
+            <value>
+                <fullName>Client Details</fullName>
+                <default>false</default>
+                <label>Client Details</label>
+            </value>
+            <value>
+                <fullName>Client Groups</fullName>
+                <default>false</default>
+                <label>Client Groups</label>
+            </value>
+            <value>
+                <fullName>Client Setup</fullName>
+                <default>false</default>
+                <label>Client Setup</label>
+            </value>
+            <value>
+                <fullName>Client Transactions</fullName>
+                <default>false</default>
+                <label>Client Transactions</label>
+            </value>
+            <value>
+                <fullName>Automation Service</fullName>
+                <default>false</default>
+                <label>Automation Service</label>
+            </value>
+            <value>
+                <fullName>Backups</fullName>
+                <default>false</default>
+                <label>Backups</label>
+            </value>
+            <value>
+                <fullName>Connectivity</fullName>
+                <default>false</default>
+                <label>Connectivity</label>
+            </value>
+            <value>
+                <fullName>Database/SQL Issues</fullName>
+                <default>false</default>
+                <label>Database/SQL Issues</label>
+            </value>
+            <value>
+                <fullName>External Images</fullName>
+                <default>false</default>
+                <label>External Images</label>
+            </value>
+            <value>
+                <fullName>Label Printing</fullName>
+                <default>false</default>
+                <label>Label Printing</label>
+            </value>
+            <value>
+                <fullName>Printing</fullName>
+                <default>false</default>
+                <label>Printing</label>
+            </value>
+            <value>
+                <fullName>System Setup</fullName>
+                <default>false</default>
+                <label>System Setup</label>
+            </value>
+            <value>
+                <fullName>User Access</fullName>
+                <default>false</default>
+                <label>User Access</label>
+            </value>
+            <value>
+                <fullName>Workstation Setup</fullName>
+                <default>false</default>
+                <label>Workstation Setup</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Mail Merge</fullName>
+                <default>false</default>
+                <label>Mail Merge</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Reminders</fullName>
+                <default>false</default>
+                <label>Reminders</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Adhocs</fullName>
+                <default>false</default>
+                <label>Adhocs</label>
+            </value>
+            <value>
+                <fullName>Standard Reports</fullName>
+                <default>false</default>
+                <label>Standard Reports</label>
+            </value>
+            <value>
+                <fullName>VPM Reports</fullName>
+                <default>false</default>
+                <label>VPM Reports</label>
+            </value>
+            <value>
+                <fullName>Batch &amp; Expiry</fullName>
+                <default>false</default>
+                <label>Batch &amp; Expiry</label>
+            </value>
+            <value>
+                <fullName>Loyalty Scheme</fullName>
+                <default>false</default>
+                <label>Loyalty Scheme</label>
+            </value>
+            <value>
+                <fullName>RVM</fullName>
+                <default>false</default>
+                <label>RVM</label>
+            </value>
+            <value>
+                <fullName>Stock Analysis Groups</fullName>
+                <default>false</default>
+                <label>Stock Analysis Groups</label>
+            </value>
+            <value>
+                <fullName>Stock Details</fullName>
+                <default>false</default>
+                <label>Stock Details</label>
+            </value>
+            <value>
+                <fullName>Stock Discounts</fullName>
+                <default>false</default>
+                <label>Stock Discounts</label>
+            </value>
+            <value>
+                <fullName>Stock Formulations</fullName>
+                <default>false</default>
+                <label>Stock Formulations</label>
+            </value>
+            <value>
+                <fullName>Stock Ordering</fullName>
+                <default>false</default>
+                <label>Stock Ordering</label>
+            </value>
+            <value>
+                <fullName>StockTake</fullName>
+                <default>false</default>
+                <label>StockTake</label>
+            </value>
+            <value>
+                <fullName>Supplier Invoices</fullName>
+                <default>false</default>
+                <label>Supplier Invoices</label>
+            </value>
+            <value>
+                <fullName>Supplier Payments</fullName>
+                <default>false</default>
+                <label>Supplier Payments</label>
+            </value>
+            <value>
+                <fullName>Autobanking</fullName>
+                <default>false</default>
+                <label>Autobanking</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>Bank Reconciliation</fullName>
+                <default>false</default>
+                <label>Bank Reconciliation</label>
+            </value>
+            <value>
+                <fullName>End of Month/End of Year</fullName>
+                <default>false</default>
+                <label>End of Month/End of Year</label>
+            </value>
+            <value>
+                <fullName>Invoices &amp; Statements</fullName>
+                <default>false</default>
+                <label>Invoices &amp; Statements</label>
+            </value>
+            <value>
+                <fullName>VPM Docs</fullName>
+                <default>false</default>
+                <label>VPM Docs</label>
+            </value>
+            <value>
+                <fullName>.net</fullName>
+                <default>false</default>
+                <label>.net</label>
+            </value>
+            <value>
+                <fullName>Multi Column</fullName>
+                <default>false</default>
+                <label>Multi Column</label>
+            </value>
+            <value>
+                <fullName>Multi Tab</fullName>
+                <default>false</default>
+                <label>Multi Tab</label>
+            </value>
+            <value>
+                <fullName>Classic</fullName>
+                <default>false</default>
+                <label>Classic</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Plans</fullName>
+                <default>false</default>
+                <label>Plans</label>
+            </value>
+            <value>
+                <fullName>Sync</fullName>
+                <default>false</default>
+                <label>Sync</label>
+            </value>
+            <value>
+                <fullName>Templates</fullName>
+                <default>false</default>
+                <label>Templates</label>
+            </value>
+            <value>
+                <fullName>ANDROID Syncing</fullName>
+                <default>false</default>
+                <label>ANDROID Syncing</label>
+            </value>
+            <value>
+                <fullName>ANDROID Troubleshooting</fullName>
+                <default>false</default>
+                <label>ANDROID Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>IOS Syncing</fullName>
+                <default>false</default>
+                <label>IOS Syncing</label>
+            </value>
+            <value>
+                <fullName>IOS Troubleshooting</fullName>
+                <default>false</default>
+                <label>IOS Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>VPMAccess</fullName>
+                <default>false</default>
+                <label>VPMAccess</label>
+            </value>
+            <value>
+                <fullName>VPMAnalytics</fullName>
+                <default>false</default>
+                <label>VPMAnalytics</label>
+            </value>
+            <value>
+                <fullName>VPMDashboard</fullName>
+                <default>false</default>
+                <label>VPMDashboard</label>
+            </value>
+            <value>
+                <fullName>VPMNotify</fullName>
+                <default>false</default>
+                <label>VPMNotify</label>
+            </value>
+            <value>
+                <fullName>VPMRoster</fullName>
+                <default>false</default>
+                <label>VPMRoster</label>
+            </value>
+            <value>
+                <fullName>Messaging and Scheduling</fullName>
+                <default>false</default>
+                <label>Messaging and Scheduling</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>IDEXX</fullName>
+                <default>false</default>
+                <label>IDEXX</label>
+            </value>
+            <value>
+                <fullName>Abaxis</fullName>
+                <default>false</default>
+                <label>Abaxis</label>
+            </value>
+            <value>
+                <fullName>Lab Wizard</fullName>
+                <default>false</default>
+                <label>Lab Wizard</label>
+            </value>
+            <value>
+                <fullName>Lab Downloader</fullName>
+                <default>false</default>
+                <label>Lab Downloader</label>
+            </value>
+            <value>
+                <fullName>Lab Results</fullName>
+                <default>false</default>
+                <label>Lab Results</label>
+            </value>
+            <value>
+                <fullName>Tyro</fullName>
+                <default>false</default>
+                <label>Tyro</label>
+            </value>
+            <value>
+                <fullName>DPS</fullName>
+                <default>false</default>
+                <label>DPS</label>
+            </value>
+            <value>
+                <fullName>Cenvet</fullName>
+                <default>false</default>
+                <label>Cenvet</label>
+            </value>
+            <value>
+                <fullName>Lyppards</fullName>
+                <default>false</default>
+                <label>Lyppards</label>
+            </value>
+            <value>
+                <fullName>Provet Connect</fullName>
+                <default>false</default>
+                <label>Provet Connect</label>
+            </value>
+            <value>
+                <fullName>SVS</fullName>
+                <default>false</default>
+                <label>SVS</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rapport</controllingFieldValue>
+            <valueName>Messaging and Scheduling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rapport</controllingFieldValue>
+            <valueName>Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Labs</controllingFieldValue>
+            <valueName>IDEXX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Labs</controllingFieldValue>
+            <valueName>Abaxis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFTPOS</controllingFieldValue>
+            <valueName>Tyro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFTPOS</controllingFieldValue>
+            <valueName>DPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration Supplier</controllingFieldValue>
+            <valueName>Cenvet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration Supplier</controllingFieldValue>
+            <valueName>Lyppards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration Supplier</controllingFieldValue>
+            <valueName>Provet Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration Supplier</controllingFieldValue>
+            <valueName>SVS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration Supplier</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Reports</controllingFieldValue>
+            <valueName>Adhocs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Reports</controllingFieldValue>
+            <valueName>Standard Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Reports</controllingFieldValue>
+            <valueName>VPM Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration External Labs</controllingFieldValue>
+            <valueName>Lab Wizard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration External Labs</controllingFieldValue>
+            <valueName>Lab Downloader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Integration External Labs</controllingFieldValue>
+            <valueName>Lab Results</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animals</controllingFieldValue>
+            <valueName>Animal Records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animals</controllingFieldValue>
+            <valueName>Clinical Records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animals</controllingFieldValue>
+            <valueName>Wellness Plans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Client</controllingFieldValue>
+            <valueName>Client Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Client</controllingFieldValue>
+            <valueName>Client Groups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Client</controllingFieldValue>
+            <valueName>Client Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Client</controllingFieldValue>
+            <valueName>Client Transactions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Automation Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Backups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Connectivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Database/SQL Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>External Images</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Label Printing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Printing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>System Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>User Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintenance</controllingFieldValue>
+            <valueName>Workstation Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>Mail Merge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>Reminders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>SMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>Batch &amp; Expiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>Loyalty Scheme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>RVM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>Stock Analysis Groups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>Stock Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>Stock Discounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>Stock Formulations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>Stock Ordering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock</controllingFieldValue>
+            <valueName>StockTake</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Supplier</controllingFieldValue>
+            <valueName>Supplier Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Base Program Supplier</controllingFieldValue>
+            <valueName>Supplier Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Autobanking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Bank Reconciliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>End of Month/End of Year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>Invoices &amp; Statements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workflow</controllingFieldValue>
+            <valueName>VPM Docs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Modules Appointment Book</controllingFieldValue>
+            <controllingFieldValue>Boarding Scheduler</controllingFieldValue>
+            <valueName>.net</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Modules Appointment Book</controllingFieldValue>
+            <valueName>Multi Column</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vision Modules Appointment Book</controllingFieldValue>
+            <valueName>Multi Tab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding Scheduler</controllingFieldValue>
+            <valueName>Classic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VHM</controllingFieldValue>
+            <valueName>Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VHM</controllingFieldValue>
+            <valueName>Plans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VHM</controllingFieldValue>
+            <valueName>Sync</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VHM</controllingFieldValue>
+            <valueName>Templates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPMMobile</controllingFieldValue>
+            <valueName>ANDROID Syncing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPMMobile</controllingFieldValue>
+            <valueName>ANDROID Troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPMMobile</controllingFieldValue>
+            <valueName>IOS Syncing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPMMobile</controllingFieldValue>
+            <valueName>IOS Troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPM Modules</controllingFieldValue>
+            <valueName>VPMAccess</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPM Modules</controllingFieldValue>
+            <valueName>VPMAnalytics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPM Modules</controllingFieldValue>
+            <valueName>VPMDashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPM Modules</controllingFieldValue>
+            <valueName>VPMNotify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VPM Modules</controllingFieldValue>
+            <valueName>VPMRoster</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

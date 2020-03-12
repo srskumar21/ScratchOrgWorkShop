@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Person_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup field to the related person account</description>
+    <externalId>false</externalId>
+    <label>Person Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>TimeTrade Customer Attendees</relationshipLabel>
+    <relationshipName>TimeTrade_Customer_Attendees</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

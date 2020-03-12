@@ -1,0 +1,19 @@
+<apex:page standardController="Quote" extensions="GenerateAndSaveQuote" action="{!init}">
+    <apex:variable rendered="{!generated}" var="junk" value="{!1}">
+    <apex:includeScript value="/support/console/47.0/integration.js"/>
+	<script type="text/javascript">
+    sforce.console.getEnclosingPrimaryTabId(
+        function(response) {
+            var primaryTabId = response.id;
+            sforce.console.getEnclosingTabId(
+                function(result) {
+                    sforce.console.closeTab(result.id);
+                    sforce.console.refreshPrimaryTabById(primaryTabId, true, function(result) {
+                    }, true);
+                }
+            );
+        }
+    );
+    </script>
+    </apex:variable>
+</apex:page>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>EMEA_With_Group_GSS_AU</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EMEA With Group GSS AU</label>
+        <sharedTo>
+            <group>GSS_AU</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>EMEA</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>GSS_AU_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>GSS AU Sharing Rule</label>
+        <sharedTo>
+            <group>GSS_AU</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GSS_AU</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>GSS_AU_With_Role_EMEA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>GSS AU With Role EMEA</label>
+        <sharedTo>
+            <roleAndSubordinates>EMEA</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <group>GSS_AU</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>GSS_NZ_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>GSS NZ Sharing Rule</label>
+        <sharedTo>
+            <group>GSS_VisionVPM_NZ</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GSS_VisionVPM_NZ</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

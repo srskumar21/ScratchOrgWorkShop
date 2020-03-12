@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Category__c</fullName>
+    <description>Used to drive project level reporting</description>
+    <externalId>false</externalId>
+    <label>Reporting Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AVImark</fullName>
+                <default>false</default>
+                <label>AVImark</label>
+            </value>
+            <value>
+                <fullName>Axis Q</fullName>
+                <default>false</default>
+                <label>Axis Q</label>
+            </value>
+            <value>
+                <fullName>Data Vault</fullName>
+                <default>false</default>
+                <label>Data Vault</label>
+            </value>
+            <value>
+                <fullName>Dragonfly</fullName>
+                <default>false</default>
+                <label>Dragonfly</label>
+            </value>
+            <value>
+                <fullName>eVet</fullName>
+                <default>false</default>
+                <label>eVet</label>
+            </value>
+            <value>
+                <fullName>ImproMed</fullName>
+                <default>false</default>
+                <label>ImproMed</label>
+            </value>
+            <value>
+                <fullName>Rapport</fullName>
+                <default>false</default>
+                <label>Rapport</label>
+            </value>
+            <value>
+                <fullName>Trade Marketing</fullName>
+                <default>false</default>
+                <label>Trade Marketing</label>
+            </value>
+            <value>
+                <fullName>Vetstreet</fullName>
+                <default>false</default>
+                <label>Vetstreet</label>
+            </value>
+            <value>
+                <fullName>Worldpay</fullName>
+                <default>false</default>
+                <label>Worldpay</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

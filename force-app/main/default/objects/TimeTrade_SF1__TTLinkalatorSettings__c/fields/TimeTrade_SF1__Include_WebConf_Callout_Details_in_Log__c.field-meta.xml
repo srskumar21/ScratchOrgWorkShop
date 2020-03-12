@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Include_WebConf_Callout_Details_in_Log__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to include the full contents of requests to and responses from web conferencing providers. This information may aid in investigating issues with web conferencing. The information exposed may include web conferencing credentials.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to include the full contents of requests to and responses from web conferencing providers. This information may aid in investigating issues with web conferencing. The information exposed may include web conferencing credentials.</inlineHelpText>
+    <label>Include WebConf Callout Details in Log</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

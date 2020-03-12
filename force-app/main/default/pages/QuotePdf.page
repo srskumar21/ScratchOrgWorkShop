@@ -1,0 +1,304 @@
+<apex:page renderAs="pdf" sidebar="false" showHeader="false" applyBodyTag="false" standardController="Quote" extensions="QuotePdf">
+    <head>
+        <style type="text/css">
+            html, body { font-family: sans-serif; font-size: 0.8em;}
+            .keepTogether { page-break-inside: avoid; }
+            .title { font-size: 2em; }
+            .center { text-align: center; }
+            .right { text-align: right; }
+            .redHeader { background-color: #ED3030; color: white; }
+            .blueHeader { background-color: #E9F7FE; }
+            .bold { font-weight: bold; }
+
+            table.data {-fs-table-paginate: paginate;}
+            td { vertical-align: top; }
+
+            @page {
+                margin-top: 4.5cm;
+                margin-bottom: 2cm;
+                @top-center {
+                    content: element(header);
+                }
+                @bottom-center {
+                    content: element(footer);
+                }
+            }
+            div.header {
+                padding: 10px;
+                position: running(header);
+            }
+            div.footer {
+                display: block;
+                padding: 5px;
+                position: running(footer);
+            }
+            .pagenumber:before {
+                content: counter(page);
+            }
+            .pagecount:before {
+                content: counter(pages);
+            }
+            .content { margin-top: 200px; padding: 0; }
+        </style>
+    </head>
+
+    <div class="header">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td valign="top" width="35%">
+                    <img src="{!$Resource.logo}" style="width: 200px" />
+                    <br />
+                    Covetrus Software Services, LLC<br />
+                    304 Ohio Street<br />
+                    Oshkosh WI, 54902
+                </td>
+                <td valign="top" width="65%" class="right">
+                    <table border="0" cellspacing="3" cellpadding="2" width="100%">
+                        <tr>
+                            <td style="width: 25%" class="center bold redHeader">Account #</td>
+                            <td style="width: 25%" class="center bold redHeader">Quote #</td>
+                            <td style="width: 25%" class="center bold redHeader">Origin Date</td>
+                            <td style="width: 25%" class="center bold redHeader">Expiration Date</td>
+                        </tr>
+                        <tr>
+                            <td class="center bold"><apex:outputText value="{!Quote.Account.Covetrus_Customer_Number__c}" /></td>
+                            <td class="center bold"><apex:outputText value="{!Quote.QuoteNumber}" /></td>
+                            <td class="center bold"><apex:outputText value="{0,date,MM/dd/yyyy}"><apex:param value="{!Quote.CreatedDate}" /></apex:outputText></td>
+                            <td class="center bold"><apex:outputText value="{0,date,MM/dd/yyyy}"><apex:param value="{!Quote.ExpirationDate}" /></apex:outputText></td>
+                        </tr>
+                    </table>
+                    <table border="0" cellspacing="3" cellpadding="2" width="100%">
+                        <tr>
+                            <td style="width: 20%" class="center bold blueHeader">Phone</td>
+                            <td style="width: 20%" class="center bold blueHeader">Fax</td>
+                            <td style="width: 60%" class="center bold blueHeader">Email</td>
+                        </tr>
+                        <tr>
+                            <td class="center bold"><apex:outputText value="{!Quote.Phone}" /></td>
+                            <td class="center bold"><apex:outputText value="{!Quote.Fax}" /></td>
+                            <td class="center bold"><apex:outputText value="{!Quote.Email}" /></td>
+                        </tr>
+                    </table>
+                    <table border="0" cellspacing="3" cellpadding="2" width="100%">
+                        <tr>
+                            <td style="width: 10%"></td>
+                            <td style="width: 25%" class="center bold redHeader">Sales Rep</td>
+                            <td style="width: 20%" class="center bold redHeader">Rep Phone #</td>
+                            <td style="width: 45%" class="center bold redHeader">Rep Email</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="center bold"><apex:outputText value="{!Quote.Owner.Name}" /></td>
+                            <td class="center bold"><apex:outputText value="{!Quote.Owner.Phone}" /></td>
+                            <td class="center bold"><apex:outputText value="{!Quote.Owner.Email}" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div class="center title">
+            <apex:outputText value="{!Quote.Account.Name}" />
+        </div>
+    </div>
+    <div class="footer">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td style="padding-top: 5px; padding-bottom: 5px; width: 20px; background-color: #DEDDCF;">&nbsp;</td>
+                <td style="padding-top: 5px; padding-bottom: 5px; width: 95%; background-color: white; color: #ED3030" class="center bold">
+                    PLEASE REMIT ALL <span class="pagecount"/> PAGES
+                </td>
+                <td style="padding-top: 5px; padding-bottom: 5px; text-align: right; width: 20px; background-color: #DEDDCF;">&nbsp;</td>
+            </tr>
+        </table>
+        <table style="background-color: #DEDDCF;" width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td style="padding-top: 5px; padding-bottom: 5px; width: 5%"></td>
+                <td style="color: #666666; padding-top: 5px; padding-bottom: 5px; width: 30%" class="bold" valign="top">
+                    <apex:outputText value="{!now}" />
+                </td>
+                <td style="color: #666666; padding-top: 5px; padding-bottom: 5px; width: 30%" class="center bold" valign="top">
+                    Prepared by: {!HTMLENCODE(Quote.Owner.Name)}
+                </td>
+                <td style="color: #666666; padding-top: 5px; padding-bottom: 5px; width: 30%" class="right bold" valign="top">
+                    Page <span class="pagenumber"/> of <span class="pagecount"/>
+                </td>
+                <td style="padding-top: 5px; padding-bottom: 5px; width: 5%"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="content" >
+        <table class="data" cellspacing="0" cellpadding="3" width="100%" >
+            <thead>
+                <th colspan="2" width="55%" class="blueHeader">Description</th>
+                <th width="5%" class="blueHeader center">Qty</th>
+                <th width="10%" class="blueHeader center">Unit Price</th>
+                <th width="10%" class="blueHeader center">Adjustment</th>
+                <th width="10%" class="blueHeader center">Ext. price</th>
+                
+            </thead>
+            <tbody  style="padding: 15px" >
+                <apex:repeat value="{!groups}" var="g">
+                    <tr>
+                        <td colspan="6" class="title">
+                            <apex:outputText value="{!g.header}" />
+                        </td>
+                    </tr>
+                    <apex:repeat var="qli" value="{!g.lineItems}" >
+                        <tr>
+                            <td colspan="2">
+                                <div class="bold"><apex:outputtext value="{!qli.Product2.Name}" /></div>
+                                <!-- Start of CCRM-3607-->
+                                <div><apex:outputtext value="{!qli.Experlogix_Description__c}" /></div>
+                                <!-- End of CCRM-3607-->
+                            </td>
+                            <td class="bold center">
+                                <apex:outputtext value="{0,number,0}"><apex:param value="{!qli.Quantity}" /></apex:outputtext>
+                            </td>
+                            <td class="bold center">$ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!qli.UnitPrice}" /></apex:outputText></td>
+                            <td class="bold center"> <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!if(isnull(qli.Discount),0,qli.Discount)}" /></apex:outputText> %  </td>
+                            <td class="bold center">$ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!qli.TotalPrice}" /></apex:outputText><apex:outputPanel rendered="{!qli.Experlogix_Avatax__c !=null}" layout="none">T</apex:outputPanel></td>
+                        </tr>
+                    </apex:repeat>
+                    <tr style="height: 15px;">
+                        
+                    </tr>
+                    <tr>
+                        <td style="width: 20%"></td>
+                        <td colspan="3" class="bold right redHeader">
+                            <apex:outputText value="{!g.header}" />Subtotal
+                        </td>
+                        <td colspan="2" class="bold right redHeader">
+                            $ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!g.subtotal}" /></apex:outputText>
+                        </td>
+                    </tr>
+                </apex:repeat>
+            </tbody>
+        </table>
+        
+        <div class="keepTogether" style="padding: 15px">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                <td style="padding-right: 10px" width="70%">
+                    Your Practice will benefit from the knowledge of Covetrus Software Services' Microsoft®-certified technicians, and our status as a
+                    Partner in the Microsoft® Partner Network.
+                    <br /><br />
+                    All prices listed in this proposal are valid for 30 days from the date of the proposal. A contract between Covetrus Software Services,
+                    LLC and the buyer is created when the buyer has signed the contract and Covetrus Software Services, LLC has accepted the
+                    contract at its Oshkosh Office.
+                    <br /><br />
+                    The sales tax amount listed within this Proposal is an estimated value. This amount is calculated based on the taxability of each line
+                    item and the current sales tax jurisdiction rates of the delivery address provided for this Proposal. Sales tax amounts are subject to
+                    adjustments in compliance with any act of government and may change without notice. All errors are subject to correction. If the
+                    Buyer believes the charged sales tax is incorrect, the Buyer must notify Covetrus Software Services, LLC within 14 days of the
+                    invoice date to investigate the issue further and make any adjustments necessary. After 14 days, the sales tax cannot be altered.
+                </td>
+                <td width="30%">
+                    <table border="0" cellspacing="0" cellpadding="6" width="100%">
+                        <tr>
+                            <td class="blueHeader right" style="border: 1px solid #ddd">Total</td>
+                            <td class="right">$ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!Quote.Subtotal}" /></apex:outputText></td>
+                        </tr>
+                        <tr>
+                            <td class="blueHeader right" style="border: 1px solid #ddd">Adjustments</td>
+                            <td class="right bold">($ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!Quote.Subtotal - Quote.TotalPrice}" /></apex:outputText>)</td>
+                        </tr>
+                        <tr>
+                            <td class="blueHeader right" style="border: 1px solid #ddd">Subtotal</td>
+                            <td class="right bold">$ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!Quote.TotalPrice}" /></apex:outputText></td>
+                        </tr>
+                        <tr>
+                            <td class="blueHeader right" style="border: 1px solid #ddd">Sales Tax</td>
+                            <td class="right">$ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!if(isnull(Quote.Tax),0,Quote.Tax)}" /></apex:outputText></td>
+                        </tr>
+                        <tr>
+                            <td class="blueHeader right bold" style="border: 1px solid #ddd">Total</td>
+                            <td class="right bold">$ <apex:outputText value="{0,number,#,##0.00}"><apex:param value="{!Quote.GrandTotal}" /></apex:outputText></td>
+                        </tr>
+                    </table>
+                </td>
+            </table>
+        </div>
+        <br /><br />
+        <div class="keepTogether">
+            <div class="center bold">
+                Covetrus Software Services, LLC ('Covetrus Software Services') Control Number&nbsp;<apex:outputtext value="{!Quote.QuoteNumber}" />
+            </div>
+            <br /><br />
+            Covetrus Software Services, LLC ('Covetrus Software Services')
+            <br />
+            304 Ohio Street, Oshkosh WI 54902-5288 Phone: (855) 478-7920 Fax: (920) 236-7099
+            <br />
+            Covetrus Software Services System Specialist:&nbsp;<apex:outputText value="{!Quote.Owner.Name}" />&nbsp;Email: <apex:outputText value="{!Quote.Owner.Email}" />
+            <br />
+            This Contract is based on all the pages of the quote for ImproMed, LLC.&nbsp;<apex:outputText value="{0,date,MM/dd/yyyy}"><apex:param value="{!Quote.CreatedDate}" /></apex:outputText>&nbsp;with an Covetrus Software Services Control Number of&nbsp;<apex:outputtext value="{!Quote.QuoteNumber}" />
+            <br /><br />
+            <div class="bold title">
+                Exclusions: (Not Applicable to eVetPractice Software Sales)
+            </div>
+            <br /><br />
+            This Contract only covers the items specifically listed. Setup, configuration or training of other hardware, operating system or application software components not listed will not be
+            performed by Covetrus Software Services.
+            <br /><br />
+            The following items are specifically excluded from the listed prices and are the responsibility of Customer and will be billed to the Customer in addition to the total shown.
+            <br />
+            *Shipping and duties (including state and local sales taxes).
+            <br />
+            *Cabling and cable installation.
+            <br /><br />
+            Educator Expenses include but not limited to: Airline Tickets, purchased through the internet, directly from the airline or through the corporate travel agency at the lowest cost that
+            satisfies the educator's schedule, Hotel, booked as per clinic recommendation or at a facility priced below the federal per diem rate, Food, not more than the allowed federal per
+            diem rate for the area in which they are traveling, Car (Educator is limited to a mid sized car costing equal to or less than the Covetrus Software Services, LLC corporate rate.
+            Educators are instructed not to use fueling services and not to purchase extra insurance from the rental companies), Airport Parking (Educators are instructed to use the "out" lot, or
+            the cheapest parking available), reimbursement for the exact amount of tolls paid traveling to the site and away from the site and personal vehicle mileage, billed to the client at the
+            federal per mile rate.
+            <br /><br />
+            <span class="bold">Customer:</span>&nbsp;&nbsp;&nbsp;<apex:outputText value="{!Quote.Account.Name}" />&nbsp;<apex:outputText value="{!Quote.Account.BillingStreet}" />&nbsp;<apex:outputText value="{!Quote.Account.BillingCity}" />,&nbsp;<apex:outputText value="{!Quote.Account.BillingState}" />&nbsp;<apex:outputText value="{!Quote.Account.BillingCountry}" />&nbsp;<apex:outputText value="{!Quote.Account.Phone}" />
+            <br /><br />
+            <span class="bold">Cash Sales......a 40% Down Payment is due before this order can be processed.</span>
+            <br /><br />
+            <span class="bold">Lease Sales.....an approved lease and $1000 down payment is due before this order can be processed.</span>
+            <br /><br />            
+            <div class="bold">
+                Upon delivery of the equipment, the entire balance for the system is due and payable. This agreement is between ImproMed, LLC. and Covetrus
+                Software Services, LLC, and becomes effective on signed acceptance by Covetrus Software Services, LLC
+                <br /><br />
+                Returns: Returns will not be accepted unless authorized by Covetrus Software Services, LLC at its corporate
+                office in Oshkosh, WI. Returnable Items are determined by Covetrus Software Services, LLC and are subject to a 20% re-stocking fee.
+            </div>
+            <br /><br />
+            <div class="bold" style="border: 1px solid black; padding: 5px">
+                The person signing below certifies that he or she is fully authorized to execute this agreement and to bind the Customer hereto. Acceptance of this
+                agreement also includes acceptance and agreement to applicable terms and conditions relating to the products purchased hereunder. Our terms and
+                conditions are available here
+                <br />
+                <a target="_blank" style="text-decoration: none" href="https://softwareservices.covetrus.com/user-agreements/">Terms and Conditions</a>
+                <br />
+                Please read them before accepting this agreement.
+            </div>
+            <br /><br /><br /><br />
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td style="color: #fff" width="40%">{{Sig_es_:signer1:signature}}</td>
+                    <td width="20%"></td>
+                    <td style="color: #fff" width="40%">{{Sig_es_:signer2:signature}}</td>
+                </tr>
+                <tr>
+                    <td width="40%" style="border-top: 1px solid black">
+                        <apex:outputText value="{!Quote.Account.Name}" />
+                        <br />
+                        <apex:outputText value="{!Quote.Account.BillingStreet}" />&nbsp;
+                        <apex:outputText value="{!Quote.Account.BillingCity}" />,&nbsp;
+                        <apex:outputText value="{!Quote.Account.BillingState}" />&nbsp;
+                        <apex:outputText value="{!Quote.Account.BillingPostalCode}" />&nbsp;
+                        <apex:outputText value="{!Quote.Account.BillingCountry}" />
+                    </td>
+                    <td width="20%"></td>
+                    <td width="40%" style="border-top: 1px solid black">
+                        Covetrus Software Services, LLC
+                        <br />
+                        304 Ohio Street Oshkosh, WI 54902
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</apex:page>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__TimeTrade_Routing_Evaluation_Log__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>For Meetings created from TimeTrade Routing Questionnaires, this field will point to the Evaluation Log so that the answers provided by the customer may be viewed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For Meetings created from TimeTrade Routing Questionnaires, this field will point to the Evaluation Log so that the answers provided by the customer may be viewed.</inlineHelpText>
+    <label>TimeTrade Routing Evaluation Log</label>
+    <referenceTo>TimeTrade_SF1__TimeTrade_Workflow_Evaluation__c</referenceTo>
+    <relationshipLabel>TimeTrade Meetings</relationshipLabel>
+    <relationshipName>TimeTrade_Meetings</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

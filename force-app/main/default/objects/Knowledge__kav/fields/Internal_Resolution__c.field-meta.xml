@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Resolution__c</fullName>
+    <description>Used to note the internal resolution description-CCRM-2602</description>
+    <externalId>false</externalId>
+    <label>Internal Resolution</label>
+    <length>32768</length>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

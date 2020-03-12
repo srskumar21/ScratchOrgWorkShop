@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__TimeTrade_Invitation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>TimeTrade Invitation</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>TimeTrade_SF1__Invitation__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Public Meeting</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>TimeTrade_SF1__Invitation__c</referenceTo>
+    <relationshipLabel>TimeTrade Routing Routes</relationshipLabel>
+    <relationshipName>TimeTrade_Schedule_Workflow_Route2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

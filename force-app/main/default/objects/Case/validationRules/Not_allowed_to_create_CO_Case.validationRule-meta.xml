@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_allowed_to_create_CO_Case</fullName>
+    <active>true</active>
+    <errorConditionFormula>$Profile.Name &lt;&gt; &quot;System Administrator&quot; &amp;&amp; CONTAINS($Profile.Name, &#39;GSS&#39;) &amp;&amp; $RecordType.Name=&#39;Customer Operations&#39;</errorConditionFormula>
+    <errorMessage>You are not allowed to create a Customer Operations Case</errorMessage>
+</ValidationRule>

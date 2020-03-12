@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Webex_Admin_Username__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If a single Webex admin user will be used to schedule Webex meetings on behalf of all users, enter the name of this Webex user. The corresponding Webex Admin Password field must also be set.  Leave blank when all Webex users have username/password access.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If a single Webex admin user will be used to schedule Webex meetings on behalf of all users, enter the name of this Webex user. The corresponding Webex Admin Password field must also be set.  Leave blank when all Webex users have username/password access.</inlineHelpText>
+    <label>Webex Admin Username</label>
+    <length>65</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Contact_Type</fullName>
+    <active>true</active>
+    <description>If Preferred Contact Type equals Email, then Email is required on the Contact record.</description>
+    <errorConditionFormula>AND( ISPICKVAL( Preferred_Contact_Type__c , &quot;Email&quot;) , ISBLANK( Email ) )</errorConditionFormula>
+    <errorMessage>Email is required when Preferred Contact Type is &quot;Email&quot;</errorMessage>
+</ValidationRule>

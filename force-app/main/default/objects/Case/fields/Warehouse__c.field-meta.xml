@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warehouse__c</fullName>
+    <externalId>false</externalId>
+    <label>Warehouse</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>002 - Queensland</fullName>
+                <default>false</default>
+                <label>002 - Queensland</label>
+            </value>
+            <value>
+                <fullName>003 - North Queensland</fullName>
+                <default>false</default>
+                <label>003 - North Queensland</label>
+            </value>
+            <value>
+                <fullName>004 - NSW</fullName>
+                <default>false</default>
+                <label>004 - NSW</label>
+            </value>
+            <value>
+                <fullName>008 - Victoria</fullName>
+                <default>false</default>
+                <label>008 - Victoria</label>
+            </value>
+            <value>
+                <fullName>009 - SA</fullName>
+                <default>false</default>
+                <label>009 - SA</label>
+            </value>
+            <value>
+                <fullName>010 - WA</fullName>
+                <default>false</default>
+                <label>010 - WA</label>
+            </value>
+            <value>
+                <fullName>011 - NZ - Auckland</fullName>
+                <default>false</default>
+                <label>011 - NZ - Auckland</label>
+            </value>
+            <value>
+                <fullName>012 - NZ - Palmerston North</fullName>
+                <default>false</default>
+                <label>012 - NZ - Palmerston North</label>
+            </value>
+            <value>
+                <fullName>013 - Christchurch</fullName>
+                <default>false</default>
+                <label>013 - Christchurch</label>
+            </value>
+            <value>
+                <fullName>019 - Provet Tasmania</fullName>
+                <default>false</default>
+                <label>019 - Provet Tasmania</label>
+            </value>
+            <value>
+                <fullName>011 - Auckland</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>011 - Auckland</label>
+            </value>
+            <value>
+                <fullName>012 - Palmerston North</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>012 - Palmerston North</label>
+            </value>
+            <value>
+                <fullName>018 -NT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>018 -NT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

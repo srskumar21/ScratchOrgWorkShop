@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>EMEA_quote_share</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>APAC user to access EMEA quotes</description>
+        <label>EMEA quote share</label>
+        <sharedTo>
+            <group>Rx_Works_Finance_ANZ</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>EMEA</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Owner_Role_Equals_APAC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Owner Role Equals APAC</label>
+        <sharedTo>
+            <group>GSS_APAC_Sales_Operations</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>APAC</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

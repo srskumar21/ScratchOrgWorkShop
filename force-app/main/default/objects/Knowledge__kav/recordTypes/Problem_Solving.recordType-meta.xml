@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_Solving</fullName>
+    <active>true</active>
+    <label>Problem Solving</label>
+    <picklistValues>
+        <picklist>Article_Governance__c</picklist>
+        <values>
+            <fullName>Compliance Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experience Based</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Area__c</picklist>
+        <values>
+            <fullName>API</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ancillary Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Announcements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billable Item Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calendar and Scheduling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaigns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clients and Patients</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Cards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoicing and Account Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab In House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Reference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operating System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Practice Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release Notes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reminders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System and Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Users and Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workstation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>Client Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware and Operating System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIMS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

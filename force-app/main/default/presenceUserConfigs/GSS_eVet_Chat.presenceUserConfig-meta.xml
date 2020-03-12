@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <users>
+            <user>andrew.van-hout@covetrus.com</user>
+            <user>annaliese.favorite@covetrus.com</user>
+            <user>benjamin.fenner@covetrus.com</user>
+            <user>william.stegner@covetrus.com</user>
+            <user>brian.mcfall@covetrus.com</user>
+            <user>erica.price@covetrus.com</user>
+            <user>jeffrey.clemmons@covetrus.com</user>
+            <user>laura.soles@covetrus.com</user>
+            <user>matthew.demasters@covetrus.com</user>
+            <user>michelle.carlson@covetrus.com</user>
+            <user>paul.wasmund@covetrus.com</user>
+            <user>randy.doyle@covetrus.com</user>
+            <user>robert.stepowany@covetrus.com</user>
+            <user>rosa.hernandez@covetrus.com</user>
+            <user>ryan.wolfe@covetrus.com</user>
+            <user>sean.mcgahee@covetrus.com</user>
+        </users>
+    </assignments>
+    <capacity>3</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>true</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>false</enableDisconnectSound>
+    <enableRequestSound>true</enableRequestSound>
+    <label>GSS eVet Chat</label>
+    <presenceStatusOnDecline>Busy</presenceStatusOnDecline>
+</PresenceUserConfig>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AVImark_License_Generation</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>AVImark License Generation</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>https://access.avimark.net/bin/avilp.exe/avilicensescreen?phone={!Account.Phone}</url>
+</WebLink>

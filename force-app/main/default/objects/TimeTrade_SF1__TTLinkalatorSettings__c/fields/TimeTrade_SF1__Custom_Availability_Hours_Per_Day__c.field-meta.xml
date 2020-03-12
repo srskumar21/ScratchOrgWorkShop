@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Custom_Availability_Hours_Per_Day__c</fullName>
+    <defaultValue>8</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enter &quot;8&quot; when not using extended day for custom availability and 13&quot; for extended day.  Alter the appropriate value only if you have worked with TimeTrade Support to change the length of your extended work day.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter &quot;8&quot; when not using extended day for custom availability and 13&quot; for extended day.  Alter the appropriate value only if you have worked with TimeTrade Support to change the length of your extended work day.</inlineHelpText>
+    <label>Custom Availability Hours Per Day</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

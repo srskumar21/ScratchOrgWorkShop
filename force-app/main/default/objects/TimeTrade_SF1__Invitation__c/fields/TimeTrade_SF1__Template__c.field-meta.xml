@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Template__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The template to use for outbound email notifications about the Invitation and scheduled meetings.</inlineHelpText>
+    <label>Email Notification Template</label>
+    <referenceTo>TimeTrade_SF1__Invitation_Template__c</referenceTo>
+    <relationshipLabel>TimeTrade Invitations</relationshipLabel>
+    <relationshipName>Meeting_Invitations</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Hide_Client_Info_on_Meeting_Status__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to hide all client information on the Click-to-Schedule and Meeting Status pages.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to hide all client information on the Click-to-Schedule and Meeting Status pages.</inlineHelpText>
+    <label>Hide Client Info on CTS and Status Pages</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

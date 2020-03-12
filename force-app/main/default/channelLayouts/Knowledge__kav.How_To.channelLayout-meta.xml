@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChannelLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesExcludeFieldLabels>false</doesExcludeFieldLabels>
+    <doesExcludeFiles>false</doesExcludeFiles>
+    <enabledChannels>Email</enabledChannels>
+    <enabledChannels>Social</enabledChannels>
+    <enabledChannels>Chat</enabledChannels>
+    <enabledChannels>Messaging</enabledChannels>
+    <label>How-To</label>
+    <layoutItems>
+        <field>Content__c</field>
+    </layoutItems>
+    <recordType>How-To</recordType>
+</ChannelLayout>

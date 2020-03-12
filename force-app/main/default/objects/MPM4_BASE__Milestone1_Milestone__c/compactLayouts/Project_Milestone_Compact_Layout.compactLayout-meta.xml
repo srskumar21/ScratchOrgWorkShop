@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Milestone_Compact_Layout</fullName>
+    <fields>MPM4_BASE__Project__c</fields>
+    <fields>OwnerId</fields>
+    <fields>MPM4_BASE__Total_Open_Tasks__c</fields>
+    <fields>MPM4_BASE__Total_Late_Tasks__c</fields>
+    <fields>MPM4_BASE__Total_Blocked_Tasks__c</fields>
+    <label>Project Milestone Compact Layout</label>
+</CompactLayout>

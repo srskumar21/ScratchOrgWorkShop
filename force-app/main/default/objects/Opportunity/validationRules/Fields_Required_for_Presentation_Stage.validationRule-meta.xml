@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_Required_for_Presentation_Stage</fullName>
+    <active>true</active>
+    <description>Required Fields Number of Vets, Current PIMS,  Timeline for Decision,when changing stage from &#39;Qualification&#39; to &#39;Discovery&#39; CCRM-41. Updated via CCRM-2128 for stage name change.Updated for CCRM-4014.</description>
+    <errorConditionFormula>AND ( $RecordType.Name = &quot;Technology&quot;,
+ISPICKVAL(StageName, &quot;Presentation&quot;), OR(CONTAINS($UserRole.Name, &quot;GPM&quot;),CONTAINS($UserRole.Name, &quot;GSS&quot;)) ,
+(ISBLANK( Number_of_Vets__c ) ||
+ISBLANK( Current_PIMS__c ) ||
+ISBLANK( Timeline_for_Decision__c )
+))</errorConditionFormula>
+    <errorMessage>In order to move out of Stage “Discovery”, you must fill out the following fields: Number of Vets, Current PIMS, Timeline for Decision</errorMessage>
+</ValidationRule>

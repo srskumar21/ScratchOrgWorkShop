@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TCC_O2Q__Sync_Custom_Fields</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Sync Custom Fields</masterLabel>
+    <openType>noSidebar</openType>
+    <page>TCC_O2Q__Sync_Opty2Quote_Page</page>
+    <protected>false</protected>
+</WebLink>

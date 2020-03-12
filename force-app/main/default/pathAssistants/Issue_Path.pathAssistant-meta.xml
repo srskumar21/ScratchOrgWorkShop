@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Issue__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Issue Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Issue_Resolution__c</fieldNames>
+        <picklistValueName>Closed - Duplicate</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Issue_Resolution__c</fieldNames>
+        <picklistValueName>Closed - Expected</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Issue_Resolution__c</fieldNames>
+        <picklistValueName>Closed - Resolved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Issue_Type__c</fieldNames>
+        <fieldNames>Priority__c</fieldNames>
+        <fieldNames>Reporter__c</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

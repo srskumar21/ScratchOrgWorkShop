@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>triggers a flow that create an account update request record for approval</description>
+    <flowDefinition>Request_Account_Update_process</flowDefinition>
+    <label>Request Account Update</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

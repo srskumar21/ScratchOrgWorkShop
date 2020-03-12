@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Class__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Class</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Family</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adapter</fullName>
+                <default>false</default>
+                <label>Adapter</label>
+            </value>
+            <value>
+                <fullName>AVImark</fullName>
+                <default>false</default>
+                <label>AVImark</label>
+            </value>
+            <value>
+                <fullName>Backup System</fullName>
+                <default>false</default>
+                <label>Backup System</label>
+            </value>
+            <value>
+                <fullName>Battery Backup</fullName>
+                <default>false</default>
+                <label>Battery Backup</label>
+            </value>
+            <value>
+                <fullName>Cable</fullName>
+                <default>false</default>
+                <label>Cable</label>
+            </value>
+            <value>
+                <fullName>CC Processing</fullName>
+                <default>false</default>
+                <label>CC Processing</label>
+            </value>
+            <value>
+                <fullName>Component</fullName>
+                <default>false</default>
+                <label>Component</label>
+            </value>
+            <value>
+                <fullName>Computer</fullName>
+                <default>false</default>
+                <label>Computer</label>
+            </value>
+            <value>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+                <label>Conversion</label>
+            </value>
+            <value>
+                <fullName>Cubex</fullName>
+                <default>false</default>
+                <label>Cubex</label>
+            </value>
+            <value>
+                <fullName>Data Backup</fullName>
+                <default>false</default>
+                <label>Data Backup</label>
+            </value>
+            <value>
+                <fullName>Desktop</fullName>
+                <default>false</default>
+                <label>Desktop</label>
+            </value>
+            <value>
+                <fullName>DICOM</fullName>
+                <default>false</default>
+                <label>DICOM</label>
+            </value>
+            <value>
+                <fullName>Dragonfly</fullName>
+                <default>false</default>
+                <label>Dragonfly</label>
+            </value>
+            <value>
+                <fullName>DVD Burner</fullName>
+                <default>false</default>
+                <label>DVD Burner</label>
+            </value>
+            <value>
+                <fullName>DVM</fullName>
+                <default>false</default>
+                <label>DVM</label>
+            </value>
+            <value>
+                <fullName>eVetPractice</fullName>
+                <default>false</default>
+                <label>eVetPractice</label>
+            </value>
+            <value>
+                <fullName>Hard Drive</fullName>
+                <default>false</default>
+                <label>Hard Drive</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>HealthyPet</fullName>
+                <default>false</default>
+                <label>HealthyPet</label>
+            </value>
+            <value>
+                <fullName>IDSS</fullName>
+                <default>false</default>
+                <label>IDSS</label>
+            </value>
+            <value>
+                <fullName>Impromed</fullName>
+                <default>false</default>
+                <label>Impromed</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>IVLS</fullName>
+                <default>false</default>
+                <label>IVLS</label>
+            </value>
+            <value>
+                <fullName>Keyboard</fullName>
+                <default>false</default>
+                <label>Keyboard</label>
+            </value>
+            <value>
+                <fullName>Lab</fullName>
+                <default>false</default>
+                <label>Lab</label>
+            </value>
+            <value>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+                <label>Laptop</label>
+            </value>
+            <value>
+                <fullName>License</fullName>
+                <default>false</default>
+                <label>License</label>
+            </value>
+            <value>
+                <fullName>Memory</fullName>
+                <default>false</default>
+                <label>Memory</label>
+            </value>
+            <value>
+                <fullName>Midmark</fullName>
+                <default>false</default>
+                <label>Midmark</label>
+            </value>
+            <value>
+                <fullName>Migration</fullName>
+                <default>false</default>
+                <label>Migration</label>
+            </value>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>Monitor</fullName>
+                <default>false</default>
+                <label>Monitor</label>
+            </value>
+            <value>
+                <fullName>Mount</fullName>
+                <default>false</default>
+                <label>Mount</label>
+            </value>
+            <value>
+                <fullName>OS Support</fullName>
+                <default>false</default>
+                <label>OS Support</label>
+            </value>
+            <value>
+                <fullName>Paper</fullName>
+                <default>false</default>
+                <label>Paper</label>
+            </value>
+            <value>
+                <fullName>Patient Recapture</fullName>
+                <default>false</default>
+                <label>Patient Recapture</label>
+            </value>
+            <value>
+                <fullName>Peripheral</fullName>
+                <default>false</default>
+                <label>Peripheral</label>
+            </value>
+            <value>
+                <fullName>Pet ID</fullName>
+                <default>false</default>
+                <label>Pet ID</label>
+            </value>
+            <value>
+                <fullName>Port</fullName>
+                <default>false</default>
+                <label>Port</label>
+            </value>
+            <value>
+                <fullName>Power Supply</fullName>
+                <default>false</default>
+                <label>Power Supply</label>
+            </value>
+            <value>
+                <fullName>Printer</fullName>
+                <default>false</default>
+                <label>Printer</label>
+            </value>
+            <value>
+                <fullName>Rapport</fullName>
+                <default>false</default>
+                <label>Rapport</label>
+            </value>
+            <value>
+                <fullName>Reminder Cards</fullName>
+                <default>false</default>
+                <label>Reminder Cards</label>
+            </value>
+            <value>
+                <fullName>RFID</fullName>
+                <default>false</default>
+                <label>RFID</label>
+            </value>
+            <value>
+                <fullName>Router</fullName>
+                <default>false</default>
+                <label>Router</label>
+            </value>
+            <value>
+                <fullName>SATA Adapter</fullName>
+                <default>false</default>
+                <label>SATA Adapter</label>
+            </value>
+            <value>
+                <fullName>Scanner</fullName>
+                <default>false</default>
+                <label>Scanner</label>
+            </value>
+            <value>
+                <fullName>Scil</fullName>
+                <default>false</default>
+                <label>Scil</label>
+            </value>
+            <value>
+                <fullName>Serial Port</fullName>
+                <default>false</default>
+                <label>Serial Port</label>
+            </value>
+            <value>
+                <fullName>Server</fullName>
+                <default>false</default>
+                <label>Server</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Signature Pad</fullName>
+                <default>false</default>
+                <label>Signature Pad</label>
+            </value>
+            <value>
+                <fullName>Social Engagement</fullName>
+                <default>false</default>
+                <label>Social Engagement</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Sparkline</fullName>
+                <default>false</default>
+                <label>Sparkline</label>
+            </value>
+            <value>
+                <fullName>Switch</fullName>
+                <default>false</default>
+                <label>Switch</label>
+            </value>
+            <value>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+                <label>Tablet</label>
+            </value>
+            <value>
+                <fullName>Terminal</fullName>
+                <default>false</default>
+                <label>Terminal</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>USB Card</fullName>
+                <default>false</default>
+                <label>USB Card</label>
+            </value>
+            <value>
+                <fullName>VetStreet</fullName>
+                <default>false</default>
+                <label>VetStreet</label>
+            </value>
+            <value>
+                <fullName>VPR</fullName>
+                <default>false</default>
+                <label>VPR</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Adapter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Backup System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Battery Backup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Cable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Component</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Computer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Data Backup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Desktop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>DVD Burner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Hard Drive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Keyboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Laptop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>License</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Memory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>Migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Misc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Monitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Mount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Peripheral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Port</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Power Supply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Printer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>RFID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Router</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>SATA Adapter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Scanner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Serial Port</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Server</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Signature Pad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <controllingFieldValue>Covetrus Software</controllingFieldValue>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Switch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Tablet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>USB Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>CC Processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Cubex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>DICOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Dragonfly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>IDSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>IVLS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Midmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Paper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Patient Recapture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Scil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Sparkline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>VPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Lab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>OS Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Professional Services</controllingFieldValue>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>Conversion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Professional Services</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>HealthyPet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>Pet ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>Rapport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>Reminder Cards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>Social Engagement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>VetStreet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Practice Performance</controllingFieldValue>
+            <valueName>Website</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

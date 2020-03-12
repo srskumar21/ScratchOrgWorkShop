@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StellaConnect__All1</fullName>
+    <columns>NAME</columns>
+    <columns>StellaConnect__Case_Lookup__c</columns>
+    <columns>StellaConnect__Channel__c</columns>
+    <columns>StellaConnect__Brand__c</columns>
+    <columns>StellaConnect__Stella_Connect_Email__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>StellaConnect__Do_Not_Send__c</columns>
+    <columns>StellaConnect__Error_Message__c</columns>
+    <columns>StellaConnect__Originating_Record_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>StellaConnect__Brand__c</field>
+        <operation>equals</operation>
+        <value>gssna</value>
+    </filters>
+    <filters>
+        <field>StellaConnect__Stella_Connect_Email__c</field>
+        <operation>contains</operation>
+        <value>helen</value>
+    </filters>
+    <label>GSS NA</label>
+</ListView>

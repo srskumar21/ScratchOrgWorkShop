@@ -1,0 +1,79 @@
+<template>
+        <article class="slds-card">
+            <div class="slds-card__header slds-grid">
+                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-standard-contact" title="contact">
+                        <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#contact"></use>
+                        </svg>
+                        <span class="slds-assistive-text">contact</span>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <h2 class="slds-card__header-title">
+                            <span>Opportunities</span>
+                        </h2>
+                    </div>
+                </header>
+            </div>
+            <div class="slds-card__body">
+                <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Name">Name</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Email">Type</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Phone">Close Date</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Role">Amount</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Role">Stage</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Role">Related Contact</div>
+                    </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={opportunities} for:item="opportunity">
+                        <tr class="slds-hint-parent" key={id}>
+                        <th scope="row">
+                            <div class="slds-truncate" title={opportunity.name}>
+                                {opportunity.name}
+                            </div>
+                        </th>
+                        <td role="gridcell">
+                            <div class="slds-truncate" title={opportunity.type}>
+                                {opportunity.type}
+                            </div>
+                        </td>
+                        <td role="gridcell">
+                            <div class="slds-truncate" title={opportunity.closeDate}>
+                                {opportunity.closeDate}
+                            </div>
+                        </td>
+                        <td role="gridcell">
+                            <div class="slds-truncate" title={opportunity.amount>
+                                <lightning-formatted-number value={opportunity.amount} format-style="currency" currency-code="USD"></lightning-formatted-number>
+                            </div>
+                        </td>
+                        <td role="gridcell">
+                            <div class="slds-truncate" title={opportunity.stageName}>{opportunity.stageName}</div>
+                        </td>
+                        <td role="gridcell">
+                            <div class="slds-truncate" title={opportunity.contactFullName}>{opportunity.contactFullName}</div>
+                        </td>
+                        </tr>
+                    </template>
+                </tbody>
+                </table>
+            </div>
+        </article>
+    </template>

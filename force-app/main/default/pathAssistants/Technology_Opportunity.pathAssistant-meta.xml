@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Technology Opportunity</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Date_Paperwork_Sent__c</fieldNames>
+        <fieldNames>Date_Paperwork_Received__c</fieldNames>
+        <picklistValueName>Contract/Quote</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Number_of_Vets__c</fieldNames>
+        <fieldNames>Current_PIMS__c</fieldNames>
+        <fieldNames>Timeline_for_Decision__c</fieldNames>
+        <picklistValueName>Discovery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Demo_Completed_Date__c</fieldNames>
+        <fieldNames>Decision_Maker_Present__c</fieldNames>
+        <fieldNames>Decision_Maker_Agreement__c</fieldNames>
+        <picklistValueName>Presentation</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Technology</recordTypeName>
+</PathAssistant>

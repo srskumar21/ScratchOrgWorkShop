@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RxWorks_Hardware_APAC_Implementation_Task_Template</fullName>
+    <columns>NAME</columns>
+    <filterScope>Queue</filterScope>
+    <label>RxWorks Hardware APAC</label>
+    <queue>RxWorks_Hardware_APAC</queue>
+    <sharedTo>
+        <group>RxWorks_Hardware_APAC</group>
+    </sharedTo>
+</ListView>

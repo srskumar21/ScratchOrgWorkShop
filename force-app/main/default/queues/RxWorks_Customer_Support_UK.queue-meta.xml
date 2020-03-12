@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>none@none.com</email>
+    <name>RxWorks Customer Support - UK</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>GSS_APAC_Implementation_Agents</publicGroup>
+            <publicGroup>RxWorks_Customer_Support_UK</publicGroup>
+        </publicGroups>
+        <users>
+            <user>alvar.damen@covetrus.com</user>
+            <user>andrew.robertson@covetrus.com</user>
+            <user>callum.ball@covetrus.com</user>
+            <user>christopher.leonard@covetrus.com</user>
+            <user>dago.ruijs@covetrus.com</user>
+            <user>david.tate@covetrus.com</user>
+            <user>edward.marshall@covetrus.com</user>
+            <user>fiona.dawe@covetrus.com</user>
+            <user>graham.hood@covetrus.com</user>
+            <user>hannah.hampson@covetrus.com</user>
+            <user>jim.andrew@covetrus.com</user>
+            <user>james.collins@covetrus.com</user>
+            <user>joan.todd@covetrus.com</user>
+            <user>kevin.wickings@covetrus.com</user>
+            <user>laszlo.novak@covetrus.com</user>
+            <user>leonard.lawson@covetrus.com</user>
+            <user>mark.petters@covetrus.com</user>
+            <user>matt.tigwell@covetrus.com</user>
+            <user>michael.coates@covetrus.com</user>
+            <user>mohsen.ahari@covetrus.com</user>
+            <user>neil.porter@covetrus.com</user>
+            <user>niall.mcalpine@covetrus.com</user>
+            <user>nick.mcgill@covetrus.com</user>
+            <user>peta.couper@covetrus.com</user>
+            <user>rachel.stevenson@covetrus.com</user>
+            <user>rhoda.whitton@covetrus.com</user>
+            <user>roddy.mackenzie@covetrus.com</user>
+            <user>sarah.charman@covetrus.com</user>
+            <user>stephen.dawson@covetrus.com</user>
+            <user>tom.davies@covetrus.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

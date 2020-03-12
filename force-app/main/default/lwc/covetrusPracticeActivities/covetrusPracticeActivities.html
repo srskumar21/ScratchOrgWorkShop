@@ -1,0 +1,83 @@
+<template>
+        <article class="slds-card">
+            <div class="slds-card__header slds-grid">
+                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-standard-contact" title="contact">
+                        <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#contact"></use>
+                        </svg>
+                        <span class="slds-assistive-text">Activities</span>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <h2 class="slds-card__header-title">
+                            <span>Activities</span>
+                        </h2>
+                    </div>
+                </header>
+            </div>
+            <div class="slds-card__body">
+                <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Name">Date</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Email">Owner</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Phone">Type</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Role">Status</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Role">Title</div>
+                        </th>
+                        <th class="slds-size_1-of-12" scope="col">
+                            <div class="slds-truncate" title="Role"></div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={activities} for:item="activity">
+                        <tr class="slds-hint-parent" key={id}>
+                            <th scope="row">
+                                <div class="slds-truncate" title={activity.activityDate}>
+                                    {activity.activityDate}
+                                </div>
+                            </th>
+                            <td role="gridcell">
+                                <div class="slds-truncate" title={activity.ownerFullName}>
+                                    {activity.ownerFullName}
+                                </div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate" title={activity.type}>
+                                    {activity.type}
+                                </div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate" title={activity.status}>
+                                    {activity.status}
+                                </div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate" title={activity.title}>
+                                    {activity.title}
+                                </div>
+                            </td>
+                            <td role="gridcell">
+                                <c-covetrus-practice-activity-detail
+                                    activity={activity}
+                                ></c-covetrus-practice-activity-detail>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+                </table>
+            </div>
+        </article>
+    </template>

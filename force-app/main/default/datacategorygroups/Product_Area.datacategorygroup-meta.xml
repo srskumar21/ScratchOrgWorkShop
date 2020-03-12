@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <label>VisionVPM Base Program</label>
+            <name>VisionVPM_Base_Program</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionVPM Modules</label>
+            <name>VisionVPM_Modules</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionVPM Hardware</label>
+            <name>VisionVPM_Hardware</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionVPM Integrations</label>
+            <name>VisionVPM_Integrations</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionVPM Upgrades</label>
+            <name>VisionVPM_Upgrades</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VivaVPM Hardware</label>
+            <name>VivaVPM_Hardware</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Server Administration</label>
+            <name>Server_Administration</name>
+        </dataCategory>
+        <dataCategory>
+            <label>RxWorks Base Program</label>
+            <name>RxWorks_Base_Program</name>
+        </dataCategory>
+        <dataCategory>
+            <label>RxWorks Modules</label>
+            <name>RxWorks_Modules</name>
+        </dataCategory>
+        <dataCategory>
+            <label>RxWorks Upgrade</label>
+            <name>RxWorks_Upgrade</name>
+        </dataCategory>
+        <dataCategory>
+            <label>RxWorks Integration</label>
+            <name>RxWorks_Integration</name>
+        </dataCategory>
+        <dataCategory>
+            <label>RxWorks Hardware</label>
+            <name>RxWorks_Hardware</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Maintenance</label>
+            <name>Maintenance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Workflow</label>
+            <name>Workflow</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Product Area</label>
+    <objectUsage/>
+</DataCategoryGroup>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Governance_Task</fullName>
+    <active>true</active>
+    <description>Work Item type used by the Data governance team to process Keystore Items</description>
+    <label>Data Governance Task</label>
+    <picklistValues>
+        <picklist>Closed_No_Action_Reason__c</picklist>
+        <values>
+            <fullName>holder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>place</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_Category__c</picklist>
+        <values>
+            <fullName>Ancillary Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New PIMS - AviMark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New PIMS - ImproMed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New PIMS - eVet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Key Mapping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Record</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Delete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Update</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed - Enterprise Account Updated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Linked to Enterprise Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - New Enterprise Account Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - No Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Data Governance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Work_Item_Origin__c</picklist>
+        <values>
+            <fullName>CNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSVS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VFC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__WebEx_Request__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If you need to customize the request to WebEx for creating WebEx meetings, specify a value in this field. Care must be taken that the value is syntactically correct. Refer to TimeTrade documentation as needed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If you need to customize the request to WebEx for creating WebEx meetings, specify a value in this field. Care must be taken that the value is syntactically correct. Refer to TimeTrade documentation as needed.</inlineHelpText>
+    <label>WebEx Request</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>40</visibleLines>
+</CustomField>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>&#39;Account Type&#39; is dependent on &#39;Account Segment&#39;</inlineHelpText>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Account_Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equine Practice</fullName>
+                <default>false</default>
+                <label>Equine Practice</label>
+            </value>
+            <value>
+                <fullName>Large Animal Practice</fullName>
+                <default>false</default>
+                <label>Large Animal Practice</label>
+            </value>
+            <value>
+                <fullName>Mixed Practice/Pred Lg Animal</fullName>
+                <default>false</default>
+                <label>Mixed Practice/Pred Lg Animal</label>
+            </value>
+            <value>
+                <fullName>Mixed Practice 50/50</fullName>
+                <default>false</default>
+                <label>Mixed Practice 50/50</label>
+            </value>
+            <value>
+                <fullName>Mixed Practice/Pred Sml Animal</fullName>
+                <default>false</default>
+                <label>Mixed Practice/Pred Sml Animal</label>
+            </value>
+            <value>
+                <fullName>Small Animal Practice</fullName>
+                <default>false</default>
+                <label>Small Animal Practice</label>
+            </value>
+            <value>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+                <label>Specialty</label>
+            </value>
+            <value>
+                <fullName>Exotics</fullName>
+                <default>false</default>
+                <label>Exotics</label>
+            </value>
+            <value>
+                <fullName>Teaching Institution (with vet hospital)</fullName>
+                <default>false</default>
+                <label>Teaching Institution (with vet hospital)</label>
+            </value>
+            <value>
+                <fullName>Humane Society/Shelter</fullName>
+                <default>false</default>
+                <label>Humane Society/Shelter</label>
+            </value>
+            <value>
+                <fullName>Research Institution (very specific products)</fullName>
+                <default>false</default>
+                <label>Research Institution (very specific products)</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Local Government</fullName>
+                <default>false</default>
+                <label>Local Government</label>
+            </value>
+            <value>
+                <fullName>State Government</fullName>
+                <default>false</default>
+                <label>State Government</label>
+            </value>
+            <value>
+                <fullName>Federal Government</fullName>
+                <default>false</default>
+                <label>Federal Government</label>
+            </value>
+            <value>
+                <fullName>Pet Services</fullName>
+                <default>false</default>
+                <label>Pet Services</label>
+            </value>
+            <value>
+                <fullName>Vendors</fullName>
+                <default>false</default>
+                <label>Vendors</label>
+            </value>
+            <value>
+                <fullName>Wholesaler/Distributor</fullName>
+                <default>false</default>
+                <label>Wholesaler/Distributor</label>
+            </value>
+            <value>
+                <fullName>Distributors</fullName>
+                <default>false</default>
+                <label>Distributors</label>
+            </value>
+            <value>
+                <fullName>Pet Store</fullName>
+                <default>false</default>
+                <label>Pet Store</label>
+            </value>
+            <value>
+                <fullName>Grocery/Retail</fullName>
+                <default>false</default>
+                <label>Grocery/Retail</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Zoo Facility</fullName>
+                <default>false</default>
+                <label>Zoo Facility</label>
+            </value>
+            <value>
+                <fullName>Farm/Ranch Ship To</fullName>
+                <default>false</default>
+                <label>Farm/Ranch Ship To</label>
+            </value>
+            <value>
+                <fullName>AgriCharity</fullName>
+                <default>false</default>
+                <label>AgriCharity</label>
+            </value>
+            <value>
+                <fullName>Boarding Facility</fullName>
+                <default>false</default>
+                <label>Boarding Facility</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Export</fullName>
+                <default>false</default>
+                <label>Export</label>
+            </value>
+            <value>
+                <fullName>Personal Account</fullName>
+                <default>false</default>
+                <label>Personal Account</label>
+            </value>
+            <value>
+                <fullName>Regional Manager</fullName>
+                <default>false</default>
+                <label>Regional Manager</label>
+            </value>
+            <value>
+                <fullName>Lease Account</fullName>
+                <default>false</default>
+                <label>Lease Account</label>
+            </value>
+            <value>
+                <fullName>Buying Group (GPO)</fullName>
+                <default>false</default>
+                <label>Buying Group (GPO)</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Trade Show account</fullName>
+                <default>false</default>
+                <label>Trade Show account</label>
+            </value>
+            <value>
+                <fullName>cultural Merchant</fullName>
+                <default>false</default>
+                <label>Cultural Merchant</label>
+            </value>
+            <value>
+                <fullName>Breeder</fullName>
+                <default>false</default>
+                <label>Breeder</label>
+            </value>
+            <value>
+                <fullName>Agricultural Merchant</fullName>
+                <default>false</default>
+                <label>Agricultural Merchant</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Equine Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Large Animal Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Mixed Practice/Pred Lg Animal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Mixed Practice 50/50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Mixed Practice/Pred Sml Animal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Small Animal Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Specialty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <valueName>Exotics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <controllingFieldValue>Educational Institutions</controllingFieldValue>
+            <valueName>Teaching Institution (with vet hospital)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <controllingFieldValue>Independent Vet</controllingFieldValue>
+            <controllingFieldValue>Single Site</controllingFieldValue>
+            <controllingFieldValue>Emerging group.</controllingFieldValue>
+            <controllingFieldValue>Mobile</controllingFieldValue>
+            <controllingFieldValue>Animal Institutions</controllingFieldValue>
+            <valueName>Humane Society/Shelter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institutions</controllingFieldValue>
+            <valueName>Research Institution (very specific products)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Military</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Local Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>State Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Federal Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wholesale/Retail</controllingFieldValue>
+            <valueName>Pet Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wholesale/Retail</controllingFieldValue>
+            <valueName>Vendors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wholesale/Retail</controllingFieldValue>
+            <valueName>Wholesaler/Distributor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wholesale/Retail</controllingFieldValue>
+            <valueName>Distributors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wholesale/Retail</controllingFieldValue>
+            <valueName>Pet Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wholesale/Retail</controllingFieldValue>
+            <valueName>Grocery/Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wholesale/Retail</controllingFieldValue>
+            <valueName>Pharmacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animal Institutions</controllingFieldValue>
+            <valueName>Zoo Facility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animal Institutions</controllingFieldValue>
+            <valueName>Farm/Ranch Ship To</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animal Institutions</controllingFieldValue>
+            <valueName>Boarding Facility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animal Institutions</controllingFieldValue>
+            <valueName>Breeder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animal Institutions</controllingFieldValue>
+            <valueName>Agricultural Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Animal Institutions</controllingFieldValue>
+            <valueName>Charity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Employee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Personal Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Regional Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Lease Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Buying Group (GPO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Internet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Trade Show account</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advantage_DVM_Manager_Unassigned_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Product__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Queue</filterScope>
+    <label>Advantage/DVM Manager Unassigned</label>
+    <queue>Advantage_DVM_Manager_Unassigned</queue>
+    <sharedTo>
+        <group>Advantage_DVM_Manager_Unassigned</group>
+        <role>GSS_NA_Admin</role>
+        <role>NA_Leader</role>
+        <roleAndSubordinates>GSS_NA_Sales_Leader</roleAndSubordinates>
+    </sharedTo>
+</ListView>

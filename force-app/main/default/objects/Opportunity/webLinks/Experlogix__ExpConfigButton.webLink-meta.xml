@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Experlogix__ExpConfigButton</fullName>
+    <availability>online</availability>
+    <description>Button to launch Experlogix CPQ</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Configure</masterLabel>
+    <openType>sidebar</openType>
+    <page>Experlogix__Experlogix_CPQ_ConfigureOpty</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Check_if_controlling_field_is_blank</fullName>
+    <active>false</active>
+    <description>Check if the controlling field exists is true and the field is blank</description>
+    <errorConditionFormula>AND( TimeTrade_SF1__Controlling_Field_Exists__c ==true, ISBLANK(TimeTrade_SF1__Controlling_Field_Criteria__c ))</errorConditionFormula>
+    <errorMessage>Please populate the Controlling field criteria.</errorMessage>
+</ValidationRule>

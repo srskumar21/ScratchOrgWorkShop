@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provet_WA_Service_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>Reason__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Provet WA - Service</label>
+    <queue>Provet_WA_Service</queue>
+    <sharedTo>
+        <group>Provet_WA_Service</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Line_of_Businesses__c</fullName>
+    <externalId>false</externalId>
+    <label>Associated Line of Businesses</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GSS APAC</fullName>
+                <default>false</default>
+                <label>GSS APAC</label>
+            </value>
+            <value>
+                <fullName>GSS Rapport APAC</fullName>
+                <default>false</default>
+                <label>GSS Rapport APAC</label>
+            </value>
+            <value>
+                <fullName>GSS Robovet EMEA</fullName>
+                <default>false</default>
+                <label>GSS Robovet EMEA</label>
+            </value>
+            <value>
+                <fullName>GSS RxWorks APAC</fullName>
+                <default>false</default>
+                <label>GSS RxWorks APAC</label>
+            </value>
+            <value>
+                <fullName>GSS RxWorks EMEA</fullName>
+                <default>false</default>
+                <label>GSS RxWorks EMEA</label>
+            </value>
+            <value>
+                <fullName>GSS VisionVPM APAC</fullName>
+                <default>false</default>
+                <label>GSS VisionVPM APAC</label>
+            </value>
+            <value>
+                <fullName>Provet</fullName>
+                <default>false</default>
+                <label>Provet</label>
+            </value>
+            <value>
+                <fullName>GSS  NA</fullName>
+                <default>false</default>
+                <label>GSS  NA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

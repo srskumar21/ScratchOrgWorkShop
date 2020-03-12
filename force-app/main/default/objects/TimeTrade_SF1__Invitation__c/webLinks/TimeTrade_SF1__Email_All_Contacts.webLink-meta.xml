@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Email_All_Contacts</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>false</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>250</height>
+    <isResizable>false</isResizable>
+    <linkType>page</linkType>
+    <masterLabel>Send Invitation</masterLabel>
+    <openType>newWindow</openType>
+    <page>TimeTrade_SF1__SendLinkEmail</page>
+    <position>topLeft</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <width>450</width>
+</WebLink>

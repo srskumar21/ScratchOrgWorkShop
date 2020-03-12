@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Hide_Organizer_Notes_on_Meeting_Status__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to hide the Organizer Notes section on the Meeting Status page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to hide the Organizer Notes section on the Meeting Status page.</inlineHelpText>
+    <label>Hide Organizer Notes on Meeting Status</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

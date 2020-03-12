@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Candidate_can_share_Articles_internally</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;, 
+ISPICKVAL($User.KCS_Role__c, &quot;Candidate&quot;), 
+IsVisibleInCsp= TRUE)</errorConditionFormula>
+    <errorMessage>You do not have the necessary level of access to make this Article visible to Customers</errorMessage>
+</ValidationRule>

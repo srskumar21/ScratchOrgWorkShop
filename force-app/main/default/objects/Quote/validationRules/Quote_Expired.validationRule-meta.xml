@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Expired</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(PRIORVALUE(Status), &quot;Expired&quot;)</errorConditionFormula>
+    <errorDisplayField>ExpirationDate</errorDisplayField>
+    <errorMessage>This Quote has expired. A new Quote will need to be created.</errorMessage>
+</ValidationRule>

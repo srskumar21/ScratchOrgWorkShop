@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description_required_for_No_Action</fullName>
+    <active>true</active>
+    <description>Ensures the description field is populated if the No Action reason is chosen.</description>
+    <errorConditionFormula>ISPICKVAL(Status__c, &quot;Closed - No Action&quot;) &amp;&amp;
+ ISBLANK(Description__c)</errorConditionFormula>
+    <errorMessage>Please fill out the description field in order to close the work item as No Action</errorMessage>
+</ValidationRule>

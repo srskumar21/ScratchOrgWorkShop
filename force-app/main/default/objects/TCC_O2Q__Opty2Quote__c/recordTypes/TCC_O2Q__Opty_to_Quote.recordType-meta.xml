@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TCC_O2Q__Opty_to_Quote</fullName>
+    <active>true</active>
+    <description>Record type to copy custom fields from Opportunity to Quote</description>
+    <label>Opty to Quote</label>
+    <picklistValues>
+        <picklist>TCC_O2Q__Sync__c</picklist>
+        <values>
+            <fullName>Don%27t Sync</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

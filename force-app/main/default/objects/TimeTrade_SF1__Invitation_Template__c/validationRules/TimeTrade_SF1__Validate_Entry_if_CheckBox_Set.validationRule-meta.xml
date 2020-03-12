@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Validate_Entry_if_CheckBox_Set</fullName>
+    <active>true</active>
+    <description>Validates that a template unique name is specified if enabled</description>
+    <errorConditionFormula>OR(
+TimeTrade_SF1__Send_Confirmation_Email__c  &amp;&amp; ISBLANK( TimeTrade_SF1__Confirmation_Template_Unique_Name__c),
+ TimeTrade_SF1__Send_Modification_Email__c   &amp;&amp; ISBLANK(  TimeTrade_SF1__Modification_Template_Unique_Name__c) , 
+TimeTrade_SF1__Send_Reminder_Email__c   &amp;&amp; ISBLANK(  TimeTrade_SF1__Reminder_Template_Unique_Name__c) ,
+ TimeTrade_SF1__Send_Completion_Email__c   &amp;&amp; ISBLANK(  TimeTrade_SF1__Completion_Template_Unique_Name__c) ,
+ TimeTrade_SF1__Send_Cancelation_Email__c   &amp;&amp; ISBLANK( TimeTrade_SF1__Cancel_Template_Unique_Name__c) ,
+ TimeTrade_SF1__Send_NoShow_Email__c   &amp;&amp; ISBLANK( TimeTrade_SF1__NoShow_Template_Unique_Name__c )
+
+)</errorConditionFormula>
+    <errorMessage>Template Unique Name must be specified if the notification is enabled</errorMessage>
+</ValidationRule>

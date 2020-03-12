@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Address_Currency_and_Phone</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$RecordType.Name = &#39;Covetrus Account&#39;,
+OR(
+AND(
+$Profile.Name = &#39;GSS Sales - NA&#39;,
+$Permission.Sales_Operations_Admin
+),
+$Profile.Name = &#39;System Administrator&#39;
+),
+ISNEW(),
+OR(
+ISBLANK(BillingStreet),
+ISBLANK(Phone),
+ISBLANK(BillingCity) ,
+ISBLANK(BillingCountry) ,
+ISBLANK(BillingPostalCode) ,
+ISBLANK(BillingState),
+ISBLANK(ShippingCity),
+ISBLANK(ShippingCountry),
+ISBLANK(ShippingPostalCode),
+ISBLANK(ShippingState),
+ISBLANK(ShippingStreet),
+ISBLANK( TEXT(CurrencyIsoCode))
+)
+)</errorConditionFormula>
+    <errorMessage>Billing Address, Shipping Address, Curreny and Phone are the required fields while creating Covetrus Account</errorMessage>
+</ValidationRule>

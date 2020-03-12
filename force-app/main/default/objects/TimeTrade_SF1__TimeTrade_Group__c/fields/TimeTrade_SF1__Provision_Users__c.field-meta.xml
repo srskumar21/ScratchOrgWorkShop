@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Provision_Users__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, indicates that users have been provisions in Time Trade.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked, indicates that users have been provisions in Time Trade.</inlineHelpText>
+    <label>Provision Users</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

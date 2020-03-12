@@ -1,0 +1,23 @@
+<template>
+    <template if:false={dataLoading}>
+        <lightning-tabset variant="vertical">
+            <template for:each={practiceList} for:item="practice">
+                <lightning-tab label={practice.systemOfRecord} key={practice.id}>
+                    <c-covetrus-practice
+                        practice={practice}
+                        oncovetrusshowactivitydetail={showActivityDetail}
+                    ></c-covetrus-practice>
+                </lightning-tab>
+            </template>
+        </lightning-tabset>
+        <c-covetrus-practice-modal></c-covetrus-practice-modal>
+    </template>
+    <template if:true={dataLoading}>
+        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+    </template>
+    <template if:true={error}>
+        <c-covetrus-customer-error
+            error={error}
+        ></c-covetrus-customer-error>
+    </template>
+</template>

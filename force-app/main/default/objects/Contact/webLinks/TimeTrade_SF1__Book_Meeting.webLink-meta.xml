@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Book_Meeting</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Book Meeting</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(&#39;/apex/TimeTrade_SF1__CreateTimeTradeInvitationNew&#39;,null,[&#39;relId&#39;=Contact.Id,&#39;booknow&#39;=&#39;true&#39;],true)}</url>
+</WebLink>

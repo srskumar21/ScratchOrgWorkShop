@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Zoom_Refresh_Token__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Do not put this field on any page layouts or alter the field&#39;s value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do not put this field on any page layouts or alter the field&#39;s value.</inlineHelpText>
+    <label>Zoom Refresh Token</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

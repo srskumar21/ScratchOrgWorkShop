@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>cgpm-salesforceadmin@covetrus.com</contactEmail>
+    <label>GPM Alteryx</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:3000/oauthcallback.html</callbackUrl>
+        <consumerKey>3MVG9M6Iz6p_Vt2ySX3eTVn.6gDTNi6DZK1K8HtNna9YPQa3T457lR3KRi0jZ9AMXujQUZMQ9c06ZBrV3GBU1</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

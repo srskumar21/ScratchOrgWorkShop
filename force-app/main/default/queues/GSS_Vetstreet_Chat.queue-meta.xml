@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>GSS Vetstreet Chat</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>GSS_NA_Vetstreet_Support</publicGroup>
+        </publicGroups>
+        <users>
+            <user>andrew.bartelt@covetrus.com</user>
+            <user>charles.boyer@covetrus.com</user>
+            <user>dave.jennings@covetrus.com</user>
+            <user>lisa.borrego@covetrus.com</user>
+            <user>melissa.matos@covetrus.com</user>
+            <user>rebekka.reischl@covetrus.com</user>
+            <user>sara.pettus@covetrus.com</user>
+            <user>tammy.henson@covetrus.com</user>
+            <user>tyra.saunders@covetrus.com</user>
+            <user>vincent.clubb@covetrus.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>GSS_Vetstreet_Chat</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

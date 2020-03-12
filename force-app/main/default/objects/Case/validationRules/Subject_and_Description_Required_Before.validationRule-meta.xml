@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_and_Description_Required_Before</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+ISPICKVAL(Status,&#39;Closed&#39; ), 
+OR (
+ISBLANK( Subject)),
+ISBLANK(Description)
+)</errorConditionFormula>
+    <errorMessage>Please provide a subject and description for this case before closing</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>accessnow__License_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>isblank(accessnow__License_Required__c) &amp;&amp;  !ISPICKVAL(accessnow__Type__c, &#39;Role&#39;)</errorConditionFormula>
+    <errorMessage>License is required.</errorMessage>
+</ValidationRule>

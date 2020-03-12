@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Closed</fullName>
+    <active>true</active>
+    <description>This validation will show error message if the stage picklist value is Closed Lost and Closed Reason field is blank</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( StageName , &#39;Closed Lost&#39; ) ,
+ISPICKVAL( Closed_Reason__c , &quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>Closed_Reason__c</errorDisplayField>
+    <errorMessage>You must enter a Closed Reason when setting the Stage to Closed Lost</errorMessage>
+</ValidationRule>

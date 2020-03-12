@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_a_alert_to_Assignee</fullName>
+        <description>Send a alert to Assignee</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Assigned_To__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Send_a_mail_to_assignee</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_a_mail_to_User_once_incident_is_closed</fullName>
+        <description>Send a mail to User once incident is closed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Assigned_To__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Supervisor__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>User_Name__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>noreply.gss.anz@covetrus.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_email_to_Supervisor</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_a_mail_to_user</fullName>
+        <description>Send a mail to user</description>
+        <protected>false</protected>
+        <recipients>
+            <field>User_Name__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Send_a_mail_to_user_for_Created_Incident</template>
+    </alerts>
+    <rules>
+        <fullName>Send a mail to assignee</fullName>
+        <actions>
+            <name>Send_a_alert_to_Assignee</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Error_Logger__c.Assigned_To__c</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send mail to user</fullName>
+        <actions>
+            <name>Send_a_mail_to_user</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Error_Logger__c.User_ID__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Error_Logger__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </criteriaItems>
+        <description>Send mail to user when incident is created</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Frontline</fullName>
+        <default>false</default>
+        <label>Frontline</label>
+    </customValue>
+    <customValue>
+        <fullName>Seresto</fullName>
+        <default>false</default>
+        <label>Seresto</label>
+    </customValue>
+    <masterLabel>Brands- Companion F/T Prevent</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

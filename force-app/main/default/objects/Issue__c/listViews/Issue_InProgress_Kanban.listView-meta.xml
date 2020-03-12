@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_InProgress_Kanban</fullName>
+    <columns>Business_Priority__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>Issue_Type__c</columns>
+    <columns>Environment__c</columns>
+    <columns>Status__c</columns>
+    <columns>Defect_Type__c</columns>
+    <columns>Issue_Description__c</columns>
+    <columns>Duplicate_Of__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Issue_Type__c</field>
+        <operation>equals</operation>
+        <value>Defect</value>
+    </filters>
+    <label>Issue InProgress (Kanban)</label>
+</ListView>

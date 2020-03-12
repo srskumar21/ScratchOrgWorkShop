@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Priority__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ ISPICKVAL(Impact__c, &quot;High&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;High&quot;), 1,
+IF(ISPICKVAL(Impact__c, &quot;High&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;Medium&quot;), 2,
+IF(ISPICKVAL(Impact__c, &quot;Medium&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;High&quot;), 2,
+IF(ISPICKVAL(Impact__c, &quot;High&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;Low&quot;), 3,
+IF(ISPICKVAL(Impact__c, &quot;Medium&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;Medium&quot;), 3,
+IF(ISPICKVAL(Impact__c, &quot;Low&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;High&quot;), 3,
+IF(ISPICKVAL(Impact__c, &quot;Medium&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;Low&quot;), 4,
+IF(ISPICKVAL(Impact__c, &quot;Low&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;Medium&quot;), 4,
+IF(ISPICKVAL(Impact__c, &quot;Low&quot;) &amp;&amp; ISPICKVAL(Urgency__c, &quot;Low&quot;), 5,6
+
+)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Business Priority</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

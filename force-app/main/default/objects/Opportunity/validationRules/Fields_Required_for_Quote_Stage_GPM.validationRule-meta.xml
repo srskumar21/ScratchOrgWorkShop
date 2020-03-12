@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_Required_for_Quote_Stage_GPM</fullName>
+    <active>true</active>
+    <description>Cloned &quot;Fields_Required_for_Quote_Stage&quot; for CCRM-3413 for GPM.</description>
+    <errorConditionFormula>AND ( $RecordType.Name = &quot;Technology&quot;,
+ISPICKVAL(StageName,&quot;Negotiation&quot;), CONTAINS($UserRole.Name, &quot;GPM&quot;) 
+,(ISBLANK( Amount ) || 
+ISBLANK( CloseDate ) || 
+ISBLANK( Demo_Completed_Date__c )  || 
+Decision_Maker_Present__c = FALSE || 
+Decision_Maker_Agreement__c  = FALSE ||
+ISBLANK(Date_Paperwork_Sent__c) ||
+ISBLANK(Date_Paperwork_Received__c) 
+))</errorConditionFormula>
+    <errorMessage>In order to move out of Stage “Presentation”, you must fill out the following fields: Amount, Demo Completed Date, Decision Maker Present, Decision Maker Agreement, Date Paperwork Sent,Date Paperwork received .</errorMessage>
+</ValidationRule>

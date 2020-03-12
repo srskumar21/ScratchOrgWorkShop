@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Selected_Route__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This shows the routing route which routes the evaluation log record to the most apt invitation</description>
+    <externalId>false</externalId>
+    <label>Selected Route</label>
+    <referenceTo>TimeTrade_SF1__TimeTrade_Workflow_Route__c</referenceTo>
+    <relationshipLabel>TimeTrade Routing Evaluation Logs</relationshipLabel>
+    <relationshipName>TimeTrade_Routing_Evaluation_Logs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

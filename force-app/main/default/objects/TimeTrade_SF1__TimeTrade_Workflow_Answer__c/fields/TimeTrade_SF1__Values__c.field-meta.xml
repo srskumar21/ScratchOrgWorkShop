@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Values__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A set of newline-delimited values that qualify as matching answers for this route for a criterium.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A single value or a list of values.  One value per line.</inlineHelpText>
+    <label>Values</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

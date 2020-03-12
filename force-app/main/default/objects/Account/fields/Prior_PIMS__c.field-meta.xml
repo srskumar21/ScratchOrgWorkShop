@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_PIMS__c</fullName>
+    <description>The PIMS being used prior to the current PIMS.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The PIMS being used prior to the current PIMS.</inlineHelpText>
+    <label>Prior PIMS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>PIMS</valueSetName>
+    </valueSet>
+</CustomField>

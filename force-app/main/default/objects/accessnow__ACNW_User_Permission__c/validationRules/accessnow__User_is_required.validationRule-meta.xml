@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>accessnow__User_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>isblank(accessnow__User__c)</errorConditionFormula>
+    <errorDisplayField>accessnow__User__c</errorDisplayField>
+    <errorMessage>User is required</errorMessage>
+</ValidationRule>

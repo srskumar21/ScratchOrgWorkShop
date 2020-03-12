@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__EmailTemplate_Image_Height__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the desired height in pixels for the image specified by Email Template Image URL.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the desired height in pixels for the image specified by Email Template Image URL.</inlineHelpText>
+    <label>Email Template Image Height</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

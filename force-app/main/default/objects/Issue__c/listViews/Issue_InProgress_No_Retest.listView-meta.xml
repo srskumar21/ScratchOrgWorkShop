@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_InProgress_No_Retest</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Business_Priority__c</columns>
+    <columns>Defect_Type__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Reporter__c</columns>
+    <columns>Issue_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Issue_Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Reopen,New,Need Clarification,In Progress</value>
+    </filters>
+    <filters>
+        <field>Issue_Type__c</field>
+        <operation>equals</operation>
+        <value>Defect</value>
+    </filters>
+    <filters>
+        <field>Defect_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Data</value>
+    </filters>
+    <filters>
+        <field>OWNER.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>Jhurd,nmart,mkemp,Bhanu,tcordell</value>
+    </filters>
+    <label>Issue InProgress - No Retest</label>
+</ListView>

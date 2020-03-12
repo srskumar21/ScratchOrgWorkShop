@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cosequin Equine</fullName>
+        <default>false</default>
+        <label>Cosequin Equine</label>
+    </customValue>
+    <customValue>
+        <fullName>Ulcergard</fullName>
+        <default>false</default>
+        <label>Ulcergard</label>
+    </customValue>
+    <customValue>
+        <fullName>All Other OTC Products</fullName>
+        <default>false</default>
+        <label>All Other OTC Products</label>
+    </customValue>
+    <masterLabel>Brands- Equine OTC Others</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

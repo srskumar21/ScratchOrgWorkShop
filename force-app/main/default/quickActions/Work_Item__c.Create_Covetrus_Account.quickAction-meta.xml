@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Creates a new Covetrus Account based on the associated Legacy Account record information</description>
+    <flowDefinition>GOV_Request_Account_Update_Process</flowDefinition>
+    <label>Create Covetrus Account</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Migration_Conversion_Key__c</fullName>
+    <description>The foreign key to the object on the integrated system</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Represents the ID of the record on the integrated system</inlineHelpText>
+    <label>Data Migration Conversion Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

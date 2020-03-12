@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GSS_EMEA_Finance_Error_Logger</fullName>
+    <filterScope>Queue</filterScope>
+    <label>GSS EMEA Finance</label>
+    <queue>GSS_EMEA_Finance</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

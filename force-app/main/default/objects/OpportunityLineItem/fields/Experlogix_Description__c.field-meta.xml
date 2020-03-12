@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Experlogix_Description__c</fullName>
+    <description>Field used to map the product description to from Experlogix</description>
+    <externalId>false</externalId>
+    <label>Experlogix Description</label>
+    <length>3000</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

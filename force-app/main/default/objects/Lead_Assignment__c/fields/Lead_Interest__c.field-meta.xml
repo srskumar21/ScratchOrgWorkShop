@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Interest__c</fullName>
+    <description>Used to map to the Lead Interest of the Lead</description>
+    <externalId>false</externalId>
+    <label>Lead Interest</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advantage+ Software</fullName>
+                <default>false</default>
+                <label>Advantage+ Software</label>
+            </value>
+            <value>
+                <fullName>AVImark Software</fullName>
+                <default>false</default>
+                <label>AVImark Software</label>
+            </value>
+            <value>
+                <fullName>eVetPractice</fullName>
+                <default>false</default>
+                <label>eVetPractice</label>
+            </value>
+            <value>
+                <fullName>ImproMed Equine Software</fullName>
+                <default>false</default>
+                <label>ImproMed Equine Software</label>
+            </value>
+            <value>
+                <fullName>ImproMed Software</fullName>
+                <default>false</default>
+                <label>ImproMed Software</label>
+            </value>
+            <value>
+                <fullName>Practice Management Software</fullName>
+                <default>false</default>
+                <label>Practice Management Software</label>
+            </value>
+            <value>
+                <fullName>Credit Card Processing</fullName>
+                <default>false</default>
+                <label>Credit Card Processing</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Sparkline</fullName>
+                <default>false</default>
+                <label>Sparkline</label>
+            </value>
+            <value>
+                <fullName>Rapport</fullName>
+                <default>false</default>
+                <label>Rapport</label>
+            </value>
+            <value>
+                <fullName>Reminder Cards</fullName>
+                <default>false</default>
+                <label>Reminder Cards</label>
+            </value>
+            <value>
+                <fullName>Vetstreet</fullName>
+                <default>false</default>
+                <label>Vetstreet</label>
+            </value>
+            <value>
+                <fullName>Websites</fullName>
+                <default>false</default>
+                <label>Websites</label>
+            </value>
+            <value>
+                <fullName>Client Recapture</fullName>
+                <default>false</default>
+                <label>Client Recapture</label>
+            </value>
+            <value>
+                <fullName>Data Backup</fullName>
+                <default>false</default>
+                <label>Data Backup</label>
+            </value>
+            <value>
+                <fullName>Pet ID</fullName>
+                <default>false</default>
+                <label>Pet ID</label>
+            </value>
+            <value>
+                <fullName>Social Management</fullName>
+                <default>false</default>
+                <label>Social Management</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Online Academy</fullName>
+                <default>false</default>
+                <label>Online Academy</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>RxWorks</fullName>
+                <default>false</default>
+                <label>RxWorks</label>
+            </value>
+            <value>
+                <fullName>VisionVPM</fullName>
+                <default>false</default>
+                <label>VisionVPM</label>
+            </value>
+            <value>
+                <fullName>RoboVet</fullName>
+                <default>false</default>
+                <label>RoboVet</label>
+            </value>
+            <value>
+                <fullName>Ventana</fullName>
+                <default>false</default>
+                <label>Ventana</label>
+            </value>
+            <value>
+                <fullName>Healthy Pet Magazine</fullName>
+                <default>false</default>
+                <label>Healthy Pet Magazine</label>
+            </value>
+            <value>
+                <fullName>Healthy Pet Magazine Seasonals</fullName>
+                <default>false</default>
+                <label>Healthy Pet Magazine Seasonals</label>
+            </value>
+            <value>
+                <fullName>AVImark</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AVImark</label>
+            </value>
+            <value>
+                <fullName>ImproMed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ImproMed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

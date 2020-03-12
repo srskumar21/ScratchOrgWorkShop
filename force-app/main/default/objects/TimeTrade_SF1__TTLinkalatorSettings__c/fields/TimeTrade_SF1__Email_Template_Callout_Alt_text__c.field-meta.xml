@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Email_Template_Callout_Alt_text__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter alternative text for the header image for invitation email.  This is normally your company name.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter alternative text for the header image for invitation email.  This is normally your company name.</inlineHelpText>
+    <label>Email Template Callout Image Alt Text</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

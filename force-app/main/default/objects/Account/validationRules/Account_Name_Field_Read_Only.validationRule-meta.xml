@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Name_Field_Read_Only</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+				OR(
+				$Profile.Name = &quot;GSS Sales - NA&quot;,
+				$Profile.Name = &quot;GSS Support - NA&quot;
+				),
+    ISCHANGED( Name ), 
+    NOT($Profile.Name = &quot;System Administrator&quot;),
+				NOT( $Permission.Sales_Operations_Admin )
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to change the &quot;Account Name&quot;</errorMessage>
+</ValidationRule>

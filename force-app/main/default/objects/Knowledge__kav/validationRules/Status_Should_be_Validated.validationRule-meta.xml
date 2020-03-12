@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Should_be_Validated</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,   
+IsVisibleInPkb= TRUE,
+OR(ISPICKVAL(ValidationStatus, &quot;Work in Progress&quot;),
+ISPICKVAL(ValidationStatus, &quot;Not Validated&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>If this Article is Visible to the Public Knowledge Base, the Status cannot be Work in Progress or Not Validated</errorMessage>
+</ValidationRule>

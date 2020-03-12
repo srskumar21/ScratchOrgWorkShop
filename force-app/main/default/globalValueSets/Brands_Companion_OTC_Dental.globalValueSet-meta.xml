@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Greenies</fullName>
+        <default>false</default>
+        <label>Greenies</label>
+    </customValue>
+    <customValue>
+        <fullName>Oravet</fullName>
+        <default>false</default>
+        <label>Oravet</label>
+    </customValue>
+    <masterLabel>Brands- Dental</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>No Supply</fullName>
+                <default>false</default>
+                <label>No Supply</label>
+            </value>
+            <value>
+                <fullName>Legal Action</fullName>
+                <default>false</default>
+                <label>Legal Action</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Qualifying</fullName>
+                <default>false</default>
+                <label>Qualifying</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Suspended Enrollment</fullName>
+                <default>false</default>
+                <label>Suspended Enrollment</label>
+            </value>
+            <value>
+                <fullName>In Discussion</fullName>
+                <default>false</default>
+                <label>In Discussion</label>
+            </value>
+            <value>
+                <fullName>Enrolling</fullName>
+                <default>false</default>
+                <label>Enrolling</label>
+            </value>
+            <value>
+                <fullName>Deployed</fullName>
+                <default>false</default>
+                <label>Deployed</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Using Competitor</fullName>
+                <default>false</default>
+                <label>Using Competitor</label>
+            </value>
+            <value>
+                <fullName>Closed for Business</fullName>
+                <default>false</default>
+                <label>Closed for Business</label>
+            </value>
+            <value>
+                <fullName>Invalid Business</fullName>
+                <default>false</default>
+                <label>Invalid Business</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Project</fullName>
+    <availability>online</availability>
+    <description>button used to launch a new project from the work item page</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Launch Project</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>/apex/MPM4_BASE__Milestone1_Import_Project?&amp;Id={!Work_Item__c.Id}</url>
+</WebLink>

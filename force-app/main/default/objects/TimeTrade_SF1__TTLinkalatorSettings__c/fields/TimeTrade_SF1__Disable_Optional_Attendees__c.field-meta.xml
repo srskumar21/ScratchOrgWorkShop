@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Disable_Optional_Attendees__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you wish to disable the optional attendee feature so that all internal Users will always be required and the user will not have to option to change internal attendees to optional.</inlineHelpText>
+    <label>Disable Optional Attendees</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

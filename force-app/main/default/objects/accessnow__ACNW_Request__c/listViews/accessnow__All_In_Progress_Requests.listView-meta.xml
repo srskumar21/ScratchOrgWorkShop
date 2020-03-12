@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>accessnow__All_In_Progress_Requests</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>accessnow__Reference_Number__c</columns>
+    <columns>accessnow__Reason_for_Escalation__c</columns>
+    <columns>accessnow__Status__c</columns>
+    <columns>accessnow__Requested_Start_Time__c</columns>
+    <columns>accessnow__Actual_Start_Time__c</columns>
+    <columns>accessnow__Requested_End_Time__c</columns>
+    <columns>accessnow__Actual_End_Time__c</columns>
+    <columns>accessnow__Approved_On__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>accessnow__Status__c</field>
+        <operation>equals</operation>
+        <value>In Progress</value>
+    </filters>
+    <label>All In Progress Requests</label>
+</ListView>

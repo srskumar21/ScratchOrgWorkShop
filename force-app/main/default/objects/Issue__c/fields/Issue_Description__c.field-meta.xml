@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Description__c</fullName>
+    <description>Details of the Issue to help find a solution</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to describe the issue. You can also copy a paste a screenshot into this field to help with resolution of the issue.</inlineHelpText>
+    <label>Issue Description</label>
+    <length>32768</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

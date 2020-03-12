@@ -1,0 +1,38 @@
+<template>
+    <lightning-card title="Check Lead Status" icon-name="standard:actions_and_buttons">
+        <template if:true={showGetStarted}>
+            <lightning-layout>
+                <lightning-layout-item padding="around-small" size="12">
+                    <div class="page-section page-header">
+                        Receive an e-mail regarding ALL of your submitted leads
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+            <lightning-button-group class="slds-p-vertical_small slds-p-horizontal_small">
+                <lightning-button label="Get Started" variant="brand" onclick={handleGetStarted}></lightning-button>
+            </lightning-button-group>
+        </template>
+        <template if:true={showCreate}>
+            <form>
+            <lightning-layout multiple-rows="true">
+                <lightning-layout-item padding="around-small" size="12">
+                    <div class="page-section page-header">
+                        <h2>Please enter a Covetrus email and you will be e-mailed your leads and their statuses</h2>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-input label="Email" name="famEmail" value={famEmail} onchange={handleChange} required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+            </lightning-layout>
+            </form>
+            <lightning-button-group class="slds-p-vertical_small slds-p-horizontal_small">
+                <lightning-button label="Submit" variant="brand" onclick={handleSubmit}></lightning-button>
+            </lightning-button-group>
+        </template>
+        <template if:true={showSubmitted}>
+            <div class="slds-p-around_medium">
+                Your request for lead status has been submitted.  You will receive your e-mail shortly.  
+            </div>
+        </template>
+    </lightning-card>
+</template>

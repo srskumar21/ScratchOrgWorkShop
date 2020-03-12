@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stella_Region__c</fullName>
+    <externalId>false</externalId>
+    <label>Stella Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GSS APAC</fullName>
+                <default>false</default>
+                <label>GSS APAC</label>
+            </value>
+            <value>
+                <fullName>GSS EMEA</fullName>
+                <default>false</default>
+                <label>GSS EMEA</label>
+            </value>
+            <value>
+                <fullName>GSS US</fullName>
+                <default>false</default>
+                <label>GSS NA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

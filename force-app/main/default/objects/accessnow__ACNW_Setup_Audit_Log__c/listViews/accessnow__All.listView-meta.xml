@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>accessnow__All</fullName>
+    <columns>NAME</columns>
+    <columns>accessnow__Activity__c</columns>
+    <columns>accessnow__Date__c</columns>
+    <columns>accessnow__Delegate_User__c</columns>
+    <columns>accessnow__Request__c</columns>
+    <columns>accessnow__Section__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

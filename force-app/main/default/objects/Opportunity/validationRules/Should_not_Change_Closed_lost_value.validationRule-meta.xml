@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Should_not_Change_Closed_lost_value</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(StageName),
+			ISPICKVAL(
+					PRIORVALUE(StageName), &quot;Closed Lost&quot;)
+					,
+		OR( $Profile.Name =&quot;GSS Sales - NA&quot;,
+			$Profile.Name =&quot;GSS Support - NA&quot;) 
+			)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Once an Opportunity has been Closed Lost, you cannot re-open it. A new Opportunity should be created.</errorMessage>
+</ValidationRule>

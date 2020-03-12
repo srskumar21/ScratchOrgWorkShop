@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Set_to_Approved</fullName>
+        <field>accessnow__Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Set to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_to_Pending_Approval</fullName>
+        <field>accessnow__Status__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Set to Pending Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_to_Rejected</fullName>
+        <field>accessnow__Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Set to Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>accessnow__Approve_Request</fullName>
+        <field>accessnow__Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approve Request</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>accessnow__Auto Approve Request</fullName>
+        <actions>
+            <name>accessnow__Approve_Request</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>accessnow__ACNW_Request__c.accessnow__Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Approval</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

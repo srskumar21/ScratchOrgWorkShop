@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Experlogix__All</fullName>
+    <columns>OBJECT_ID</columns>
+    <columns>Experlogix__ObjectId__c</columns>
+    <columns>NAME</columns>
+    <columns>Experlogix__ChunkCount__c</columns>
+    <columns>Experlogix__ConfigCount__c</columns>
+    <columns>Experlogix__TotalLength__c</columns>
+    <columns>Experlogix__RevisionNumber__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Experlogix__ObjectType__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

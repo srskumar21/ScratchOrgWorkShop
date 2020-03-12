@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StellaConnect__Request_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of Stella Connect Request record</inlineHelpText>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial Feedback</fullName>
+                <default>true</default>
+                <label>Initial Feedback</label>
+            </value>
+            <value>
+                <fullName>Service Recovery</fullName>
+                <default>false</default>
+                <label>Service Recovery</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

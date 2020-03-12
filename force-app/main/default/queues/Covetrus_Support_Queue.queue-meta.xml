@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Covetrus Support Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Covetrus_Chat_Agent</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueRoutingConfig>Case_Omni_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

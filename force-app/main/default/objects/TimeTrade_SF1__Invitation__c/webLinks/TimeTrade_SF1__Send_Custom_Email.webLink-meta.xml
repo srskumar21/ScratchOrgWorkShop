@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Send_Custom_Email</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send Custom Email</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>javascript:location.href=&#39;mailto:{!TimeTrade_SF1__Invitation__c.TimeTrade_SF1__Attendee_Email__c}?SUBJECT={!TimeTrade_SF1__Invitation__c.Name}&amp;BODY=%0A%0A{!URLENCODE(TimeTrade_SF1__Invitation__c.TimeTrade_SF1__Scheduling_Link__c)}&#39;;</url>
+</WebLink>

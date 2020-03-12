@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>GSS NA - Training</name>
+    <queueMembers>
+        <roles>
+            <role>GSS_NA_Implementation_Manager</role>
+        </roles>
+        <users>
+            <user>alison.chitwood@covetrus.com</user>
+            <user>andrew.edwards@covetrus.com</user>
+            <user>christa.gavitt@covetrus.com</user>
+            <user>darcy.edwards@covetrus.com</user>
+            <user>debbie.serra@covetrus.com</user>
+            <user>emily.willey@covetrus.com</user>
+            <user>jessica.krueger@covetrus.com</user>
+            <user>john.reischl@covetrus.com</user>
+            <user>john.romberg@covetrus.com</user>
+            <user>joseph.larsen@covetrus.com</user>
+            <user>lisa.blom@covetrus.com</user>
+            <user>maggie.howes@covetrus.com</user>
+            <user>megan.vanrheenen@covetrus.com</user>
+            <user>robin.brown@covetrus.com</user>
+            <user>anthony.klabunde@covetrus.com</user>
+            <user>yee.lee@covetrus.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>MPM4_BASE__Milestone1_Milestone__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Work_Item__c</sobjectType>
+    </queueSobject>
+</Queue>

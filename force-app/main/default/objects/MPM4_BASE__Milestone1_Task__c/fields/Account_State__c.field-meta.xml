@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_State__c</fullName>
+    <description>Displays Account State info on task --- for use in list views so reps can easily determine time zone for follow up timing</description>
+    <externalId>false</externalId>
+    <formula>MPM4_BASE__Project_Lookup__r.MPM4_BASE__Account__r.BillingState</formula>
+    <label>Account State</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

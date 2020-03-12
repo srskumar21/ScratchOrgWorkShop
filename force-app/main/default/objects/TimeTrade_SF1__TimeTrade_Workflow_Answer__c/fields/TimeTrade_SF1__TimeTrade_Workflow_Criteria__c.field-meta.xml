@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__TimeTrade_Workflow_Criteria__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>TimeTrade Routing Question</label>
+    <referenceTo>TimeTrade_SF1__TimeTrade_Workflow_Criteria__c</referenceTo>
+    <relationshipLabel>TimeTrade Routing Answers</relationshipLabel>
+    <relationshipName>TimeTrade_Schedule_Workflow_Answers</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

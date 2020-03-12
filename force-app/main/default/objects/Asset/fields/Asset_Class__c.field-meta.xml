@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Class__c</fullName>
+    <description>The class of asset. These will be dependent on the ASSET_CATEGORY.-CCRM-83</description>
+    <externalId>false</externalId>
+    <label>Asset Class</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd Party HW Configuration</fullName>
+                <default>false</default>
+                <label>3rd Party HW Configuration</label>
+            </value>
+            <value>
+                <fullName>Abaxis</fullName>
+                <default>false</default>
+                <label>Abaxis</label>
+            </value>
+            <value>
+                <fullName>Advanced Imaging</fullName>
+                <default>false</default>
+                <label>Advanced Imaging</label>
+            </value>
+            <value>
+                <fullName>Automated Message Manager</fullName>
+                <default>false</default>
+                <label>Automated Message Manager</label>
+            </value>
+            <value>
+                <fullName>Automation Service</fullName>
+                <default>false</default>
+                <label>Automation Service</label>
+            </value>
+            <value>
+                <fullName>AVImark</fullName>
+                <default>false</default>
+                <label>AVImark</label>
+            </value>
+            <value>
+                <fullName>Backup</fullName>
+                <default>false</default>
+                <label>Backup</label>
+            </value>
+            <value>
+                <fullName>Boarding Module</fullName>
+                <default>false</default>
+                <label>Boarding Module</label>
+            </value>
+            <value>
+                <fullName>Central Database</fullName>
+                <default>false</default>
+                <label>Central Database</label>
+            </value>
+            <value>
+                <fullName>Cenvet</fullName>
+                <default>false</default>
+                <label>Cenvet</label>
+            </value>
+            <value>
+                <fullName>Cenvet Integration</fullName>
+                <default>false</default>
+                <label>Cenvet Integration</label>
+            </value>
+            <value>
+                <fullName>Consulting Services</fullName>
+                <default>false</default>
+                <label>Consulting Services</label>
+            </value>
+            <value>
+                <fullName>Cubex</fullName>
+                <default>false</default>
+                <label>Cubex</label>
+            </value>
+            <value>
+                <fullName>Data Access Module</fullName>
+                <default>false</default>
+                <label>Data Access Module</label>
+            </value>
+            <value>
+                <fullName>Database Services</fullName>
+                <default>false</default>
+                <label>Database Services</label>
+            </value>
+            <value>
+                <fullName>Desktop</fullName>
+                <default>false</default>
+                <label>Desktop</label>
+            </value>
+            <value>
+                <fullName>DICOM</fullName>
+                <default>false</default>
+                <label>DICOM</label>
+            </value>
+            <value>
+                <fullName>Dragonfly</fullName>
+                <default>false</default>
+                <label>Dragonfly</label>
+            </value>
+            <value>
+                <fullName>DVM</fullName>
+                <default>false</default>
+                <label>DVM</label>
+            </value>
+            <value>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+                <label>eCommerce</label>
+            </value>
+            <value>
+                <fullName>EFTPOS Integration</fullName>
+                <default>false</default>
+                <label>EFTPOS Integration</label>
+            </value>
+            <value>
+                <fullName>eVetPractice</fullName>
+                <default>false</default>
+                <label>eVetPractice</label>
+            </value>
+            <value>
+                <fullName>Google Calendar</fullName>
+                <default>false</default>
+                <label>Google Calendar</label>
+            </value>
+            <value>
+                <fullName>Health Care Manager</fullName>
+                <default>false</default>
+                <label>Health Care Manager</label>
+            </value>
+            <value>
+                <fullName>HealthyPet</fullName>
+                <default>false</default>
+                <label>HealthyPet</label>
+            </value>
+            <value>
+                <fullName>Idexx</fullName>
+                <default>false</default>
+                <label>Idexx</label>
+            </value>
+            <value>
+                <fullName>Impromed</fullName>
+                <default>false</default>
+                <label>Impromed</label>
+            </value>
+            <value>
+                <fullName>Impromed Equine</fullName>
+                <default>false</default>
+                <label>Impromed Equine</label>
+            </value>
+            <value>
+                <fullName>iRecall</fullName>
+                <default>false</default>
+                <label>iRecall</label>
+            </value>
+            <value>
+                <fullName>IVLS</fullName>
+                <default>false</default>
+                <label>IVLS</label>
+            </value>
+            <value>
+                <fullName>Lab Downloader</fullName>
+                <default>false</default>
+                <label>Lab Downloader</label>
+            </value>
+            <value>
+                <fullName>Lab Manager</fullName>
+                <default>false</default>
+                <label>Lab Manager</label>
+            </value>
+            <value>
+                <fullName>Lab Reader (IVLS)</fullName>
+                <default>false</default>
+                <label>Lab Reader (IVLS)</label>
+            </value>
+            <value>
+                <fullName>Lab Wizard</fullName>
+                <default>false</default>
+                <label>Lab Wizard</label>
+            </value>
+            <value>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+                <label>Laptop</label>
+            </value>
+            <value>
+                <fullName>Laptop Transfer</fullName>
+                <default>false</default>
+                <label>Laptop Transfer</label>
+            </value>
+            <value>
+                <fullName>Lyppards</fullName>
+                <default>false</default>
+                <label>Lyppards</label>
+            </value>
+            <value>
+                <fullName>Lyppards Integration</fullName>
+                <default>false</default>
+                <label>Lyppards Integration</label>
+            </value>
+            <value>
+                <fullName>Midmark</fullName>
+                <default>false</default>
+                <label>Midmark</label>
+            </value>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>Modeus</fullName>
+                <default>false</default>
+                <label>Modeus</label>
+            </value>
+            <value>
+                <fullName>Monitor</fullName>
+                <default>false</default>
+                <label>Monitor</label>
+            </value>
+            <value>
+                <fullName>P2P Diagnostic Support</fullName>
+                <default>false</default>
+                <label>P2P Diagnostic Support</label>
+            </value>
+            <value>
+                <fullName>Patient Recapture</fullName>
+                <default>false</default>
+                <label>Patient Recapture</label>
+            </value>
+            <value>
+                <fullName>Pay per Incident Support</fullName>
+                <default>false</default>
+                <label>Pay per Incident Support</label>
+            </value>
+            <value>
+                <fullName>Peripheral</fullName>
+                <default>false</default>
+                <label>Peripheral</label>
+            </value>
+            <value>
+                <fullName>Pet ID</fullName>
+                <default>false</default>
+                <label>Pet ID</label>
+            </value>
+            <value>
+                <fullName>Pet Insurance</fullName>
+                <default>false</default>
+                <label>Pet Insurance</label>
+            </value>
+            <value>
+                <fullName>PetSure</fullName>
+                <default>false</default>
+                <label>PetSure</label>
+            </value>
+            <value>
+                <fullName>Pet Yeti</fullName>
+                <default>false</default>
+                <label>Pet Yeti</label>
+            </value>
+            <value>
+                <fullName>Pet Yeti Integration</fullName>
+                <default>false</default>
+                <label>Pet Yeti Integration</label>
+            </value>
+            <value>
+                <fullName>Printer</fullName>
+                <default>false</default>
+                <label>Printer</label>
+            </value>
+            <value>
+                <fullName>Provet Connect</fullName>
+                <default>false</default>
+                <label>Provet Connect</label>
+            </value>
+            <value>
+                <fullName>Provet Connect Integration</fullName>
+                <default>false</default>
+                <label>Provet Connect Integration</label>
+            </value>
+            <value>
+                <fullName>Raport Website</fullName>
+                <default>false</default>
+                <label>Raport Website</label>
+            </value>
+            <value>
+                <fullName>Rapport</fullName>
+                <default>false</default>
+                <label>Rapport</label>
+            </value>
+            <value>
+                <fullName>Rapport Messaging</fullName>
+                <default>false</default>
+                <label>Rapport Messaging</label>
+            </value>
+            <value>
+                <fullName>Rapport OLS</fullName>
+                <default>false</default>
+                <label>Rapport OLS</label>
+            </value>
+            <value>
+                <fullName>Recall Manager</fullName>
+                <default>false</default>
+                <label>Recall Manager</label>
+            </value>
+            <value>
+                <fullName>Reminder Cards</fullName>
+                <default>false</default>
+                <label>Reminder Cards</label>
+            </value>
+            <value>
+                <fullName>Reporting Server</fullName>
+                <default>false</default>
+                <label>Reporting Server</label>
+            </value>
+            <value>
+                <fullName>Roster</fullName>
+                <default>false</default>
+                <label>Roster</label>
+            </value>
+            <value>
+                <fullName>Router</fullName>
+                <default>false</default>
+                <label>Router</label>
+            </value>
+            <value>
+                <fullName>RxLynk Machine</fullName>
+                <default>false</default>
+                <label>RxLynk Machine</label>
+            </value>
+            <value>
+                <fullName>RxWorks Branch Clinic</fullName>
+                <default>false</default>
+                <label>RxWorks Branch Clinic</label>
+            </value>
+            <value>
+                <fullName>RxWorks Branch Replication</fullName>
+                <default>false</default>
+                <label>RxWorks Branch Replication</label>
+            </value>
+            <value>
+                <fullName>RxWorks Mobile Replication</fullName>
+                <default>false</default>
+                <label>RxWorks Mobile Replication</label>
+            </value>
+            <value>
+                <fullName>RxWorks Performance Pack</fullName>
+                <default>false</default>
+                <label>RxWorks Performance Pack</label>
+            </value>
+            <value>
+                <fullName>RxWorks Practice Plus</fullName>
+                <default>false</default>
+                <label>RxWorks Practice Plus</label>
+            </value>
+            <value>
+                <fullName>Scanner</fullName>
+                <default>false</default>
+                <label>Scanner</label>
+            </value>
+            <value>
+                <fullName>Scil</fullName>
+                <default>false</default>
+                <label>Scil</label>
+            </value>
+            <value>
+                <fullName>Server</fullName>
+                <default>false</default>
+                <label>Server</label>
+            </value>
+            <value>
+                <fullName>Server Diagnostic Support</fullName>
+                <default>false</default>
+                <label>Server Diagnostic Support</label>
+            </value>
+            <value>
+                <fullName>Smartflow</fullName>
+                <default>false</default>
+                <label>Smartflow</label>
+            </value>
+            <value>
+                <fullName>Smartflow Integration</fullName>
+                <default>false</default>
+                <label>Smartflow Integration</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Social Engagement</fullName>
+                <default>false</default>
+                <label>Social Engagement</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Software Updates Only</fullName>
+                <default>false</default>
+                <label>Software Updates Only</label>
+            </value>
+            <value>
+                <fullName>Sparkline</fullName>
+                <default>false</default>
+                <label>Sparkline</label>
+            </value>
+            <value>
+                <fullName>Standard Practice</fullName>
+                <default>false</default>
+                <label>Standard Practice</label>
+            </value>
+            <value>
+                <fullName>SVS Integration</fullName>
+                <default>false</default>
+                <label>SVS Integration</label>
+            </value>
+            <value>
+                <fullName>Switch</fullName>
+                <default>false</default>
+                <label>Switch</label>
+            </value>
+            <value>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+                <label>Tablet</label>
+            </value>
+            <value>
+                <fullName>Terminal</fullName>
+                <default>false</default>
+                <label>Terminal</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Tyro</fullName>
+                <default>false</default>
+                <label>Tyro</label>
+            </value>
+            <value>
+                <fullName>Tyro Integration</fullName>
+                <default>false</default>
+                <label>Tyro Integration</label>
+            </value>
+            <value>
+                <fullName>UPS</fullName>
+                <default>false</default>
+                <label>UPS</label>
+            </value>
+            <value>
+                <fullName>VetBooker</fullName>
+                <default>false</default>
+                <label>VetBooker</label>
+            </value>
+            <value>
+                <fullName>VetCare</fullName>
+                <default>false</default>
+                <label>VetCare</label>
+            </value>
+            <value>
+                <fullName>Veterinary Supply Database</fullName>
+                <default>false</default>
+                <label>Veterinary Supply Database</label>
+            </value>
+            <value>
+                <fullName>Vet S8 Integration</fullName>
+                <default>false</default>
+                <label>Vet S8 Integration</label>
+            </value>
+            <value>
+                <fullName>Vetstoria</fullName>
+                <default>false</default>
+                <label>Vetstoria</label>
+            </value>
+            <value>
+                <fullName>VetStoria Integration</fullName>
+                <default>false</default>
+                <label>VetStoria Integration</label>
+            </value>
+            <value>
+                <fullName>VetStreet</fullName>
+                <default>false</default>
+                <label>VetStreet</label>
+            </value>
+            <value>
+                <fullName>VisionVPM</fullName>
+                <default>false</default>
+                <label>VisionVPM</label>
+            </value>
+            <value>
+                <fullName>Viva</fullName>
+                <default>false</default>
+                <label>Viva</label>
+            </value>
+            <value>
+                <fullName>VPMDashboard</fullName>
+                <default>false</default>
+                <label>VPMDashboard</label>
+            </value>
+            <value>
+                <fullName>VPMDocs</fullName>
+                <default>false</default>
+                <label>VPMDocs</label>
+            </value>
+            <value>
+                <fullName>VPMMobile</fullName>
+                <default>false</default>
+                <label>VPMMobile</label>
+            </value>
+            <value>
+                <fullName>VPMSpreadsheet</fullName>
+                <default>false</default>
+                <label>VPMSpreadsheet</label>
+            </value>
+            <value>
+                <fullName>VPR</fullName>
+                <default>false</default>
+                <label>VPR</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Wireless</fullName>
+                <default>false</default>
+                <label>Wireless</label>
+            </value>
+            <value>
+                <fullName>Data Backup</fullName>
+                <default>false</default>
+                <label>Data Backup</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Lab</fullName>
+                <default>false</default>
+                <label>Lab</label>
+            </value>
+            <value>
+                <fullName>OS Support</fullName>
+                <default>false</default>
+                <label>OS Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

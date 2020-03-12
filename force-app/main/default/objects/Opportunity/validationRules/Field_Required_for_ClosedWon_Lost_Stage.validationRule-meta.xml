@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Required_for_ClosedWon_Lost_Stage</fullName>
+    <active>true</active>
+    <description>Required fields Date Paperwork Sent, Date Paperwork Received when changing stage from &#39;Quote&#39; to &#39;Closed Won&#39; or &#39;Closed Lost&#39; CCRM-41. Updated via CCRM-2128 to change Contract Stage to Quote Stage. Updated for CCRM-3413.</description>
+    <errorConditionFormula>AND ( $RecordType.Name = &quot;Technology&quot;, CONTAINS($UserRole.Name, &quot;GSS&quot;), 
+(ISPICKVAL(StageName, &quot;Closed Won&quot; )||
+ISPICKVAL(StageName, &quot;Closed Lost&quot; )),
+ISBLANK(  Date_Paperwork_Sent__c  ) ||
+ISBLANK(  Date_Paperwork_Received__c  )
+)</errorConditionFormula>
+    <errorMessage>In order to move out of Stage “Contract/Quote”, you must fill out the following fields: Date Paperwork Sent, Date Paperwork Received</errorMessage>
+</ValidationRule>

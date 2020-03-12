@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Default_Public_Group_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the public group which acts as the default organizer when the invokable action group name parameter is sent wrong</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Please input the group name which needs to be the default organizer</inlineHelpText>
+    <label>Default Public Group Name</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

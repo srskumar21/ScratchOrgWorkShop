@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( Project_Name_Entry__c) ,
+    TEXT(Project_Template__c ) &amp; &quot; - &quot; &amp;  Account__r.Name,
+			 Project_Name_Entry__c 
+			)</formula>
+    <label>Project Name (formula)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Account_Update</fullName>
+    <availability>online</availability>
+    <description>Triggers a flow that creates an AUR record to be approved.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Request Account Update</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>/flow/GOV_Request_Account_Update_Process?recordId={!Account.Id}&amp;ObjectType=Account&amp;retURL={!Account.Id}</url>
+</WebLink>

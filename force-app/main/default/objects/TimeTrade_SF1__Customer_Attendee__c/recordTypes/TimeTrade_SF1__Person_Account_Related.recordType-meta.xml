@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Person_Account_Related</fullName>
+    <active>true</active>
+    <description>Customer attendees of type person accounts</description>
+    <label>Person Account</label>
+</RecordType>

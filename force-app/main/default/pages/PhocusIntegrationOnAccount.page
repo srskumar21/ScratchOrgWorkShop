@@ -1,0 +1,18 @@
+<apex:page StandardController="Account">
+    <apex:includeLightning />
+    <div id="Phocas" />
+    <script>
+    $Lightning.use("c:PhocusIntegrationOnAccountApp", function() {
+        $Lightning.createComponent("c:PhocusIntegrationOnAccount", {
+            //pass parameter values to lwc js controller
+            objName : "Account" // optional parameter, I already declared value in lwc js controller.
+        },
+        "Phocas",
+            function(component) {
+             console.log("Lightning Web Component created Successfully!!");
+              // extend the functionality as per your requirement
+            }
+       );
+    });
+    </script>
+</apex:page>

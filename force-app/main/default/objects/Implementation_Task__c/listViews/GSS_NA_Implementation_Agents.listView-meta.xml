@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GSS_NA_Implementation_Agents</fullName>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <label>GSS NA Implementation Agents</label>
+    <sharedTo>
+        <role>GSS_APAC_Implementation_Agent</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Publisher_can_share_Article_Externally</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;, 
+IsVisibleInPkb = TRUE,
+OR( ISPICKVAL( $User.KCS_Role__c ,&quot;Candidate&quot;), 
+ISPICKVAL( $User.KCS_Role__c ,&quot;Contributor&quot; )  
+)
+)</errorConditionFormula>
+    <errorMessage>You do not have the necessary level of access to make this Article visible to the Public.</errorMessage>
+</ValidationRule>

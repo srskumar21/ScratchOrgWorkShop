@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Time_Must_be_Valid</fullName>
+    <active>true</active>
+    <description>Start Time must be less than finish time</description>
+    <errorConditionFormula>AND(TimeTrade_SF1__Availability_Start__c &gt;=  TimeTrade_SF1__Availability_End__c,NOT( ISNULL(TimeTrade_SF1__Availability_Start__c )),NOT( ISNULL(TimeTrade_SF1__Availability_End__c)) )</errorConditionFormula>
+    <errorDisplayField>TimeTrade_SF1__Availability_Start__c</errorDisplayField>
+    <errorMessage>Event start time must be before finish time</errorMessage>
+</ValidationRule>

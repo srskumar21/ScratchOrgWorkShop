@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Name_Entry__c</fullName>
+    <description>Used for manual entry of project name for Project creation automation.  If field is blank, a formula will be used to determine product name (see Project Name (Formula) field)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to name the project to be created.  If left blank, the project will be named via a formula.</inlineHelpText>
+    <label>Project Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

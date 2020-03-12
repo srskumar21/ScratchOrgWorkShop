@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>GSS NA - ImproMed</name>
+    <queueMembers>
+        <roles>
+            <role>GSS_NA_Implementation_Manager</role>
+        </roles>
+        <users>
+            <user>andrew.edwards@covetrus.com</user>
+            <user>derek.chapman@covetrus.com</user>
+            <user>john.reischl@covetrus.com</user>
+            <user>joseph.larsen@covetrus.com</user>
+            <user>maggie.howes@covetrus.com</user>
+            <user>robin.brown@covetrus.com</user>
+            <user>yee.lee@covetrus.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>MPM4_BASE__Milestone1_Milestone__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Work_Item__c</sobjectType>
+    </queueSobject>
+</Queue>

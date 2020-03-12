@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACEsoft</fullName>
+        <default>false</default>
+        <label>ACEsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>Alis-Vet (Informatvet)</fullName>
+        <default>false</default>
+        <label>Alis-Vet (Informatvet)</label>
+    </customValue>
+    <customValue>
+        <fullName>Altapoint</fullName>
+        <default>false</default>
+        <label>Altapoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Amber (Autovet)</fullName>
+        <default>false</default>
+        <label>Amber (Autovet)</label>
+    </customValue>
+    <customValue>
+        <fullName>Animal Intelligence</fullName>
+        <default>false</default>
+        <label>Animal Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Avimark</fullName>
+        <default>false</default>
+        <label>Avimark</label>
+    </customValue>
+    <customValue>
+        <fullName>AVS (Advanced)</fullName>
+        <default>false</default>
+        <label>AVS (Advanced)</label>
+    </customValue>
+    <customValue>
+        <fullName>BeeFree Cloud Base Veterinary</fullName>
+        <default>false</default>
+        <label>BeeFree Cloud Base Veterinary</label>
+    </customValue>
+    <customValue>
+        <fullName>Better Choice</fullName>
+        <default>false</default>
+        <label>Better Choice</label>
+    </customValue>
+    <customValue>
+        <fullName>Britton Wise Computers</fullName>
+        <default>false</default>
+        <label>Britton Wise Computers</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Infusions HVMS</fullName>
+        <default>false</default>
+        <label>Business Infusions HVMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Chameleon</fullName>
+        <default>false</default>
+        <label>Chameleon</label>
+    </customValue>
+    <customValue>
+        <fullName>Clientrax</fullName>
+        <default>false</default>
+        <label>Clientrax</label>
+    </customValue>
+    <customValue>
+        <fullName>Clinic-Ware</fullName>
+        <default>false</default>
+        <label>Clinic-Ware</label>
+    </customValue>
+    <customValue>
+        <fullName>Cloud Kennel</fullName>
+        <default>false</default>
+        <label>Cloud Kennel</label>
+    </customValue>
+    <customValue>
+        <fullName>Complete Clinic Software (CCS)</fullName>
+        <default>false</default>
+        <label>Complete Clinic Software (CCS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Compuvet</fullName>
+        <default>false</default>
+        <label>Compuvet</label>
+    </customValue>
+    <customValue>
+        <fullName>Cornerstone (IDEXX/PSI)</fullName>
+        <default>false</default>
+        <label>Cornerstone (IDEXX/PSI)</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom</fullName>
+        <default>false</default>
+        <label>Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>Datavet</fullName>
+        <default>false</default>
+        <label>Datavet</label>
+    </customValue>
+    <customValue>
+        <fullName>Dataware</fullName>
+        <default>false</default>
+        <label>Dataware</label>
+    </customValue>
+    <customValue>
+        <fullName>Dogdoc (Sinclair)</fullName>
+        <default>false</default>
+        <label>Dogdoc (Sinclair)</label>
+    </customValue>
+    <customValue>
+        <fullName>Doty</fullName>
+        <default>false</default>
+        <label>Doty</label>
+    </customValue>
+    <customValue>
+        <fullName>DV MAX</fullName>
+        <default>false</default>
+        <label>DV MAX</label>
+    </customValue>
+    <customValue>
+        <fullName>DVM Manager</fullName>
+        <default>false</default>
+        <label>DVM Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>easyVET</fullName>
+        <default>false</default>
+        <label>easyVET</label>
+    </customValue>
+    <customValue>
+        <fullName>EdMac</fullName>
+        <default>false</default>
+        <label>EdMac</label>
+    </customValue>
+    <customValue>
+        <fullName>E-Friends</fullName>
+        <default>false</default>
+        <label>E-Friends</label>
+    </customValue>
+    <customValue>
+        <fullName>Eklin VIA</fullName>
+        <default>false</default>
+        <label>Eklin VIA</label>
+    </customValue>
+    <customValue>
+        <fullName>Elinc</fullName>
+        <default>false</default>
+        <label>Elinc</label>
+    </customValue>
+    <customValue>
+        <fullName>Equine Data Management</fullName>
+        <default>false</default>
+        <label>Equine Data Management</label>
+    </customValue>
+    <customValue>
+        <fullName>eVetPractice</fullName>
+        <default>false</default>
+        <label>eVetPractice</label>
+    </customValue>
+    <customValue>
+        <fullName>ezyVet Cloud</fullName>
+        <default>false</default>
+        <label>ezyVet Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Foxvet</fullName>
+        <default>false</default>
+        <label>Foxvet</label>
+    </customValue>
+    <customValue>
+        <fullName>Hippo Manager</fullName>
+        <default>false</default>
+        <label>Hippo Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Home / Local System</fullName>
+        <default>false</default>
+        <label>Home / Local System</label>
+    </customValue>
+    <customValue>
+        <fullName>HVMS</fullName>
+        <default>false</default>
+        <label>HVMS</label>
+    </customValue>
+    <customValue>
+        <fullName>IDEXX Neo</fullName>
+        <default>false</default>
+        <label>IDEXX Neo</label>
+    </customValue>
+    <customValue>
+        <fullName>Impromed</fullName>
+        <default>false</default>
+        <label>Impromed</label>
+    </customValue>
+    <customValue>
+        <fullName>ImproMed Advantage+</fullName>
+        <default>false</default>
+        <label>ImproMed Advantage+</label>
+    </customValue>
+    <customValue>
+        <fullName>ImproMed Equine</fullName>
+        <default>false</default>
+        <label>ImproMed Equine</label>
+    </customValue>
+    <customValue>
+        <fullName>ImproMed Management System</fullName>
+        <default>false</default>
+        <label>ImproMed Management System</label>
+    </customValue>
+    <customValue>
+        <fullName>Intravet</fullName>
+        <default>false</default>
+        <label>Intravet</label>
+    </customValue>
+    <customValue>
+        <fullName>IntravetFox</fullName>
+        <default>false</default>
+        <label>IntravetFox</label>
+    </customValue>
+    <customValue>
+        <fullName>IntravetSQL</fullName>
+        <default>false</default>
+        <label>IntravetSQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Jade</fullName>
+        <default>false</default>
+        <label>Jade</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <label>NA</label>
+    </customValue>
+    <customValue>
+        <fullName>NEO</fullName>
+        <default>false</default>
+        <label>NEO</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Computerized</fullName>
+        <default>false</default>
+        <label>Not Computerized</label>
+    </customValue>
+    <customValue>
+        <fullName>Nu-Soft Tech</fullName>
+        <default>false</default>
+        <label>Nu-Soft Tech</label>
+    </customValue>
+    <customValue>
+        <fullName>Onward Vet</fullName>
+        <default>false</default>
+        <label>Onward Vet</label>
+    </customValue>
+    <customValue>
+        <fullName>Organized Vet</fullName>
+        <default>false</default>
+        <label>Organized Vet</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Paws Management</fullName>
+        <default>false</default>
+        <label>Paws Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Peachtree Accounting</fullName>
+        <default>false</default>
+        <label>Peachtree Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>Petware</fullName>
+        <default>false</default>
+        <label>Petware</label>
+    </customValue>
+    <customValue>
+        <fullName>Provet</fullName>
+        <default>false</default>
+        <label>Provet</label>
+    </customValue>
+    <customValue>
+        <fullName>PSI</fullName>
+        <default>false</default>
+        <label>PSI</label>
+    </customValue>
+    <customValue>
+        <fullName>QuickBooks</fullName>
+        <default>false</default>
+        <label>QuickBooks</label>
+    </customValue>
+    <customValue>
+        <fullName>Robovet</fullName>
+        <default>false</default>
+        <label>Robovet</label>
+    </customValue>
+    <customValue>
+        <fullName>Rovr</fullName>
+        <default>false</default>
+        <label>Rovr</label>
+    </customValue>
+    <customValue>
+        <fullName>RxWorks</fullName>
+        <default>false</default>
+        <label>RxWorks</label>
+    </customValue>
+    <customValue>
+        <fullName>Softvet</fullName>
+        <default>false</default>
+        <label>Softvet</label>
+    </customValue>
+    <customValue>
+        <fullName>Spec Vet Inc</fullName>
+        <default>false</default>
+        <label>Spec Vet Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>String Soft</fullName>
+        <default>false</default>
+        <label>String Soft</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunpoint</fullName>
+        <default>false</default>
+        <label>Sunpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>The Jockey Club</fullName>
+        <default>false</default>
+        <label>The Jockey Club</label>
+    </customValue>
+    <customValue>
+        <fullName>Timetracker only</fullName>
+        <default>false</default>
+        <label>Timetracker only</label>
+    </customValue>
+    <customValue>
+        <fullName>Ultra-Vet</fullName>
+        <default>false</default>
+        <label>Ultra-Vet</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>V/BOSS (CRT Systems)</fullName>
+        <default>false</default>
+        <label>V/BOSS (CRT Systems)</label>
+    </customValue>
+    <customValue>
+        <fullName>V.S.I. (V.C.A)</fullName>
+        <default>false</default>
+        <label>V.S.I. (V.C.A)</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet&#39;s Pet</fullName>
+        <default>false</default>
+        <label>Vet&#39;s Pet</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet Assistant</fullName>
+        <default>false</default>
+        <label>Vet Assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>VetBlue</fullName>
+        <default>false</default>
+        <label>VetBlue</label>
+    </customValue>
+    <customValue>
+        <fullName>Vetech Advantage</fullName>
+        <default>false</default>
+        <label>Vetech Advantage</label>
+    </customValue>
+    <customValue>
+        <fullName>Vetfm</fullName>
+        <default>false</default>
+        <label>Vetfm</label>
+    </customValue>
+    <customValue>
+        <fullName>VetInform</fullName>
+        <default>false</default>
+        <label>VetInform</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet Link</fullName>
+        <default>false</default>
+        <label>Vet Link</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet Logic</fullName>
+        <default>false</default>
+        <label>Vet Logic</label>
+    </customValue>
+    <customValue>
+        <fullName>Vetmaster</fullName>
+        <default>false</default>
+        <label>Vetmaster</label>
+    </customValue>
+    <customValue>
+        <fullName>VetOfficeSuite</fullName>
+        <default>false</default>
+        <label>VetOfficeSuite</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet Pac</fullName>
+        <default>false</default>
+        <label>Vet Pac</label>
+    </customValue>
+    <customValue>
+        <fullName>Vetport</fullName>
+        <default>false</default>
+        <label>Vetport</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet Soft</fullName>
+        <default>false</default>
+        <label>Vet Soft</label>
+    </customValue>
+    <customValue>
+        <fullName>Vetspace</fullName>
+        <default>false</default>
+        <label>Vetspace</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet Star</fullName>
+        <default>false</default>
+        <label>Vet Star</label>
+    </customValue>
+    <customValue>
+        <fullName>Vet Tech</fullName>
+        <default>false</default>
+        <label>Vet Tech</label>
+    </customValue>
+    <customValue>
+        <fullName>Vetter</fullName>
+        <default>false</default>
+        <label>Vetter</label>
+    </customValue>
+    <customValue>
+        <fullName>Vetware</fullName>
+        <default>false</default>
+        <label>Vetware</label>
+    </customValue>
+    <customValue>
+        <fullName>Visionarian</fullName>
+        <default>false</default>
+        <label>Visionarian</label>
+    </customValue>
+    <customValue>
+        <fullName>Vision Records</fullName>
+        <default>false</default>
+        <label>Vision Records</label>
+    </customValue>
+    <customValue>
+        <fullName>VisionVPM</fullName>
+        <default>false</default>
+        <label>VisionVPM</label>
+    </customValue>
+    <customValue>
+        <fullName>Visual Vet (Softquest)</fullName>
+        <default>false</default>
+        <label>Visual Vet (Softquest)</label>
+    </customValue>
+    <customValue>
+        <fullName>Viva</fullName>
+        <default>false</default>
+        <label>Viva</label>
+    </customValue>
+    <customValue>
+        <fullName>VMS</fullName>
+        <default>false</default>
+        <label>VMS</label>
+    </customValue>
+    <customValue>
+        <fullName>VPM (IDEXX/PSI)</fullName>
+        <default>false</default>
+        <label>VPM (IDEXX/PSI)</label>
+    </customValue>
+    <customValue>
+        <fullName>VSS</fullName>
+        <default>false</default>
+        <label>VSS</label>
+    </customValue>
+    <customValue>
+        <fullName>V-Tech</fullName>
+        <default>false</default>
+        <label>V-Tech</label>
+    </customValue>
+    <customValue>
+        <fullName>Winvet</fullName>
+        <default>false</default>
+        <label>Winvet</label>
+    </customValue>
+    <customValue>
+        <fullName>Wolfware</fullName>
+        <default>false</default>
+        <label>Wolfware</label>
+    </customValue>
+    <customValue>
+        <fullName>WoofWare</fullName>
+        <default>false</default>
+        <label>WoofWare</label>
+    </customValue>
+    <description>The global list of PIMS</description>
+    <masterLabel>PIMS</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

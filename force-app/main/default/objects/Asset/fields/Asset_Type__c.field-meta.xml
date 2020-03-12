@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Type__c</fullName>
+    <description>This is a multi select to further describe the asset.  E.G. activated software modules,  subscriptions terms, Lab service provider, etc.CCRM-83</description>
+    <externalId>false</externalId>
+    <label>Asset Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>AVImark</fullName>
+                <default>false</default>
+                <label>AVImark</label>
+            </value>
+            <value>
+                <fullName>CAL</fullName>
+                <default>false</default>
+                <label>CAL</label>
+            </value>
+            <value>
+                <fullName>Data Vault</fullName>
+                <default>false</default>
+                <label>Data Vault</label>
+            </value>
+            <value>
+                <fullName>DICOM</fullName>
+                <default>false</default>
+                <label>DICOM</label>
+            </value>
+            <value>
+                <fullName>DVM</fullName>
+                <default>false</default>
+                <label>DVM</label>
+            </value>
+            <value>
+                <fullName>Eversafe</fullName>
+                <default>false</default>
+                <label>Eversafe</label>
+            </value>
+            <value>
+                <fullName>IDSS</fullName>
+                <default>false</default>
+                <label>IDSS</label>
+            </value>
+            <value>
+                <fullName>ImproMed</fullName>
+                <default>false</default>
+                <label>ImproMed</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>IVLS</fullName>
+                <default>false</default>
+                <label>IVLS</label>
+            </value>
+            <value>
+                <fullName>License</fullName>
+                <default>false</default>
+                <label>License</label>
+            </value>
+            <value>
+                <fullName>Module</fullName>
+                <default>false</default>
+                <label>Module</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>New Order</fullName>
+                <default>false</default>
+                <label>New Order</label>
+            </value>
+            <value>
+                <fullName>Online Academy</fullName>
+                <default>false</default>
+                <label>Online Academy</label>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <default>false</default>
+                <label>Primary</label>
+            </value>
+            <value>
+                <fullName>Tiered</fullName>
+                <default>false</default>
+                <label>Tiered</label>
+            </value>
+            <value>
+                <fullName>Module - Core</fullName>
+                <default>false</default>
+                <label>Module - Core</label>
+            </value>
+            <value>
+                <fullName>Module - Additional</fullName>
+                <default>false</default>
+                <label>Module - Additional</label>
+            </value>
+            <value>
+                <fullName>Module - Integration</fullName>
+                <default>false</default>
+                <label>Module - Integration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

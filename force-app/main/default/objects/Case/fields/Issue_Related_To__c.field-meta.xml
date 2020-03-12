@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Related_To__c</fullName>
+    <description>Used for Web Chat to route the chat session to the correct chat button/queue</description>
+    <externalId>false</externalId>
+    <label>Issue Related To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AVIMark</fullName>
+                <default>false</default>
+                <label>AVIMark</label>
+            </value>
+            <value>
+                <fullName>eVet Practice</fullName>
+                <default>false</default>
+                <label>eVet Practice</label>
+            </value>
+            <value>
+                <fullName>ImproMed</fullName>
+                <default>false</default>
+                <label>ImproMed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

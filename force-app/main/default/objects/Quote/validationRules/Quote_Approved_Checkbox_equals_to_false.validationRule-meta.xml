@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Approved_Checkbox_equals_to_false</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Approved__c =False, AND( NOT($Profile.Name=&quot;System Administrator&quot;),NOT($Profile.Name=&quot;Covetrus IT&quot;)), 
+AND(  NOT(ISPICKVAL( Status , &quot;Draft&quot;)), NOT(ISPICKVAL( Status , &quot;Needs Review&quot;)) ), OR( CONTAINS($UserRole.Name, &quot;GSS APAC&quot;),CONTAINS($UserRole.Name, &quot;GSS EMEA&quot;))  )</errorConditionFormula>
+    <errorMessage>You must submit the quote for Approval</errorMessage>
+</ValidationRule>

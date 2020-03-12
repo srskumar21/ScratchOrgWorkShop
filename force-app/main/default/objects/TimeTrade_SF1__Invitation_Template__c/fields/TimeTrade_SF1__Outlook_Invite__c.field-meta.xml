@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Outlook_Invite__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Use a calendar .ics file once the meeting is scheduled.  If not selected, a plain .ics will be used instead.</inlineHelpText>
+    <label>Use Calendar Invite</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

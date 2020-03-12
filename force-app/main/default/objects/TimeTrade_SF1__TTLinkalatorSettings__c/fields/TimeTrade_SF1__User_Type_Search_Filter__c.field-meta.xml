@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__User_Type_Search_Filter__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Optionally enter a comma-delimited list of values to filter User by UserType on Create Invitation search.  &quot;Standard&quot; is the most common value. Valid Values – Standard, PowerPartner, PowerCustomerSuccess, CustomerSuccess, Guest, CspLitePortal, CsnOnly.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Optionally enter a comma-delimited list of values to filter User by UserType on Create Invitation search.  &quot;Standard&quot; is the most common value. Valid Values – Standard, PowerPartner, PowerCustomerSuccess, CustomerSuccess, Guest, CspLitePortal, CsnOnly.</inlineHelpText>
+    <label>User Type Search Filter</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Generic_Email_for_Organizer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This option is deprecated; please use the field on Invitation Template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This option is deprecated. Please use the field on Invitation Template.</inlineHelpText>
+    <label>Generic Email for Organizer - Not Used</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

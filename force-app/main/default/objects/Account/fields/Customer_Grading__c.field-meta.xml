@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Grading__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( CO_Penetration_Percent__c  &lt;= 0.3,  
+     IF( Potential_Revenue__c  &lt;= 250, &#39;C3&#39;, 
+     IF(AND(Potential_Revenue__c   &gt;  250 , Potential_Revenue__c   &lt;=  750), &#39;C2&#39;, &#39;C1&#39;) ) ,  
+
+ 
+
+IF( AND(CO_Penetration_Percent__c   &gt;  0.3 ,  CO_Penetration_Percent__c   &lt;= 0.7), 
+    IF( Potential_Revenue__c  &lt;= 250, &#39;B3&#39;,  
+    IF(AND(Potential_Revenue__c  &gt; 250, Potential_Revenue__c  &lt;= 750), &#39;B2&#39;, &#39;B1&#39;)) ,  
+ 
+IF( CO_Penetration_Percent__c   &gt;  0.7, 
+    IF( Potential_Revenue__c  &lt;= 250, &#39;A3&#39;, 
+    IF(AND(Potential_Revenue__c  &gt; 250, Potential_Revenue__c  &lt;= 750), &#39;A2&#39;, &#39;A1&#39;) ) , &#39; &#39;) ) )</formula>
+    <label>Customer Grading</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

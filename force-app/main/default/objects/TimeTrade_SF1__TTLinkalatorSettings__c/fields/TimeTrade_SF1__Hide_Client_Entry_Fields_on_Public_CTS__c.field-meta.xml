@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Hide_Client_Entry_Fields_on_Public_CTS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this option to hide client entry fields on Click-To-Schedule for public invitations when client information is provided by a parameter. Note that page will be cleared and will revert to data entry of client not found or has incomplete information.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this option to hide client entry fields on Click-To-Schedule for public invitations when client information is provided by a parameter. Note that page will be cleared and will revert to data entry of client not found or has incomplete information.</inlineHelpText>
+    <label>Hide Client Entry Fields on Public CTS</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__WebEx_Additional_Numbers_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the Webex URL that will display additional Webex dial-in numbers.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Webex URL that will display additional Webex dial-in numbers.</inlineHelpText>
+    <label>WebEx Additional Numbers URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

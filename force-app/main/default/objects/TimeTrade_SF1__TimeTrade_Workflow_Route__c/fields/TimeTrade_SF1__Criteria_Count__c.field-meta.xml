@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Criteria_Count__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of required answers defined for this route.</inlineHelpText>
+    <label>Criteria Count</label>
+    <summaryForeignKey>TimeTrade_SF1__TimeTrade_Workflow_Answer__c.TimeTrade_SF1__TimeTrade_Workflow_Route__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Individual_Account_Related</fullName>
+    <active>true</active>
+    <description>Customer attendees of type FSC Individual accounts</description>
+    <label>Individual Account</label>
+</RecordType>

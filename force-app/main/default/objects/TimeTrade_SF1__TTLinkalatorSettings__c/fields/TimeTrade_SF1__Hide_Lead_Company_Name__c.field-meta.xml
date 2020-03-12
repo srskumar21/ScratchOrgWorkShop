@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Hide_Lead_Company_Name__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if you do not want the Company Name field to appear and be required on the Click-to-Schedule page when the External Attendee Create As option is set to &quot;Lead.&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you do not want the Company Name field to appear and be required on the Click-to-Schedule page when the External Attendee Create As option is set to &quot;Lead.&quot;</inlineHelpText>
+    <label>Hide Lead Company Name</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

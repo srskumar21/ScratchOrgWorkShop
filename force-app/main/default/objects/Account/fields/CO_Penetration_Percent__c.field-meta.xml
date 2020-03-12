@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CO_Penetration_Percent__c</fullName>
+    <description>Field as a percentage that divides the rolling 12 months of sales for the account for all combined CO LOB Account Records divided by the total annual potential (which for ANZ is $120K per vet /which for the US is $90K per vet) to calculate a percentage from 0% to 100%</description>
+    <externalId>false</externalId>
+    <formula>if(CO_Potential_Sales__c == 0,null, CO_Rolling_12_Month_Sales__c / CO_Potential_Sales__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CO Penetration Percent</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

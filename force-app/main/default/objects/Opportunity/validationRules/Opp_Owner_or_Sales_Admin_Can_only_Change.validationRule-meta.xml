@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Owner_or_Sales_Admin_Can_only_Change</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED( OwnerId ) &amp;&amp; (( PRIORVALUE(OwnerId)  &lt;&gt; $User.Id )  &amp;&amp;  NOT($Permission.Sales_Operations_Admin )  &amp;&amp;  NOT($Permission.GSS_Sales_Manager_NA))</errorConditionFormula>
+    <errorMessage>You are not allowed to change ownership of this Opportunity. Please reach out to the current Opportunity Owner or your Sales Operations Admin.</errorMessage>
+</ValidationRule>

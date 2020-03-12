@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Custom_Availability_Busy_Granularity__c</fullName>
+    <defaultValue>&#39;30Minutes&#39;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter &quot;30Minutes&quot; for all typical installations.  This value must match a setting in TimeTrade&#39;s servers; do not change this value without consulting TimeTrade Support.</inlineHelpText>
+    <label>Custom Availability Busy Granularity</label>
+    <length>64</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

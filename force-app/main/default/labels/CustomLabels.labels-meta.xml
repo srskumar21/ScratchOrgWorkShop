@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AVImark_Chat</fullName>
+        <categories>GSS NA Chat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AVImark Chat</shortDescription>
+        <value>5731U0000001tLW</value>
+    </labels>
+    <labels>
+        <fullName>AccountAccessLevel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountAccessLevel for AccountTeamMember</shortDescription>
+        <value>EDIT</value>
+    </labels>
+    <labels>
+        <fullName>AccountTeamMembRole</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountTeamMembRole</shortDescription>
+        <value>Primary Customer Service Rep</value>
+    </labels>
+    <labels>
+        <fullName>AccountTeamRoleSales</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountTeamRoleSales</shortDescription>
+        <value>Sales Rep</value>
+    </labels>
+    <labels>
+        <fullName>AccountTeamRoleSalesAndService</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountTeamRoleSalesAndService</shortDescription>
+        <value>Sales and Primary Customer Service Rep</value>
+    </labels>
+    <labels>
+        <fullName>AccountTeamRoleService</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountTeamRoleService</shortDescription>
+        <value>Primary Customer Service Rep</value>
+    </labels>
+    <labels>
+        <fullName>Account_Open_Cases</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Open Cases</shortDescription>
+        <value>00O1U000007Jd8nUAC</value>
+    </labels>
+    <labels>
+        <fullName>Archive_Expire_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Archive Expiration date</shortDescription>
+        <value>12</value>
+    </labels>
+    <labels>
+        <fullName>Asset_status_disabled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Asset status disabled</shortDescription>
+        <value>Disabled</value>
+    </labels>
+    <labels>
+        <fullName>Asset_status_enabled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Asset status enabled</shortDescription>
+        <value>Enabled</value>
+    </labels>
+    <labels>
+        <fullName>COSalesUser</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COSalesUser</shortDescription>
+        <value>CO User - Sales</value>
+    </labels>
+    <labels>
+        <fullName>COSupportUser</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COSupportUser</shortDescription>
+        <value>CO User - Support</value>
+    </labels>
+    <labels>
+        <fullName>CaseAccessLevel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseAccessLevel for AccountTeamMember</shortDescription>
+        <value>EDIT</value>
+    </labels>
+    <labels>
+        <fullName>CaseOrigin</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseOrigin</shortDescription>
+        <value>Boomi</value>
+    </labels>
+    <labels>
+        <fullName>CaseStatusClosed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseStatusClosed</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>CaseStatusInProgress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseStatusInProgress</shortDescription>
+        <value>In Progress</value>
+    </labels>
+    <labels>
+        <fullName>CaseStatusNew</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseStatusNew</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>Covetrus_Account_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Covetrus Account RecordType</shortDescription>
+        <value>0121U000000KOYlQAO</value>
+    </labels>
+    <labels>
+        <fullName>Covetrus_Account_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Covetrus Account Record Type</shortDescription>
+        <value>012Q00000005UwlIAE</value>
+    </labels>
+    <labels>
+        <fullName>DomainURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DomainURL</shortDescription>
+        <value>https://cvet.my.salesforce.com/</value>
+    </labels>
+    <labels>
+        <fullName>Expiration_Date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorLogger Expiration Date</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>GPM_Sales_NA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GPM Sales - NA</shortDescription>
+        <value>GPM Sales - NA</value>
+    </labels>
+    <labels>
+        <fullName>GSSMigrationUser</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSSMigrationUser</shortDescription>
+        <value>gssmigration@covetrus.com</value>
+    </labels>
+    <labels>
+        <fullName>GSSSalesANZUK</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales - ANZ/UK - ProfileName</shortDescription>
+        <value>GSS Sales - ANZ/UK</value>
+    </labels>
+    <labels>
+        <fullName>GSSSalesNA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSSSalesNA</shortDescription>
+        <value>GSS Sales - NA</value>
+    </labels>
+    <labels>
+        <fullName>GSSSupportANZUK</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSSSupportANZUK</shortDescription>
+        <value>GSS Support - ANZ/UK</value>
+    </labels>
+    <labels>
+        <fullName>GSSSupportNA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSSSupportNA</shortDescription>
+        <value>GSS Support - NA</value>
+    </labels>
+    <labels>
+        <fullName>GSS_Sales_NA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSS Sales NA</shortDescription>
+        <value>GSS_Sales_NA</value>
+    </labels>
+    <labels>
+        <fullName>ImplementationsTaskRecTypeID</fullName>
+        <categories>Record Type ID</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Implementations Task Rec Type ID</shortDescription>
+        <value>0121U000000SijOQAS</value>
+    </labels>
+    <labels>
+        <fullName>ImproMed_Chat</fullName>
+        <categories>GSS NA Chat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ImproMed Chat</shortDescription>
+        <value>5731U0000001tLb</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityAccessLevel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OpportunityAccessLevel for AccountTeamMember</shortDescription>
+        <value>EDIT</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Stage_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Stage Name</shortDescription>
+        <value>Closed Won</value>
+    </labels>
+    <labels>
+        <fullName>Order_status_Activated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order status Activated</shortDescription>
+        <value>Activated</value>
+    </labels>
+    <labels>
+        <fullName>SalesOpsAdmin</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SalesOpsAdmin</shortDescription>
+        <value>Sales_Operations_Admin</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Operation_Admin</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Operation Admin</shortDescription>
+        <value>Sales_Operations_Admin</value>
+    </labels>
+    <labels>
+        <fullName>System_Administrator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Administrator</shortDescription>
+        <value>System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>TeamMemberRole</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TeamMemberRole for AccountTeamMember</shortDescription>
+        <value>Sales Rep</value>
+    </labels>
+    <labels>
+        <fullName>eSign_Approver_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>eSign Approver Email</shortDescription>
+        <value>lisa.blom@covetrus.com</value>
+    </labels>
+    <labels>
+        <fullName>eVet_Chat</fullName>
+        <categories>GSS NA Chat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>eVet Chat</shortDescription>
+        <value>5731U0000001tLR</value>
+    </labels>
+</CustomLabels>

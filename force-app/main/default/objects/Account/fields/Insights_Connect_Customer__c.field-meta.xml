@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insights_Connect_Customer__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Connect_Customer__c =TRUE,IMAGE(&#39;/resource/ok&#39;,&#39;png&#39;,75,75),&#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Connect Customer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

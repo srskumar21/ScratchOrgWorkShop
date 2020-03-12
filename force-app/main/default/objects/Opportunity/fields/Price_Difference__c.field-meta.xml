@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Difference__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Total_Sales_Price__c == Total_List_Price__c ,FALSE,TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Price Difference</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

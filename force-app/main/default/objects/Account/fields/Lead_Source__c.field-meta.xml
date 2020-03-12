@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+                <label>Cold Call</label>
+            </value>
+            <value>
+                <fullName>Lead List</fullName>
+                <default>false</default>
+                <label>Lead List</label>
+            </value>
+            <value>
+                <fullName>Manufacturer Referral</fullName>
+                <default>false</default>
+                <label>Manufacturer Referral</label>
+            </value>
+            <value>
+                <fullName>Pet Owner Request</fullName>
+                <default>false</default>
+                <label>Pet Owner Request</label>
+            </value>
+            <value>
+                <fullName>Practice Phone Inquiry</fullName>
+                <default>false</default>
+                <label>Practice Phone Inquiry</label>
+            </value>
+            <value>
+                <fullName>Practice Web Inquiry</fullName>
+                <default>false</default>
+                <label>Practice Web Inquiry</label>
+            </value>
+            <value>
+                <fullName>Vetmatrix</fullName>
+                <default>false</default>
+                <label>Vetmatrix</label>
+            </value>
+            <value>
+                <fullName>Luitpold Pilot Practice</fullName>
+                <default>false</default>
+                <label>Luitpold Pilot Practice</label>
+            </value>
+            <value>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+                <label>Trade Show</label>
+            </value>
+            <value>
+                <fullName>PTP</fullName>
+                <default>false</default>
+                <label>PTP</label>
+            </value>
+            <value>
+                <fullName>Practice Referral</fullName>
+                <default>false</default>
+                <label>Practice Referral</label>
+            </value>
+            <value>
+                <fullName>WideNet</fullName>
+                <default>false</default>
+                <label>WideNet</label>
+            </value>
+            <value>
+                <fullName>Drip Campaign</fullName>
+                <default>false</default>
+                <label>Drip Campaign</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_No_Action_Reason__c</fullName>
+    <description>List used to describe the reason the work item was closed with no action taken.</description>
+    <externalId>false</externalId>
+    <label>Closed - No Action Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>place</fullName>
+                <default>false</default>
+                <label>place</label>
+            </value>
+            <value>
+                <fullName>holder</fullName>
+                <default>false</default>
+                <label>holder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

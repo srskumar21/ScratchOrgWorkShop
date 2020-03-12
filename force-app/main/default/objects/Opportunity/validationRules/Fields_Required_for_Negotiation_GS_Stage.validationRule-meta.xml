@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_Required_for_Negotiation_GS_Stage</fullName>
+    <active>false</active>
+    <description>Required for changing the stage from &#39;Presentation&#39; to &#39;Negotiation-GSS&#39; CCRM-41
+10/28/19 - Updated via CCRM-2128. The Sales process has changed to have Quote , so the validation rule has been updated</description>
+    <errorConditionFormula>AND ( $RecordType.Name = &quot;Technology&quot;,
+ISPICKVAL(StageName, &quot;Quote&quot;),
+(ISBLANK( Amount ) || 
+ISBLANK( CloseDate ) || 
+ISBLANK( ExpectedRevenue ) || 
+ISBLANK( Demo_Completed_Date__c )  || 
+Decision_Maker_Present__c = FALSE || 
+Decision_Maker_Agreement__c  = FALSE 
+))</errorConditionFormula>
+    <errorMessage>In order to move out of Stage “Presentation”, you must fill out the following fields: Amount, Expected Revenue, Demo Completed Date, Decision Maker Present, Decision Maker Agreement</errorMessage>
+</ValidationRule>

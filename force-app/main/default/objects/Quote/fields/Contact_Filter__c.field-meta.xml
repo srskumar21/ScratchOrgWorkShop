@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Filter__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is created as part of CCRM-2905 in release 3. This field will auto-populate with Account ID related to Quote after Quote creation, so that it will only display the contacts associated to related account of Quote on &quot;Contact Name&quot; field of Quote.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field should not be removed from the page layout otherwise the lookup filter logic built for Quote &quot;Contact Name&quot; field will not work.</inlineHelpText>
+    <label>Contact Filter</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Quotes</relationshipLabel>
+    <relationshipName>Quotes</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

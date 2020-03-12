@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Individual_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup field to the related Individual account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup field to the related Individual account</inlineHelpText>
+    <label>Individual Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>TimeTrade Customer Attendees (Individual Account)</relationshipLabel>
+    <relationshipName>TimeTrade_Customer_Attendees1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

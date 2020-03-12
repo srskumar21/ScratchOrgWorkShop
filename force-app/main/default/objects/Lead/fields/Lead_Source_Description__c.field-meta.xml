@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_Description__c</fullName>
+    <description>CCRM-2292</description>
+    <externalId>false</externalId>
+    <label>Lead Source Description</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lead_Sub_Source__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Capterra</fullName>
+                <default>false</default>
+                <label>Capterra</label>
+            </value>
+            <value>
+                <fullName>G2</fullName>
+                <default>false</default>
+                <label>G2</label>
+            </value>
+            <value>
+                <fullName>Google Ads</fullName>
+                <default>false</default>
+                <label>Google Ads</label>
+            </value>
+            <value>
+                <fullName>Paid Facebook</fullName>
+                <default>false</default>
+                <label>Paid Facebook</label>
+            </value>
+            <value>
+                <fullName>Paid LinkedIn</fullName>
+                <default>false</default>
+                <label>Paid LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Paid Twitter</fullName>
+                <default>false</default>
+                <label>Paid Twitter</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+                <label>Site Visit</label>
+            </value>
+            <value>
+                <fullName>HubSpot</fullName>
+                <default>false</default>
+                <label>HubSpot</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CO APAC</controllingFieldValue>
+            <controllingFieldValue>CO UK</controllingFieldValue>
+            <controllingFieldValue>CO NA</controllingFieldValue>
+            <controllingFieldValue>CCG AU</controllingFieldValue>
+            <controllingFieldValue>VI AU</controllingFieldValue>
+            <controllingFieldValue>GSS APAC</controllingFieldValue>
+            <controllingFieldValue>GSS EMEA</controllingFieldValue>
+            <controllingFieldValue>Inbound</controllingFieldValue>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <controllingFieldValue>GSS NA</controllingFieldValue>
+            <valueName>Phone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CO APAC</controllingFieldValue>
+            <controllingFieldValue>CO UK</controllingFieldValue>
+            <controllingFieldValue>CO NA</controllingFieldValue>
+            <controllingFieldValue>CCG AU</controllingFieldValue>
+            <controllingFieldValue>VI AU</controllingFieldValue>
+            <controllingFieldValue>GSS APAC</controllingFieldValue>
+            <controllingFieldValue>GSS EMEA</controllingFieldValue>
+            <controllingFieldValue>Inbound</controllingFieldValue>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <controllingFieldValue>GSS NA</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CO APAC</controllingFieldValue>
+            <controllingFieldValue>CO UK</controllingFieldValue>
+            <controllingFieldValue>CO NA</controllingFieldValue>
+            <controllingFieldValue>CCG AU</controllingFieldValue>
+            <controllingFieldValue>VI AU</controllingFieldValue>
+            <controllingFieldValue>GSS APAC</controllingFieldValue>
+            <controllingFieldValue>GSS EMEA</controllingFieldValue>
+            <controllingFieldValue>Inbound</controllingFieldValue>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <controllingFieldValue>GSS NA</controllingFieldValue>
+            <valueName>Site Visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social</controllingFieldValue>
+            <valueName>Twitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social</controllingFieldValue>
+            <controllingFieldValue>Paid</controllingFieldValue>
+            <valueName>HubSpot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid</controllingFieldValue>
+            <valueName>Capterra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid</controllingFieldValue>
+            <valueName>G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid</controllingFieldValue>
+            <valueName>Google Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid</controllingFieldValue>
+            <valueName>Paid Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid</controllingFieldValue>
+            <valueName>Paid LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid</controllingFieldValue>
+            <valueName>Paid Twitter</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

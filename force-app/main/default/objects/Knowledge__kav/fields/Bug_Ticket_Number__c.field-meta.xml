@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bug_Ticket_Number__c</fullName>
+    <description>Used to note the Bug number-CCRM-2602</description>
+    <externalId>false</externalId>
+    <label>Bug/Ticket Number</label>
+    <length>25</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

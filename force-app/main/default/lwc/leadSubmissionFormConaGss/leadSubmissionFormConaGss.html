@@ -1,0 +1,68 @@
+<template>
+    <template if:true={showSpinner}>
+        <lightning-spinner alternative-text="Working on your request..." size="medium"></lightning-spinner>
+    </template>
+    <lightning-card title="CONA to GSS Lead Submission Form" icon-name="standard:actions_and_buttons">
+        <template if:true={showCreate}>
+            <form>
+            <lightning-layout multiple-rows="true">
+                <lightning-layout-item padding="around-small" size="12">
+                    <div class="page-section page-header">
+                        <h1>Practice Information</h1>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="12">
+                    <lightning-checkbox-group label="Which Products are you referring?" name="referredProducts" value={referredProducts} onchange={handleChange} options={referredProductOptions} required message-when-value-missing="This field is required"></lightning-checkbox-group>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-input label="First Name" name="pcFirstName" value={pcFirstName} onchange={handleChange} required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-input label="Last Name" name="pcLastName" value={pcLastName} onchange={handleChange} required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-input label="Email" name="pcEmail" value={pcEmail} onchange={handleChange} type="email" required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-input label="Phone Number (format: xxx-xxx-xxxx)" name="pcPhone" value={pcPhone} onchange={handleChange} type="tel" required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="12">
+                    <lightning-input label="Account Name" name="accountName" value={accountName} onchange={handleChange} required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-combobox label="State/Province" name="stateProvince" onchange={handleChange} options={stateProvinceOptions} value={stateProvince} required message-when-value-missing="This field is required"></lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-combobox label="Current Practice Management Software" name="currentPims" onchange={handleChange} options={currentPimsOptions} value={currentPims} required message-when-value-missing="This field is required"></lightning-combobox>
+                </lightning-layout-item>
+
+                <lightning-layout-item padding="around-small" size="12">
+                    <div class="page-section page-header">
+                        <h1>Your Information</h1>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="12">
+                    <lightning-input label="FAM Email" name="famEmail" value={famEmail} onchange={handleChange} required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-input label="FAM First Name" name="famFirstName" value={famFirstName} onchange={handleChange} required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="6">
+                    <lightning-input label="FAM Last Name" name="famLastName" value={famLastName} onchange={handleChange} required message-when-value-missing="This field is required"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="horizontal-small" size="12">
+                    <lightning-textarea label="Enter Notes to Send to GSS Team" name="notes" value={notes} onchange={handleChange} ></lightning-textarea>
+                </lightning-layout-item>
+            </lightning-layout>
+            </form>
+            <lightning-button-group class="slds-p-vertical_small slds-p-horizontal_small">
+                <lightning-button label="Submit" variant="brand" onclick={handleSubmit}></lightning-button>
+            </lightning-button-group>
+        </template>
+        <template if:true={showSubmitted}>
+            <div class="slds-p-around_medium">
+                Your Submission has been completed. You will receive an email with your submission details.<br>
+            </div>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeTrade_SF1__Suppress_User_Email_Address__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When this option is checked, internal email addresses will not be displayed on the book meeting page and email.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When this option is checked, internal email addresses will not be displayed on the book meeting page and email.</inlineHelpText>
+    <label>Email Addresses Hidden</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

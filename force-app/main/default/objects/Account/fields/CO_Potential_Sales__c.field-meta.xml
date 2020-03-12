@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CO_Potential_Sales__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ShippingCountry ==&quot;United States&quot;,
+(Number_of_Vets__c *90000),
+IF(ShippingCountry ==&quot;Australia&quot;,
+(Number_of_Vets__c *120000),
+IF(ShippingCountry ==&quot;New Zealand&quot;,
+(Number_of_Vets__c *120000), null ) ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CO Potential Sales</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

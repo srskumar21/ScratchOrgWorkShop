@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_Required_for_Quote_Stage</fullName>
+    <active>true</active>
+    <description>Required for changing the stage from &#39;Presentation&#39; to &#39;Quote&#39; CCRM-41
+,Updated via CCRM-2128. The Sales process has changed to have Quote , so the validation rule has been updated, Updated for CCRM-3500, Updated for CCRM-3413.</description>
+    <errorConditionFormula>AND ( $RecordType.Name = &quot;Technology&quot;,
+ISPICKVAL(StageName,&quot;Negotiation&quot;), CONTAINS($UserRole.Name, &quot;GSS NA&quot;),
+(ISBLANK( Amount ) || 
+ISBLANK( CloseDate ) || 
+ISBLANK( ExpectedRevenue ) || 
+ISBLANK( Demo_Completed_Date__c )  || 
+Decision_Maker_Present__c = FALSE || 
+Decision_Maker_Agreement__c  = FALSE 
+))</errorConditionFormula>
+    <errorMessage>In order to move out of Stage “Presentation”, you must fill out the following fields: Amount, Expected Revenue, Demo Completed Date, Decision Maker Present, Decision Maker Agreement</errorMessage>
+</ValidationRule>
