@@ -8,7 +8,7 @@ by AccountTeamMember.
 *       Modified By          :  Hanumath 
 * Source Of Modification     :  CCRM-3788--Vinod
 ******************************************************************************************************************/
-public with sharing class AccountTriggerHelper {
+public class AccountTriggerHelper {
     /***************************************************************************************************************
 *** Method Name             : accountTeamMembCreation
 *** Method Description      : This method validates the all the fields on Account record and displays error message 
